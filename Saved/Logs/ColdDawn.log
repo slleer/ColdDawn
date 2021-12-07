@@ -736,3 +736,650 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.07-21.29.10:346][368]AssetCheck: New page: Asset Save: multiple assets
 [2021.12.07-21.29.10:346][368]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
 [2021.12.07-21.29.10:346][368]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.07-22.24.16:027][303]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/item_key.item_key
+[2021.12.07-22.24.25:869][163]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_Herb.Item_Herb
+[2021.12.07-22.24.32:729][672]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-22.24.32:729][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-22.24.38:083][ 59]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_Herb.Item_Herb
+[2021.12.07-22.26.14:632][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.12.07-22.26.14:634][744]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.033
+[2021.12.07-22.26.14:634][744]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ColdDawn/InventorySystem/Items/Item_Herb] ([1] browsable assets)...
+[2021.12.07-22.26.14:634][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/Items/Item_Herb]
+[2021.12.07-22.26.14:642][744]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Item_Herb_Auto3234DF718486F9CA6FD1E00AFC26C69BE.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/Items/Item_Herb_Auto3.uasset'
+[2021.12.07-22.26.14:643][744]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ColdDawn/InventorySystem/Items/item_key] ([1] browsable assets)...
+[2021.12.07-22.26.14:643][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/Items/item_key]
+[2021.12.07-22.26.14:646][744]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/item_key_Auto3B51237A5419E091E1940C782D68B65D3.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/Items/item_key_Auto3.uasset'
+[2021.12.07-22.26.14:647][744]LogFileHelpers: Auto-saving content packages took 0.013
+[2021.12.07-22.26.23:097][717]BlueprintLog: New page: Compile Item_Herb
+[2021.12.07-22.26.23:164][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.12.07-22.27.13:820][959]BlueprintLog: New page: Compile Item_Herb
+[2021.12.07-22.27.13:889][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.12.07-22.27.14:504][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/Items/Item_Herb" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item_Herb.uasset" SILENT=true
+[2021.12.07-22.27.14:512][ 11]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Item_Herb4389FABF49905D0626C0F7951DBE6AD2.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item_Herb.uasset'
+[2021.12.07-22.27.14:539][ 11]AssetCheck: New page: Asset Save: Item_Herb
+[2021.12.07-22.27.14:539][ 11]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/Item_Herb.Item_Herb
+[2021.12.07-22.27.21:660][422]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Interact_interface.Interact_interface
+[2021.12.07-22.27.36:523][ 50]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-22.27.36:523][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-22.31.13:810][706]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Interact_interface.Interact_interface
+[2021.12.07-22.31.20:806][480]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-22.31.20:806][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-22.33.19:936][248]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Interact_interface.Interact_interface
+[2021.12.07-22.33.22:879][516]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-22.33.22:879][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-22.36.15:212][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.12.07-22.36.15:316][ 49]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/tutorial_map_v1_Auto4684548DC425FFF2C77F2E1A250C09AFD.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/tutorial_map_v1_Auto4.umap'
+[2021.12.07-22.36.15:317][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.141
+[2021.12.07-22.36.15:317][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2021.12.07-22.42.17:477][343]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Interact_interface.Interact_interface
+[2021.12.07-22.43.59:247][806]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item.Item
+[2021.12.07-22.44.35:646][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/Items/Item" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item.uasset" SILENT=true
+[2021.12.07-22.44.35:653][487]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Item3F12B07E4E3D0D7C4D0D5E915CD18CF4.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item.uasset'
+[2021.12.07-22.44.35:675][487]AssetCheck: New page: Asset Save: Item
+[2021.12.07-22.44.35:675][487]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/Item.Item
+[2021.12.07-22.49.12:564][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.12.07-22.49.12:566][364]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.037
+[2021.12.07-22.49.12:566][364]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ColdDawn/InventorySystem/Items/item_key] ([1] browsable assets)...
+[2021.12.07-22.49.12:566][364]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/Items/item_key]
+[2021.12.07-22.49.12:570][364]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/item_key_Auto56102C2904E30A0AFA437C5879B796F7B.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/Items/item_key_Auto5.uasset'
+[2021.12.07-22.49.12:571][364]LogFileHelpers: Auto-saving content packages took 0.005
+[2021.12.07-22.57.57:453][720]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/steph/Downloads/key(1).png)
+[2021.12.07-22.57.57:486][720]LogTexture: Display: Building textures: key_1_ (BGRA8, 511X511)
+[2021.12.07-22.57.57:494][720]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/steph/Downloads/coffee-pot.png)
+[2021.12.07-22.57.57:496][720]LogTexture: Display: Building textures: coffee-pot (BGRA8, 511X511)
+[2021.12.07-22.57.57:503][720]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/steph/Downloads/teapot-leaves.png)
+[2021.12.07-22.57.57:506][720]LogTexture: Display: Building textures: teapot-leaves (BGRA8, 511X511)
+[2021.12.07-22.57.57:513][720]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/steph/Downloads/key.png)
+[2021.12.07-22.57.57:517][720]LogTexture: Display: Building textures: key (BGRA8, 511X511)
+[2021.12.07-22.58.13:803][616]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_Coffee.Item_Coffee
+[2021.12.07-22.58.46:030][682]BlueprintLog: New page: Compile Item_Coffee
+[2021.12.07-22.58.46:082][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.12.07-22.58.46:786][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/Items/Item_Coffee" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item_Coffee.uasset" SILENT=true
+[2021.12.07-22.58.46:795][721]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Item_CoffeeAFD174C24E95E90E266F9F990A3EB028.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item_Coffee.uasset'
+[2021.12.07-22.58.46:823][721]AssetCheck: New page: Asset Save: Item_Coffee
+[2021.12.07-22.58.46:823][721]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/Item_Coffee.Item_Coffee
+[2021.12.07-22.59.02:619][202]BlueprintLog: New page: Compile item_key
+[2021.12.07-22.59.02:663][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.12.07-22.59.03:420][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/Items/item_key" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/item_key.uasset" SILENT=true
+[2021.12.07-22.59.03:423][259]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/item_key96FAD4294AA6A6BE1CF1C695F2DD83B0.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/item_key.uasset'
+[2021.12.07-22.59.03:518][259]AssetCheck: New page: Asset Save: item_key
+[2021.12.07-22.59.03:518][259]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/item_key.item_key
+[2021.12.07-23.00.03:689][409]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.07-23.00.18:362][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/Items/item_key" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/item_key.uasset" SILENT=true
+[2021.12.07-23.00.18:367][908]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/item_key04818FB14255EBBE8171BDA55D284034.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/item_key.uasset'
+[2021.12.07-23.00.18:467][908]AssetCheck: New page: Asset Save: item_key
+[2021.12.07-23.00.18:467][908]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/item_key.item_key
+[2021.12.07-23.00.18:663][925]BlueprintLog: New page: Compile item_key
+[2021.12.07-23.00.18:715][925]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.12.07-23.01.33:575][890]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.12.07-23.01.36:725][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.12.07-23.01.36:727][ 61]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.032
+[2021.12.07-23.01.36:728][ 61]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/InventorySystem/ItemIcons/key_1_] ([1] browsable assets)...
+[2021.12.07-23.01.36:730][ 61]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ColdDawn/InventorySystem/ItemIcons/key_1_.key_1_]
+[2021.12.07-23.01.36:730][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/ItemIcons/key_1_]
+[2021.12.07-23.01.36:733][ 61]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/key_1__Auto64402F3CF4950E60E227DA0AE1DCF69F2.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/ItemIcons/key_1__Auto6.uasset'
+[2021.12.07-23.01.36:734][ 61]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/InventorySystem/ItemIcons/coffee-pot] ([1] browsable assets)...
+[2021.12.07-23.01.36:738][ 61]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ColdDawn/InventorySystem/ItemIcons/coffee-pot.coffee-pot]
+[2021.12.07-23.01.36:738][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/ItemIcons/coffee-pot]
+[2021.12.07-23.01.36:740][ 61]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/coffee-pot_Auto6DC4E1101476AB313228F6E99FF3B4033.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/ItemIcons/coffee-pot_Auto6.uasset'
+[2021.12.07-23.01.36:741][ 61]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/InventorySystem/ItemIcons/teapot-leaves] ([1] browsable assets)...
+[2021.12.07-23.01.36:745][ 61]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ColdDawn/InventorySystem/ItemIcons/teapot-leaves.teapot-leaves]
+[2021.12.07-23.01.36:745][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/ItemIcons/teapot-leaves]
+[2021.12.07-23.01.36:748][ 61]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/teapot-leaves_Auto60244BA514EAC6F24CC3E4E9891E310E9.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/ItemIcons/teapot-leaves_Auto6.uasset'
+[2021.12.07-23.01.36:748][ 61]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/InventorySystem/ItemIcons/key] ([1] browsable assets)...
+[2021.12.07-23.01.36:750][ 61]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ColdDawn/InventorySystem/ItemIcons/key.key]
+[2021.12.07-23.01.36:750][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/ItemIcons/key]
+[2021.12.07-23.01.36:753][ 61]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/key_Auto60E0DADBB43D8063EE88D8BB00B07AA15.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/ItemIcons/key_Auto6.uasset'
+[2021.12.07-23.01.36:753][ 61]LogFileHelpers: Auto-saving content packages took 0.026
+[2021.12.07-23.01.49:837][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.12.07-23.01.58:550][396]LogMetaData: Removing '/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.SKEL_LockedDoor_C' ref from Metadata '/Game/ColdDawn/InventorySystem/Containers/LockedDoor.PackageMetaData'
+[2021.12.07-23.01.58:550][396]LogMetaData: Removing '/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.LockedDoor_C' ref from Metadata '/Game/ColdDawn/InventorySystem/Containers/LockedDoor.PackageMetaData'
+[2021.12.07-23.01.58:550][396]LogMetaData: Removing '/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.SKEL_LockedDoor_C:ReceiveBeginPlay' ref from Metadata '/Game/ColdDawn/InventorySystem/Containers/LockedDoor.PackageMetaData'
+[2021.12.07-23.01.58:550][396]LogMetaData: Removing '/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.SKEL_LockedDoor_C:UserConstructionScript' ref from Metadata '/Game/ColdDawn/InventorySystem/Containers/LockedDoor.PackageMetaData'
+[2021.12.07-23.01.58:550][396]LogMetaData: Removing '/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.LockedDoor_C:ReceiveBeginPlay' ref from Metadata '/Game/ColdDawn/InventorySystem/Containers/LockedDoor.PackageMetaData'
+[2021.12.07-23.01.58:631][396]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/LockedDoor23E9773F446CA3B9519993AF35552EF0.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.uasset'
+[2021.12.07-23.01.58:953][396]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.12.07-23.01.59:005][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.12.07-23.01.59:034][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.12.07-23.01.59:136][396]AssetCheck: New page: Asset Save: LockedDoor
+[2021.12.07-23.01.59:136][396]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.LockedDoor
+[2021.12.07-23.02.01:414][517]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.LockedDoor
+[2021.12.07-23.02.12:766][772]LogEditorTransaction: Undo Delete current selection
+[2021.12.07-23.06.22:319][937]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.07-23.07.29:791][466]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/CD_DoorActor.CD_DoorActor
+[2021.12.07-23.13.59:042][242]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.12.07-23.13.59:046][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.073
+[2021.12.07-23.13.59:046][242]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor] ([1] browsable assets)...
+[2021.12.07-23.13.59:064][242]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.LockedDoor]
+[2021.12.07-23.13.59:064][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor]
+[2021.12.07-23.13.59:077][242]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/LockedDoor_Auto7A1E112704CFE843DA84C87834B933C53.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor_Auto7.uasset'
+[2021.12.07-23.13.59:077][242]LogFileHelpers: Auto-saving content packages took 0.031
+[2021.12.07-23.16.33:282][504]BlueprintLog: New page: Compile LockedDoor
+[2021.12.07-23.16.33:360][504]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.12.07-23.16.43:437][478]LogEditorTransaction: Undo Create Pin Link
+[2021.12.07-23.16.43:798][483]LogEditorTransaction: Undo Break Pin Links
+[2021.12.07-23.16.45:367][652]LogEditorTransaction: Undo Break Pin Links
+[2021.12.07-23.18.14:739][520]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/InventorySystem/InventoryUI/Inventory_Slot.Inventory_Slot
+[2021.12.07-23.27.35:685][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Containers/Container.Container
+[2021.12.07-23.28.31:336][ 42]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.28.31:336][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.30.40:640][742]BlueprintLog: New page: Compile LockedDoor
+[2021.12.07-23.30.40:663][742]LogBlueprint: Error: [Compiler LockedDoor] The type of  Object  is undetermined.  Connect something to  Cast To CD_FirstPersonCharacter  to imply a specific type.
+[2021.12.07-23.30.40:664][742]LogBlueprint: Error: [Compiler LockedDoor] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2021.12.07-23.30.40:780][742]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2021.12.07-23.32.01:893][452]BlueprintLog: New page: Compile LockedDoor
+[2021.12.07-23.32.01:899][452]LogClass: Warning: Type mismatch in RequiredItem of LockedDoor_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2021.12.07-23.32.01:976][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.12.07-23.33.45:645][695]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2021.12.07-23.33.45:647][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.052
+[2021.12.07-23.33.45:648][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor] ([1] browsable assets)...
+[2021.12.07-23.33.45:677][695]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.LockedDoor]
+[2021.12.07-23.33.45:677][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor]
+[2021.12.07-23.33.45:694][695]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/LockedDoor_Auto8B0CB7BAD40CAE6647E7DCB97B0D39908.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor_Auto8.uasset'
+[2021.12.07-23.33.45:695][695]LogFileHelpers: Auto-saving content packages took 0.047
+[2021.12.07-23.37.12:433][701]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Inventory_Slot9B52D4984ADEC3ADA7948DAA5A43E2B4.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/InventoryUI/Inventory_Slot.uasset'
+[2021.12.07-23.37.12:461][701]AssetCheck: New page: Asset Save: Inventory_Slot
+[2021.12.07-23.37.12:462][701]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/InventorySystem/InventoryUI/Inventory_Slot.Inventory_Slot
+[2021.12.07-23.40.43:726][521]BlueprintLog: New page: Compile LockedDoor
+[2021.12.07-23.40.43:731][521]LogBlueprint: Error: [Compiler LockedDoor] This blueprint (self) is not a Inventory_Slot_C, therefore ' Target ' must have a connection.
+[2021.12.07-23.40.43:811][521]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.12.07-23.41.18:396][853]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/InventorySystem/InventoryUI/Inventory_Window.Inventory_Window
+[2021.12.07-23.47.35:695][611]BlueprintLog: New page: Compile LockedDoor
+[2021.12.07-23.47.35:789][611]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2021.12.07-23.47.37:846][826]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.12.07-23.47.37:847][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.049
+[2021.12.07-23.47.37:848][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor] ([1] browsable assets)...
+[2021.12.07-23.47.37:862][826]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.LockedDoor]
+[2021.12.07-23.47.37:862][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor]
+[2021.12.07-23.47.37:880][826]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/LockedDoor_Auto94765A3BF48A49E5A89A0FC85CA576BF3.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor_Auto9.uasset'
+[2021.12.07-23.47.37:881][826]LogFileHelpers: Auto-saving content packages took 0.034
+[2021.12.07-23.50.51:145][ 78]BlueprintLog: New page: Compile LockedDoor
+[2021.12.07-23.50.51:230][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.12.07-23.50.52:954][247]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/LockedDoorE5D15DBA4F43C23F8330BFB6FE87A3F8.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.uasset'
+[2021.12.07-23.50.52:979][247]AssetCheck: New page: Asset Save: LockedDoor
+[2021.12.07-23.50.52:979][247]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/LockedDoorsChests/LockedDoor.LockedDoor
+[2021.12.07-23.51.00:923][813]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.12.07-23.51.03:515][813]LogSlate: Window 'Save Content' being destroyed
+[2021.12.07-23.51.03:604][813]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/coffee-potFF96764942C8CD2AD258F48A9617664B.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/ItemIcons/coffee-pot.uasset'
+[2021.12.07-23.51.03:605][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/ItemIcons/key" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/ItemIcons/key.uasset" SILENT=true
+[2021.12.07-23.51.03:610][813]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/key08159C6C4E6C75B5730A329AF54D9C74.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/ItemIcons/key.uasset'
+[2021.12.07-23.51.03:611][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/ItemIcons/key_1_" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/ItemIcons/key_1_.uasset" SILENT=true
+[2021.12.07-23.51.03:617][813]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/key_1_579900FC4DB16B18C9A842B48745756A.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/ItemIcons/key_1_.uasset'
+[2021.12.07-23.51.03:622][813]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/teapot-leaves2BDC5E2D4FD321D2D23D4D9705F38F71.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/ItemIcons/teapot-leaves.uasset'
+[2021.12.07-23.51.03:673][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.12.07-23.51.03:779][813]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/tutorial_map_v18DD969D642E4C2B0A62B56952A6D83E6.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.12.07-23.51.03:796][813]LogFileHelpers: Saving map 'tutorial_map_v1' took 0.173
+[2021.12.07-23.51.03:796][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/tutorial_map_v1_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset" SILENT=true
+[2021.12.07-23.51.03:920][813]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/tutorial_map_v1_BuiltData4AA2EB5D46309396C32C55B1ABAC628B.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.07-23.51.03:922][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/tutorial_map_v1_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset" SILENT=true
+[2021.12.07-23.51.04:045][813]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/tutorial_map_v1_BuiltDataF3927A6845530BC4807B869653D66B43.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.07-23.51.04:101][813]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.07-23.51.04:101][813]LogContentValidation: Display: Validating Texture2D /Game/ColdDawn/InventorySystem/ItemIcons/coffee-pot.coffee-pot
+[2021.12.07-23.51.04:101][813]LogContentValidation: Display: Validating Texture2D /Game/ColdDawn/InventorySystem/ItemIcons/key.key
+[2021.12.07-23.51.04:101][813]LogContentValidation: Display: Validating Texture2D /Game/ColdDawn/InventorySystem/ItemIcons/key_1_.key_1_
+[2021.12.07-23.51.04:101][813]LogContentValidation: Display: Validating Texture2D /Game/ColdDawn/InventorySystem/ItemIcons/teapot-leaves.teapot-leaves
+[2021.12.07-23.51.04:101][813]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.07-23.51.04:101][813]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.07-23.51.14:105][220]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.12.07-23.51.14:132][220]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:132][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:195][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-23.51.14:195][220]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:195][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:250][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-23.51.14:250][220]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:250][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:302][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-23.51.14:302][220]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:302][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:349][220]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:349][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:384][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-23.51.14:384][220]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:384][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:429][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-23.51.14:429][220]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:429][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:483][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-23.51.14:483][220]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:483][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:532][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-23.51.14:532][220]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:532][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:638][220]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:638][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:645][220]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:645][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:685][220]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:685][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:698][220]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.14:698][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-23.51.14:765][220]LogSlate: Window 'ColdDawn - Unreal Editor' being destroyed
+[2021.12.07-23.51.14:894][221]Cmd: QUIT_EDITOR
+[2021.12.07-23.51.14:894][221]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.12.07-23.51.14:899][221]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.12.07-23.51.14:920][221]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.12.07-23.51.14:929][221]LogExit: Preparing to exit.
+[2021.12.07-23.51.15:954][221]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.15:960][221]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.15:966][221]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.15:971][221]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.15:977][221]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.15:983][221]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.15:988][221]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.15:992][221]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.15:997][221]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.16:076][221]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-23.51.16:076][221]LogExit: Editor shut down
+[2021.12.07-23.51.16:076][221]LogExit: Transaction tracking system shut down
+[2021.12.07-23.51.16:086][221]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.12.07-23.51.16:094][221]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002C0A77BD380), frame # 666221
+[2021.12.07-23.51.16:094][221]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002C0A7710E00), frame # 666221
+[2021.12.07-23.51.16:094][221]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002C0A7761E00), frame # 666221
+[2021.12.07-23.51.16:108][221]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002C0C0BDDC00), frame # 666221
+[2021.12.07-23.51.16:108][221]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002C0C0C54E00), frame # 666221
+[2021.12.07-23.51.16:386][221]LogExit: Object subsystem successfully closed.
+[2021.12.07-23.51.16:428][221]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.12.07-23.51.16:437][221]LogModuleManager: Shutting down and abandoning module SequencerWidgets (798)
+[2021.12.07-23.51.16:437][221]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (796)
+[2021.12.07-23.51.16:437][221]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2021.12.07-23.51.16:437][221]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2021.12.07-23.51.16:437][221]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2021.12.07-23.51.16:437][221]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module SceneOutliner (780)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2021.12.07-23.51.16:438][221]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2021.12.07-23.51.16:439][221]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2021.12.07-23.51.18:053][221]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2021.12.07-23.51.18:053][221]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2021.12.07-23.51.18:053][221]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2021.12.07-23.51.18:053][221]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2021.12.07-23.51.18:053][221]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2021.12.07-23.51.18:054][221]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2021.12.07-23.51.18:086][221]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2021.12.07-23.51.18:099][221]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2021.12.07-23.51.18:099][221]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2021.12.07-23.51.18:099][221]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2021.12.07-23.51.18:099][221]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2021.12.07-23.51.18:101][221]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2021.12.07-23.51.18:102][221]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2021.12.07-23.51.18:216][221]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2021.12.07-23.51.18:220][221]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.12.07-23.51.18:221][221]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.12.07-23.51.18:322][221]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.12.07-23.51.18:423][221]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.12.07-23.51.18:423][221]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.12.07-23.51.18:423][221]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.12.07-23.51.18:424][221]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.12.07-23.51.18:425][221]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.12.07-23.51.18:426][221]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.12.07-23.51.18:427][221]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.12.07-23.51.18:428][221]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.12.07-23.51.18:429][221]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.12.07-23.51.18:430][221]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.12.07-23.51.18:433][221]LogHMD: Freeing OpenVRDLLHandle.
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.12.07-23.51.18:433][221]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.12.07-23.51.18:435][221]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.12.07-23.51.18:435][221]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.12.07-23.51.18:447][221]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.12.07-23.51.18:447][221]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2021.12.07-23.51.18:447][221]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B934E10A7-4DB2-B523-6562-85A8C5B5D50A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=feba47c645a0091f9229f69a1de95a7f%7Cc2ff131402da48cfa614908fe2591f84%7C98a9caec-bb2d-4e1c-9fe8-a6fb5593aa41&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.12.07-23.51.18:447][221]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B934E10A7-4DB2-B523-6562-85A8C5B5D50A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=feba47c645a0091f9229f69a1de95a7f%7Cc2ff131402da48cfa614908fe2591f84%7C98a9caec-bb2d-4e1c-9fe8-a6fb5593aa41&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.12.07-23.51.18:462][221]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.12.07-23.51.18:462][221]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.12.07-23.51.18:464][221]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.12.07-23.51.18:465][221]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.12.07-23.51.18:466][221]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.12.07-23.51.18:466][221]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.12.07-23.51.18:466][221]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.12.07-23.51.18:467][221]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.12.07-23.51.18:467][221]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.12.07-23.51.18:475][221]LogD3D11RHI: Shutdown
+[2021.12.07-23.51.18:475][221]LogD3D11RHI: CleanupD3DDevice
+[2021.12.07-23.51.18:656][221]LogExit: Exiting.
+[2021.12.07-23.51.18:676][221]Log file closed, 12/07/21 15:51:18
