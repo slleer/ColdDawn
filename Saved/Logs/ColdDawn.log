@@ -1793,3 +1793,174 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.08-21.29.22:452][136]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
 [2021.12.08-21.29.22:452][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2021.12.08-21.29.25:173][286]LogSlate: Window 'Container' being destroyed
+[2021.12.08-22.36.46:737][957]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.08-22.36.46:796][957]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2021.12.08-22.36.46:811][957]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.08-22.36.46:811][957]LightingResults: New page: Lighting Build
+[2021.12.08-22.36.46:811][957]LoadErrors: New page: Loading map: CD_Hospital.umap
+[2021.12.08-22.36.46:813][957]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.08-22.36.46:813][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.08-22.36.46:814][957]MapCheck: New page: Map Check
+[2021.12.08-22.36.46:814][957]LightingResults: New page: Lighting Build
+[2021.12.08-22.36.46:850][957]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028B24607E00), frame # 257957
+[2021.12.08-22.36.46:850][957]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028B2466A980), frame # 257957
+[2021.12.08-22.36.46:865][957]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.12.08-22.36.47:063][957]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.08-22.36.47:063][957]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.08-22.36.47:063][957]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028B3D192A00), frame # 257957
+[2021.12.08-22.36.47:063][957]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028C0C9E5E40), frame # 257957
+[2021.12.08-22.36.47:092][957]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.12.08-22.36.47:115][957]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.08-22.36.47:115][957]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2021.12.08-22.36.47:115][957]LogFileHelpers: Loading map 'CD_Hospital' took 0.304
+[2021.12.08-22.40.40:599][911]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.08-22.40.40:860][939]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.08-22.40.46:534][472]LogActorFactory: Actor Factory created SM_Toilet
+[2021.12.08-22.40.47:939][581]LogActorFactory: Actor Factory created SM_Toilet
+[2021.12.08-22.40.49:703][784]Cmd: TRANSACTION UNDO
+[2021.12.08-22.40.49:704][784]LogEditorTransaction: Undo Create Actors
+[2021.12.08-22.40.57:183][619]Cmd: DUPLICATE
+[2021.12.08-22.40.57:183][619]Cmd: ACTOR DUPLICATE
+[2021.12.08-22.41.21:734][406]Cmd: DUPLICATE
+[2021.12.08-22.41.21:734][406]Cmd: ACTOR DUPLICATE
+[2021.12.08-22.47.24:403][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.12.08-22.47.24:496][608]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto52CA0B56F472D7FB85C3AA9874C4E92E9.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto5.umap'
+[2021.12.08-22.47.24:497][608]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.124
+[2021.12.08-22.47.24:497][608]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.124
+[2021.12.08-22.48.18:545][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-22.49.24:280][993]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.08-22.49.25:533][142]LogEditorViewport: Clicking on Actor (LMB): CD_PlayerChar_V3_C (CD_PlayerChar_V3)
+[2021.12.08-22.49.44:359][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.12.08-22.49.47:994][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-22.49.50:187][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.12.08-22.49.58:427][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-22.52.22:799][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-22.53.02:092][739]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.12.08-22.56.38:157][543]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.12.08-22.57.56:639][327]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-22.57.57:477][427]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-22.57.58:776][568]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-22.58.00:494][762]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-22.58.48:475][243]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-22.59.51:831][417]Cmd: TRANSACTION UNDO
+[2021.12.08-22.59.51:831][417]LogEditorTransaction: Undo Set Scale
+[2021.12.08-22.59.52:506][442]Cmd: TRANSACTION UNDO
+[2021.12.08-22.59.52:506][442]LogEditorTransaction: Undo Set Scale
+[2021.12.08-22.59.53:109][505]Cmd: TRANSACTION UNDO
+[2021.12.08-22.59.53:109][505]LogEditorTransaction: Undo Set Scale
+[2021.12.08-23.00.05:288][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-23.00.07:130][130]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-23.02.48:677][773]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.08-23.02.49:224][831]Cmd: TRANSACTION UNDO
+[2021.12.08-23.02.49:224][831]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.02.52:720][172]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.08-23.02.53:415][248]Cmd: TRANSACTION UNDO
+[2021.12.08-23.02.53:415][248]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.02.54:612][323]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.08-23.02.59:484][869]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.08-23.03.04:123][392]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.08-23.03.06:569][680]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.08-23.03.14:260][474]Cmd: SELECT NONE
+[2021.12.08-23.03.16:000][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-23.03.17:372][835]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-23.03.26:438][891]Cmd: DUPLICATE
+[2021.12.08-23.03.26:438][891]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.05.08:882][392]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.08:882][392]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.08-23.05.09:570][417]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.09:570][417]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.05.24:206][141]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.24:206][141]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.05.24:639][148]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.24:639][148]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.05.25:483][235]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.25:483][235]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.05.26:109][302]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.26:109][302]LogEditorTransaction: Undo Snap Actors To Floor
+[2021.12.08-23.05.27:866][498]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.27:866][498]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.05.28:476][560]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.28:476][560]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.05.29:056][621]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.29:056][621]LogEditorTransaction: Undo Set Scale
+[2021.12.08-23.05.29:557][668]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.29:557][668]LogEditorTransaction: Undo Snap Actors To Floor
+[2021.12.08-23.05.30:007][711]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.30:007][711]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.05.30:416][749]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.30:416][749]LogEditorTransaction: Undo Set Scale
+[2021.12.08-23.05.30:881][793]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.30:881][793]LogEditorTransaction: Undo Snap Actors To Floor
+[2021.12.08-23.05.31:308][832]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.31:308][832]LogEditorTransaction: Undo Set Scale
+[2021.12.08-23.05.33:466][ 80]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.33:466][ 80]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.05.35:931][365]Cmd: TRANSACTION UNDO
+[2021.12.08-23.05.35:931][365]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.06.28:747][488]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-23.07.28:027][468]Cmd: TRANSACTION UNDO
+[2021.12.08-23.07.28:027][468]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.07.28:949][521]Cmd: TRANSACTION UNDO
+[2021.12.08-23.07.28:949][521]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.07.55:627][603]Cmd: DUPLICATE
+[2021.12.08-23.07.55:627][603]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.08.50:453][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-23.10.10:975][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-23.12.55:348][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.08-23.13.18:828][351]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BuildingFloor)
+[2021.12.08-23.13.42:266][  8]Cmd: DUPLICATE
+[2021.12.08-23.13.42:266][  8]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.14.49:305][791]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BuildingFloor)
+[2021.12.08-23.16.44:205][227]Cmd: DUPLICATE
+[2021.12.08-23.16.44:205][227]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.17.28:109][250]Cmd: DELETE
+[2021.12.08-23.17.28:109][250]Cmd: ACTOR DELETE
+[2021.12.08-23.17.28:148][250]LogEditorActor: Deleted Actor: Brush
+[2021.12.08-23.17.28:148][250]LogEditorActor: Deleted Actor: Brush
+[2021.12.08-23.17.28:149][250]LogEditorActor: Deleted Actor: Brush
+[2021.12.08-23.17.28:149][250]LogEditorActor: Deleted Actor: Brush
+[2021.12.08-23.17.28:149][250]LogEditorActor: Deleted Actor: Brush
+[2021.12.08-23.17.28:235][250]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2021.12.08-23.17.28:303][250]LogEditorActor: Deleted 5 Actors (0.193 secs)
+[2021.12.08-23.17.31:541][636]Cmd: TRANSACTION UNDO
+[2021.12.08-23.17.31:541][636]LogEditorTransaction: Undo Delete Actors
+[2021.12.08-23.19.01:170][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.12.08-23.19.01:258][ 17]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto61BCB1F4A4E1B004C3A5B1DBC252C20FA.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto6.umap'
+[2021.12.08-23.19.01:259][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.117
+[2021.12.08-23.19.01:259][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.117
+[2021.12.08-23.19.27:544][152]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-23.24.02:917][239]LogEditorViewport: Clicking on Actor (LMB): Brush (Wall31)
+[2021.12.08-23.24.03:665][326]LogEditorViewport: Clicking on Actor (LMB): Brush (Wall31)
+[2021.12.08-23.24.10:989][193]Cmd: DUPLICATE
+[2021.12.08-23.24.10:989][193]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.24.38:986][348]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-23.25.25:617][674]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.08-23.25.27:068][833]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.08-23.26.10:961][909]Cmd: TRANSACTION UNDO
+[2021.12.08-23.26.10:961][909]LogEditorTransaction: Undo Move Actors
+[2021.12.08-23.26.28:520][736]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.08-23.27.03:751][878]Cmd: DUPLICATE
+[2021.12.08-23.27.03:751][878]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.27.31:672][995]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.08-23.29.01:244][564]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.12.08-23.29.01:352][564]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto7EA3B6ABF4A3EE080EC1E239E83B19626.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto7.umap'
+[2021.12.08-23.29.01:353][564]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.156
+[2021.12.08-23.29.01:353][564]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
+[2021.12.08-23.32.49:077][821]Cmd: DUPLICATE
+[2021.12.08-23.32.49:077][821]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.34.54:794][421]Cmd: DUPLICATE
+[2021.12.08-23.34.54:794][421]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.35.52:742][ 55]Cmd: TRANSACTION UNDO
+[2021.12.08-23.35.52:742][ 55]LogEditorTransaction: Undo Set Location
+[2021.12.08-23.36.01:353][ 27]Cmd: EDIT COPY
+[2021.12.08-23.36.02:953][216]Cmd: EDIT PASTE
+[2021.12.08-23.38.10:580][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.08-23.38.10:620][179]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.12.08-23.38.10:724][179]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_HospitalB3D0351F43ECB33E260BEDA5E874711D.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap'
+[2021.12.08-23.38.10:823][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset" SILENT=true
+[2021.12.08-23.38.10:833][179]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_BuiltData42DCD63445178F8CE15336A21E416C05.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset'
+[2021.12.08-23.38.10:865][179]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.08-23.38.10:865][179]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.08-23.38.10:865][179]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
+[2021.12.08-23.38.12:296][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.12.08-23.38.13:525][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
