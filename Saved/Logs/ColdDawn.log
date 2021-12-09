@@ -1964,3 +1964,844 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.08-23.38.10:865][179]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
 [2021.12.08-23.38.12:296][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
 [2021.12.08-23.38.13:525][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.12.08-23.41.52:989][534]Cmd: DUPLICATE
+[2021.12.08-23.41.52:989][534]Cmd: ACTOR DUPLICATE
+[2021.12.08-23.45.09:790][729]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.12.08-23.45.12:000][729]LogSlate: Window 'Save Content' being destroyed
+[2021.12.08-23.45.12:089][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.08-23.45.12:112][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.12.08-23.45.12:198][729]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital0F334665475F7E3C16679F94EAE96296.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap'
+[2021.12.08-23.45.12:232][729]LogFileHelpers: Saving map 'CD_Hospital' took 0.144
+[2021.12.08-23.45.12:233][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset" SILENT=true
+[2021.12.08-23.45.12:241][729]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_BuiltDataA26EF0F14DAACC032D2EC28AC9674E9C.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset'
+[2021.12.08-23.45.12:285][729]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.08-23.45.12:285][729]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.08-23.45.12:285][729]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
+[2021.12.08-23.47.04:849][151]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.08-23.47.04:862][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.08-23.47.04:862][151]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 7:47:04 AM)
+[2021.12.08-23.47.04:862][151]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.08-23.47.04:888][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026197s)
+[2021.12.08-23.47.04:889][151]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.08-23.47.04:889][151]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028B94F6CE00), frame # 711151
+[2021.12.08-23.47.04:889][151]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028BB89C9D00), frame # 711151
+[2021.12.08-23.47.04:890][151]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2021.12.08-23.47.04:890][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.027483s)
+[2021.12.08-23.47.04:920][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.12.08-23.47.04:942][151]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.08-23.47.04:942][151]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.08-23.47.04:942][151]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.08-23.47.04:942][151]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.08-23.47.04:942][151]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.08-23.47.04:942][151]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.08-23.47.04:942][151]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.08-23.47.04:942][151]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.08-23.47.04:942][151]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.08-23.47.04:942][151]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.08-23.47.04:951][151]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.08-23.47.04:951][151]LogAudioMixer: Display: 1: FrontRight
+[2021.12.08-23.47.04:993][151]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.08-23.47.04:993][151]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.08-23.47.04:993][151]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.08-23.47.04:993][151]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.08-23.47.04:993][151]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.08-23.47.05:006][151]LogInit: FAudioDevice initialized.
+[2021.12.08-23.47.05:018][151]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.08-23.47.05:021][151]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-15.47.05
+[2021.12.08-23.47.05:021][151]LogWorld: Bringing up level for play took: 0.002575
+[2021.12.08-23.47.05:022][151]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.12.08-23.47.05:025][151]PIE: Server logged in
+[2021.12.08-23.47.05:026][151]PIE: Play in editor total start time 0.165 seconds.
+[2021.12.08-23.47.20:606][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.08-23.47.20:606][ 11]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.08-23.47.20:606][ 11]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.08-23.47.20:606][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.08-23.47.20:614][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.08-23.47.20:619][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.08-23.47.20:656][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.08-23.47.20:659][ 11]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028BB89C9D00), frame # 713011
+[2021.12.08-23.47.20:659][ 11]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028B94F6CE00), frame # 713011
+[2021.12.08-23.47.20:661][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.12.08-23.47.20:689][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.12.08-23.47.31:787][306]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.08-23.47.31:798][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.08-23.47.31:798][306]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 7:47:31 AM)
+[2021.12.08-23.47.31:825][306]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.08-23.47.31:855][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029999s)
+[2021.12.08-23.47.31:856][306]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.08-23.47.31:856][306]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028BC8774C00), frame # 714306
+[2021.12.08-23.47.31:856][306]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028C0CA9C680), frame # 714306
+[2021.12.08-23.47.31:856][306]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2021.12.08-23.47.31:856][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.031043s)
+[2021.12.08-23.47.31:881][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.12.08-23.47.31:886][306]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.08-23.47.31:886][306]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.08-23.47.31:886][306]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.08-23.47.31:886][306]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.08-23.47.31:886][306]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.08-23.47.31:886][306]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.08-23.47.31:886][306]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.08-23.47.31:886][306]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.08-23.47.31:887][306]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.08-23.47.31:887][306]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.08-23.47.31:894][306]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.08-23.47.31:895][306]LogAudioMixer: Display: 1: FrontRight
+[2021.12.08-23.47.31:927][306]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.08-23.47.31:927][306]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.08-23.47.31:927][306]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.08-23.47.31:927][306]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.08-23.47.31:927][306]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.08-23.47.31:939][306]LogInit: FAudioDevice initialized.
+[2021.12.08-23.47.31:948][306]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.08-23.47.31:950][306]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-15.47.31
+[2021.12.08-23.47.31:951][306]LogWorld: Bringing up level for play took: 0.002196
+[2021.12.08-23.47.31:951][306]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.12.08-23.47.31:954][306]PIE: Server logged in
+[2021.12.08-23.47.31:955][306]PIE: Play in editor total start time 0.157 seconds.
+[2021.12.08-23.48.18:616][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.08-23.48.18:616][891]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.08-23.48.18:616][891]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.08-23.48.18:617][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.08-23.48.18:623][891]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.08-23.48.18:628][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.08-23.48.18:649][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.08-23.48.18:666][891]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028C0CA9C680), frame # 719891
+[2021.12.08-23.48.18:666][891]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028BC8774C00), frame # 719891
+[2021.12.08-23.48.18:669][891]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.12.08-23.48.18:697][892]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.12.08-23.48.20:964][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.12.09-01.13.52:020][502]Cmd: DUPLICATE
+[2021.12.09-01.13.52:020][502]Cmd: ACTOR DUPLICATE
+[2021.12.09-01.13.56:484][  1]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.09-01.14.44:768][572]Cmd: TRANSACTION UNDO
+[2021.12.09-01.14.44:768][572]LogEditorTransaction: Undo Move Actors
+[2021.12.09-01.14.46:680][744]Cmd: DUPLICATE
+[2021.12.09-01.14.46:680][744]Cmd: ACTOR DUPLICATE
+[2021.12.09-01.15.40:074][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.09-01.15.42:843][389]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.09-01.15.45:956][761]LogEditorViewport: Clicking on Actor (LMB): Brush (Wall30)
+[2021.12.09-01.15.46:684][845]LogEditorViewport: Clicking on Actor (LMB): Brush (Wall30)
+[2021.12.09-01.15.54:603][780]Cmd: EDIT COPY
+[2021.12.09-01.16.03:014][749]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.09-01.16.12:780][882]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.09-01.16.48:365][  5]Cmd: TRANSACTION UNDO
+[2021.12.09-01.16.48:365][  5]LogEditorTransaction: Undo Move Actors
+[2021.12.09-01.16.48:579][  7]Cmd: TRANSACTION UNDO
+[2021.12.09-01.16.48:580][  7]LogEditorTransaction: Undo Move Actors
+[2021.12.09-01.16.48:797][ 10]Cmd: TRANSACTION UNDO
+[2021.12.09-01.16.48:797][ 10]LogEditorTransaction: Undo Move Actors
+[2021.12.09-01.16.48:972][ 16]Cmd: TRANSACTION UNDO
+[2021.12.09-01.16.48:972][ 16]LogEditorTransaction: Undo Move Actors
+[2021.12.09-01.16.49:200][ 34]Cmd: TRANSACTION UNDO
+[2021.12.09-01.16.49:200][ 34]LogEditorTransaction: Undo Move Actors
+[2021.12.09-01.16.49:422][ 51]Cmd: TRANSACTION UNDO
+[2021.12.09-01.16.49:422][ 51]LogEditorTransaction: Undo Move Actors
+[2021.12.09-01.16.49:653][ 69]Cmd: TRANSACTION UNDO
+[2021.12.09-01.16.49:653][ 69]LogEditorTransaction: Undo Move Actors
+[2021.12.09-01.16.49:885][ 87]Cmd: TRANSACTION UNDO
+[2021.12.09-01.16.49:885][ 87]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.09-01.16.55:353][734]Cmd: TRANSACTION REDO
+[2021.12.09-01.16.55:353][734]LogEditorTransaction: Redo Select Brush Surface
+[2021.12.09-01.16.59:114][128]Cmd: EDIT COPY
+[2021.12.09-01.16.59:786][208]Cmd: EDIT PASTE
+[2021.12.09-01.17.12:629][683]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.09-01.17.50:789][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.12.09-01.17.50:902][109]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto85EB0B72341AC99CF509ADF990A43AA32.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto8.umap'
+[2021.12.09-01.17.50:903][109]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.142
+[2021.12.09-01.17.50:903][109]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2021.12.09-01.18.00:723][255]Cmd: EDIT COPY
+[2021.12.09-01.18.01:469][344]Cmd: EDIT PASTE
+[2021.12.09-01.19.09:514][852]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-01.19.09:526][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-01.19.09:526][852]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 9:19:09 AM)
+[2021.12.09-01.19.09:556][852]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-01.19.09:584][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027149s)
+[2021.12.09-01.19.09:584][852]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-01.19.09:584][852]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028C1E459800), frame # 1356852
+[2021.12.09-01.19.09:584][852]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028B26E7BD80), frame # 1356852
+[2021.12.09-01.19.09:584][852]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2021.12.09-01.19.09:584][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.028546s)
+[2021.12.09-01.19.09:616][852]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.12.09-01.19.09:629][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-01.19.09:629][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-01.19.09:629][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-01.19.09:629][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-01.19.09:629][852]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-01.19.09:629][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-01.19.09:629][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-01.19.09:629][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-01.19.09:630][852]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-01.19.09:630][852]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-01.19.09:640][852]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-01.19.09:642][852]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-01.19.09:673][852]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-01.19.09:673][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-01.19.09:673][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-01.19.09:673][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-01.19.09:674][852]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-01.19.09:685][852]LogInit: FAudioDevice initialized.
+[2021.12.09-01.19.09:694][852]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-01.19.09:697][852]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-17.19.09
+[2021.12.09-01.19.09:698][852]LogWorld: Bringing up level for play took: 0.002544
+[2021.12.09-01.19.09:698][852]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.12.09-01.19.09:701][852]PIE: Server logged in
+[2021.12.09-01.19.09:701][852]PIE: Play in editor total start time 0.176 seconds.
+[2021.12.09-01.19.42:347][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-01.19.42:347][757]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-01.19.42:347][757]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-01.19.42:347][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-01.19.42:353][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-01.19.42:359][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-01.19.42:401][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-01.19.42:402][757]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028B26E7BD80), frame # 1360757
+[2021.12.09-01.19.42:402][757]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028C1E459800), frame # 1360757
+[2021.12.09-01.19.42:405][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.12.09-01.19.42:434][758]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.12.09-01.22.33:079][267]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-01.23.23:530][744]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-01.23.23:630][744]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2021.12.09-01.23.23:776][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-01.23.23:840][744]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter746B4B1443FA21D1E8FCD19643B6E536.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-01.23.23:868][744]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-01.23.23:868][744]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-01.23.30:492][ 39]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-01.23.30:503][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-01.23.30:504][ 39]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 9:23:30 AM)
+[2021.12.09-01.23.30:525][ 39]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-01.23.30:551][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025895s)
+[2021.12.09-01.23.30:552][ 39]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-01.23.30:552][ 39]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028BDA725A00), frame # 1385039
+[2021.12.09-01.23.30:552][ 39]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028C06D40680), frame # 1385039
+[2021.12.09-01.23.30:552][ 39]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2021.12.09-01.23.30:552][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.026980s)
+[2021.12.09-01.23.30:582][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2021.12.09-01.23.30:583][ 39]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-01.23.30:583][ 39]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-01.23.30:583][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-01.23.30:583][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-01.23.30:583][ 39]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-01.23.30:583][ 39]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-01.23.30:583][ 39]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-01.23.30:583][ 39]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-01.23.30:583][ 39]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-01.23.30:583][ 39]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-01.23.30:594][ 39]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-01.23.30:594][ 39]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-01.23.30:628][ 39]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-01.23.30:628][ 39]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-01.23.30:628][ 39]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-01.23.30:628][ 39]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-01.23.30:628][ 39]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-01.23.30:640][ 39]LogInit: FAudioDevice initialized.
+[2021.12.09-01.23.30:648][ 39]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-01.23.30:651][ 39]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-17.23.30
+[2021.12.09-01.23.30:652][ 39]LogWorld: Bringing up level for play took: 0.002640
+[2021.12.09-01.23.30:652][ 39]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.12.09-01.23.30:655][ 39]PIE: Server logged in
+[2021.12.09-01.23.30:656][ 39]PIE: Play in editor total start time 0.153 seconds.
+[2021.12.09-01.23.48:156][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-01.23.48:156][953]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-01.23.48:156][953]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-01.23.48:157][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-01.23.48:167][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-01.23.48:172][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-01.23.48:215][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-01.23.48:216][953]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028C06D40680), frame # 1386953
+[2021.12.09-01.23.48:216][953]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028BDA725A00), frame # 1386953
+[2021.12.09-01.23.48:219][953]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.12.09-01.23.48:248][954]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.12.09-01.24.00:454][932]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-01.24.00:546][932]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.12.09-01.24.00:678][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-01.24.00:734][932]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter6619F11D4412023BFB13A987E9D3944E.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-01.24.00:764][932]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-01.24.00:764][932]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-01.24.02:480][ 32]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-01.24.02:491][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-01.24.02:491][ 32]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 9:24:02 AM)
+[2021.12.09-01.24.02:525][ 32]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-01.24.02:550][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025483s)
+[2021.12.09-01.24.02:551][ 32]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-01.24.02:551][ 32]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028C4939EE00), frame # 1388032
+[2021.12.09-01.24.02:551][ 32]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028B8FD30F40), frame # 1388032
+[2021.12.09-01.24.02:551][ 32]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2021.12.09-01.24.02:551][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.026522s)
+[2021.12.09-01.24.02:580][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.12.09-01.24.02:582][ 32]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-01.24.02:582][ 32]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-01.24.02:582][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-01.24.02:582][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-01.24.02:582][ 32]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-01.24.02:582][ 32]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-01.24.02:582][ 32]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-01.24.02:582][ 32]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-01.24.02:582][ 32]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-01.24.02:582][ 32]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-01.24.02:593][ 32]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-01.24.02:593][ 32]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-01.24.02:627][ 32]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-01.24.02:627][ 32]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-01.24.02:627][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-01.24.02:627][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-01.24.02:627][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-01.24.02:639][ 32]LogInit: FAudioDevice initialized.
+[2021.12.09-01.24.02:647][ 32]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-01.24.02:650][ 32]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-17.24.02
+[2021.12.09-01.24.02:650][ 32]LogWorld: Bringing up level for play took: 0.002514
+[2021.12.09-01.24.02:651][ 32]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.12.09-01.24.02:655][ 32]PIE: Server logged in
+[2021.12.09-01.24.02:656][ 32]PIE: Play in editor total start time 0.165 seconds.
+[2021.12.09-01.24.36:095][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-01.24.36:095][850]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-01.24.36:095][850]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-01.24.36:095][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-01.24.36:104][850]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-01.24.36:109][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-01.24.36:151][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-01.24.36:153][850]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028B8FD30F40), frame # 1391850
+[2021.12.09-01.24.36:153][850]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028C4939EE00), frame # 1391850
+[2021.12.09-01.24.36:156][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.12.09-01.24.36:186][851]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.12.09-01.26.06:296][535]LogSlate: Window 'CD_FirstPersonCharacter' being destroyed
+[2021.12.09-01.29.15:326][813]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.12.09-01.29.15:418][813]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto9BCD40952474CD405BD0F4CBB2DF5D9C2.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto9.umap'
+[2021.12.09-01.29.15:419][813]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.122
+[2021.12.09-01.29.15:419][813]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.122
+[2021.12.09-02.02.32:768][457]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.12.09-02.02.32:772][457]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.036
+[2021.12.09-02.02.32:773][457]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/Character/CD_FirstPersonCharacter] ([1] browsable assets)...
+[2021.12.09-02.02.32:786][457]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter]
+[2021.12.09-02.02.32:786][457]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/Character/CD_FirstPersonCharacter]
+[2021.12.09-02.02.32:837][457]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter_Auto04ACA37AB4F366CB31EA2D686FCB61D05.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Character/CD_FirstPersonCharacter_Auto0.uasset'
+[2021.12.09-02.02.32:838][457]LogFileHelpers: Auto-saving content packages took 0.066
+[2021.12.09-02.04.45:835][573]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.04.45:939][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.12.09-02.04.46:076][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.04.46:129][573]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter80C9692447595FDA59E786B2EDC530D8.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.04.46:180][573]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.04.46:180][573]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.04.49:456][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.09-02.04.49:486][861]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.12.09-02.04.49:572][861]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital6D484EC848004CD551DD48908F1AA046.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap'
+[2021.12.09-02.04.49:628][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset" SILENT=true
+[2021.12.09-02.04.49:636][861]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_BuiltData6C9D8CC745D7F77483CD47AFBAC5A23C.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset'
+[2021.12.09-02.04.49:670][861]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.09-02.04.49:670][861]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.09-02.04.49:670][861]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
+[2021.12.09-02.04.50:587][937]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.12.09-02.04.53:916][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.12.09-02.05.35:921][479]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.05.36:002][479]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.12.09-02.05.36:147][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.05.36:200][479]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacterFBCE1B7B40067878DE815890F2A26791.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.05.36:318][479]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.05.36:318][479]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.06.37:172][675]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.06.37:250][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.12.09-02.06.37:391][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.06.37:445][675]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacterE3CE81D648713325C4BF7B91C8FCB402.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.06.37:475][675]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.06.37:475][675]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.09.37:548][868]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.09.37:630][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.12.09-02.09.37:779][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.09.37:839][868]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacterC0438F6A42456F478D7E948683BD981E.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.09.38:013][868]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.09.38:013][868]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.11.18:125][204]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.11.18:202][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.12.09-02.11.18:347][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.11.18:401][204]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter2BDCF5824D19BFD5F508B79CBF5ADCAF.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.11.18:430][204]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.11.18:430][204]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.15.08:576][191]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2021.12.09-02.15.08:581][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.038
+[2021.12.09-02.15.08:582][191]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/Character/CD_FirstPersonCharacter] ([1] browsable assets)...
+[2021.12.09-02.15.08:595][191]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter]
+[2021.12.09-02.15.08:595][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/Character/CD_FirstPersonCharacter]
+[2021.12.09-02.15.08:648][191]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter_Auto1BC86C2BA40C619E0084287A34484B0A4.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Character/CD_FirstPersonCharacter_Auto1.uasset'
+[2021.12.09-02.15.08:648][191]LogFileHelpers: Auto-saving content packages took 0.067
+[2021.12.09-02.15.36:683][298]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-02.15.36:694][298]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.12.09-02.15.36:704][298]LogPlayLevel: [PlayLevel] Compiling CD_FirstPersonCharacter before play...
+[2021.12.09-02.15.36:882][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.15.36:933][298]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter2B38F666412856DBBE528FA346429F82.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.15.36:985][298]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2021.12.09-02.15.36:987][298]LogPlayLevel: PlayLevel: Blueprint regeneration took 292 ms (1 blueprints)
+[2021.12.09-02.15.36:987][298]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 10:15:36 AM)
+[2021.12.09-02.15.37:033][298]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.15.37:061][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027880s)
+[2021.12.09-02.15.37:062][298]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-02.15.37:062][298]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028C0A9C1A00), frame # 1526298
+[2021.12.09-02.15.37:062][298]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028C068ADE40), frame # 1526298
+[2021.12.09-02.15.37:062][298]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2021.12.09-02.15.37:062][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.029023s)
+[2021.12.09-02.15.37:089][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.12.09-02.15.37:089][298]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-02.15.37:090][298]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-02.15.37:090][298]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-02.15.37:090][298]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-02.15.37:090][298]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-02.15.37:090][298]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-02.15.37:090][298]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-02.15.37:090][298]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-02.15.37:090][298]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-02.15.37:090][298]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-02.15.37:100][298]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-02.15.37:100][298]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-02.15.37:136][298]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-02.15.37:137][298]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-02.15.37:137][298]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-02.15.37:137][298]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-02.15.37:137][298]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-02.15.37:149][298]LogInit: FAudioDevice initialized.
+[2021.12.09-02.15.37:159][298]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-02.15.37:162][298]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-18.15.37
+[2021.12.09-02.15.37:163][298]LogWorld: Bringing up level for play took: 0.002620
+[2021.12.09-02.15.37:163][298]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.12.09-02.15.37:166][298]PIE: Server logged in
+[2021.12.09-02.15.37:167][298]PIE: Play in editor total start time 0.473 seconds.
+[2021.12.09-02.15.37:185][299]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.15.37:185][299]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.15.51:825][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.15.51:825][ 49]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.15.51:826][ 49]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-02.15.51:827][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.15.51:839][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-02.15.51:844][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.15.51:867][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.15.51:884][ 49]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028C068ADE40), frame # 1528049
+[2021.12.09-02.15.51:884][ 49]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028C0A9C1A00), frame # 1528049
+[2021.12.09-02.15.51:887][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.12.09-02.15.51:919][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.12.09-02.25.24:041][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.12.09-02.25.24:047][865]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.033
+[2021.12.09-02.25.24:048][865]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/Character/CD_FirstPersonCharacter] ([1] browsable assets)...
+[2021.12.09-02.25.24:067][865]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter]
+[2021.12.09-02.25.24:067][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/Character/CD_FirstPersonCharacter]
+[2021.12.09-02.25.24:126][865]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter_Auto207AF942B4AAB8DBFF3ED57AB29449C9E.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Character/CD_FirstPersonCharacter_Auto2.uasset'
+[2021.12.09-02.25.24:126][865]LogFileHelpers: Auto-saving content packages took 0.079
+[2021.12.09-02.28.48:224][146]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'APawn::GetMovementComponent' [Element not found.]
+[2021.12.09-02.29.47:844][557]LogEditorTransaction: Undo Change Number Pin Value
+[2021.12.09-02.29.48:495][575]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.48:957][611]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.49:464][657]LogEditorTransaction: Undo Create Pin Link
+[2021.12.09-02.29.49:993][702]LogEditorTransaction: Undo Create Pin Link
+[2021.12.09-02.29.50:371][732]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.50:857][772]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.51:241][803]LogEditorTransaction: Undo Move Nodes
+[2021.12.09-02.29.51:560][824]LogEditorTransaction: Undo Paste clipboard contents
+[2021.12.09-02.29.51:880][846]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.52:113][857]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.52:419][879]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.52:682][896]LogEditorTransaction: Undo Create Pin Link
+[2021.12.09-02.29.52:912][905]LogEditorTransaction: Undo Create Pin Link
+[2021.12.09-02.29.53:167][920]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.53:400][930]LogEditorTransaction: Undo Move Nodes
+[2021.12.09-02.29.53:677][945]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.53:935][959]LogEditorTransaction: Undo Move Nodes
+[2021.12.09-02.29.54:169][969]LogEditorTransaction: Undo Create Pin Link
+[2021.12.09-02.29.54:403][979]LogEditorTransaction: Undo Create Pin Link
+[2021.12.09-02.29.54:636][993]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.54:859][  1]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.55:091][ 13]LogEditorTransaction: Undo Create Pin Link
+[2021.12.09-02.29.55:371][ 29]LogEditorTransaction: Undo Add Node
+[2021.12.09-02.29.55:639][ 43]LogEditorTransaction: Undo Add Node
+[2021.12.09-02.29.55:895][ 59]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.56:432][107]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.56:900][149]LogEditorTransaction: Undo Delete current selection
+[2021.12.09-02.29.57:477][198]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.58:135][247]LogEditorTransaction: Undo Add Node
+[2021.12.09-02.29.58:387][256]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.58:868][296]LogEditorTransaction: Undo Move Node
+[2021.12.09-02.29.59:330][336]LogEditorTransaction: Undo Move Nodes
+[2021.12.09-02.29.59:804][376]LogEditorTransaction: Undo Paste clipboard contents
+[2021.12.09-02.35.25:432][ 96]LogEditorTransaction: Undo Paste clipboard contents
+[2021.12.09-02.36.41:663][242]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.12.09-02.36.41:667][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.044
+[2021.12.09-02.36.41:667][242]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/Character/CD_FirstPersonCharacter] ([1] browsable assets)...
+[2021.12.09-02.36.41:682][242]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter]
+[2021.12.09-02.36.41:682][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/Character/CD_FirstPersonCharacter]
+[2021.12.09-02.36.41:736][242]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter_Auto3FBBB73414201A1C811985AA3ED105F9C.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Character/CD_FirstPersonCharacter_Auto3.uasset'
+[2021.12.09-02.36.41:736][242]LogFileHelpers: Auto-saving content packages took 0.070
+[2021.12.09-02.42.00:169][561]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.42.00:252][561]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.12.09-02.42.00:387][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.42.00:453][561]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter91C9D017495D0C7D563AC0AF81C3B96A.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.42.00:484][561]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.42.00:484][561]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.42.04:089][830]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-02.42.04:101][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-02.42.04:101][830]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 10:42:04 AM)
+[2021.12.09-02.42.04:101][830]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.42.04:130][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029433s)
+[2021.12.09-02.42.04:131][830]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-02.42.04:131][830]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028C006F5000), frame # 1662830
+[2021.12.09-02.42.04:131][830]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028B28A92AC0), frame # 1662830
+[2021.12.09-02.42.04:131][830]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2021.12.09-02.42.04:132][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.030557s)
+[2021.12.09-02.42.04:161][830]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2021.12.09-02.42.04:163][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-02.42.04:163][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-02.42.04:163][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-02.42.04:163][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-02.42.04:163][830]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-02.42.04:163][830]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-02.42.04:163][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-02.42.04:163][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-02.42.04:163][830]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-02.42.04:163][830]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-02.42.04:173][830]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-02.42.04:173][830]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-02.42.04:205][830]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-02.42.04:205][830]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-02.42.04:205][830]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-02.42.04:205][830]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-02.42.04:206][830]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-02.42.04:216][830]LogInit: FAudioDevice initialized.
+[2021.12.09-02.42.04:223][830]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-02.42.04:225][830]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-18.42.04
+[2021.12.09-02.42.04:226][830]LogWorld: Bringing up level for play took: 0.002317
+[2021.12.09-02.42.04:226][830]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.12.09-02.42.04:229][830]PIE: Server logged in
+[2021.12.09-02.42.04:230][830]PIE: Play in editor total start time 0.129 seconds.
+[2021.12.09-02.42.32:013][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.42.32:013][149]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.42.32:013][149]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-02.42.32:014][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.42.32:023][149]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-02.42.32:028][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.42.32:067][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.42.32:068][149]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028B28A92AC0), frame # 1666149
+[2021.12.09-02.42.32:068][149]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028C006F5000), frame # 1666149
+[2021.12.09-02.42.32:071][149]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.12.09-02.42.32:099][150]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.12.09-02.43.08:914][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.43.08:971][858]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter027E855046BF008F28A26FB9B1B531D6.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.43.09:230][858]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.43.09:230][858]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.43.09:663][894]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.43.09:744][894]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.12.09-02.43.11:845][ 65]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.43.11:934][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.12.09-02.43.13:619][173]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-02.43.13:631][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-02.43.13:631][173]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 10:43:13 AM)
+[2021.12.09-02.43.13:661][173]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.43.13:687][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025405s)
+[2021.12.09-02.43.13:688][173]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-02.43.13:688][173]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028B343B6200), frame # 1670173
+[2021.12.09-02.43.13:688][173]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028B8F45B740), frame # 1670173
+[2021.12.09-02.43.13:688][173]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2021.12.09-02.43.13:688][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.026447s)
+[2021.12.09-02.43.13:716][173]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.12.09-02.43.13:717][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-02.43.13:717][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-02.43.13:717][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-02.43.13:717][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-02.43.13:717][173]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-02.43.13:717][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-02.43.13:717][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-02.43.13:717][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-02.43.13:718][173]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-02.43.13:718][173]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-02.43.13:726][173]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-02.43.13:726][173]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-02.43.13:761][173]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-02.43.13:761][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-02.43.13:761][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-02.43.13:761][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-02.43.13:762][173]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-02.43.13:773][173]LogInit: FAudioDevice initialized.
+[2021.12.09-02.43.13:778][173]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-02.43.13:781][173]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-18.43.13
+[2021.12.09-02.43.13:781][173]LogWorld: Bringing up level for play took: 0.002209
+[2021.12.09-02.43.13:782][173]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.12.09-02.43.13:785][173]PIE: Server logged in
+[2021.12.09-02.43.13:786][173]PIE: Play in editor total start time 0.154 seconds.
+[2021.12.09-02.43.18:253][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.43.18:253][703]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.43.18:253][703]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-02.43.18:253][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.43.18:259][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-02.43.18:265][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.43.18:303][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.43.18:304][703]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028B8F45B740), frame # 1670703
+[2021.12.09-02.43.18:304][703]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028B343B6200), frame # 1670703
+[2021.12.09-02.43.18:307][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.12.09-02.43.18:335][704]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.12.09-02.43.42:319][899]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.43.42:403][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.12.09-02.43.42:543][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.43.42:601][899]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacterDD0C7AFA4D541803DBC1E49B9916D78E.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.43.42:675][899]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.43.42:675][899]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.43.44:243][ 15]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-02.43.44:254][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-02.43.44:254][ 15]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 10:43:44 AM)
+[2021.12.09-02.43.44:254][ 15]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.43.44:286][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031697s)
+[2021.12.09-02.43.44:287][ 15]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-02.43.44:287][ 15]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028C67658E00), frame # 1673015
+[2021.12.09-02.43.44:287][ 15]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028C59550540), frame # 1673015
+[2021.12.09-02.43.44:287][ 15]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2021.12.09-02.43.44:287][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.032868s)
+[2021.12.09-02.43.44:315][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.12.09-02.43.44:317][ 15]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-02.43.44:317][ 15]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-02.43.44:317][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-02.43.44:317][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-02.43.44:317][ 15]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-02.43.44:317][ 15]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-02.43.44:317][ 15]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-02.43.44:317][ 15]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-02.43.44:317][ 15]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-02.43.44:317][ 15]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-02.43.44:325][ 15]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-02.43.44:325][ 15]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-02.43.44:359][ 15]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-02.43.44:359][ 15]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-02.43.44:359][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-02.43.44:359][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-02.43.44:359][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-02.43.44:371][ 15]LogInit: FAudioDevice initialized.
+[2021.12.09-02.43.44:378][ 15]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-02.43.44:381][ 15]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-18.43.44
+[2021.12.09-02.43.44:382][ 15]LogWorld: Bringing up level for play took: 0.002555
+[2021.12.09-02.43.44:382][ 15]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.12.09-02.43.44:385][ 15]PIE: Server logged in
+[2021.12.09-02.43.44:386][ 15]PIE: Play in editor total start time 0.132 seconds.
+[2021.12.09-02.43.45:239][115]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.47:357][369]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.48:857][549]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.49:824][665]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.50:408][735]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.51:399][854]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.52:058][933]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.53:074][ 55]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.53:091][ 57]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.53:182][ 68]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.43.53:522][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.43.53:522][103]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.43.53:522][103]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-02.43.53:523][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.43.53:532][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-02.43.53:536][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.43.53:577][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.43.53:579][103]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028C59550540), frame # 1674103
+[2021.12.09-02.43.53:579][103]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028C67658E00), frame # 1674103
+[2021.12.09-02.43.53:582][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.12.09-02.43.53:609][104]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.12.09-02.44.14:340][134]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.44.14:422][134]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.12.09-02.44.14:553][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.44.14:608][134]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter623923F04A8D0940F946CD8E33388F0C.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.44.14:635][134]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.44.14:635][134]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.44.17:530][390]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-02.44.17:546][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-02.44.17:546][390]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 10:44:17 AM)
+[2021.12.09-02.44.17:571][390]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.44.17:599][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027596s)
+[2021.12.09-02.44.17:600][390]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-02.44.17:600][390]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028C95D6BE00), frame # 1676390
+[2021.12.09-02.44.17:600][390]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028C0B4E56C0), frame # 1676390
+[2021.12.09-02.44.17:600][390]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2021.12.09-02.44.17:600][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.028620s)
+[2021.12.09-02.44.17:628][390]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.12.09-02.44.17:629][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-02.44.17:629][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-02.44.17:629][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-02.44.17:629][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-02.44.17:629][390]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-02.44.17:629][390]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-02.44.17:629][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-02.44.17:629][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-02.44.17:630][390]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-02.44.17:630][390]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-02.44.17:638][390]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-02.44.17:638][390]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-02.44.17:669][390]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-02.44.17:669][390]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-02.44.17:669][390]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-02.44.17:669][390]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-02.44.17:669][390]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-02.44.17:681][390]LogInit: FAudioDevice initialized.
+[2021.12.09-02.44.17:686][390]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-02.44.17:689][390]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-18.44.17
+[2021.12.09-02.44.17:689][390]LogWorld: Bringing up level for play took: 0.002355
+[2021.12.09-02.44.17:689][390]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.12.09-02.44.17:692][390]PIE: Server logged in
+[2021.12.09-02.44.17:693][390]PIE: Play in editor total start time 0.147 seconds.
+[2021.12.09-02.44.17:948][418]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.44.19:322][583]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.44.19:456][599]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.44.20:456][719]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.44.20:706][749]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.44.21:665][864]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.44.21:921][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.44.21:921][892]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.44.21:922][892]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-02.44.21:922][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.44.21:927][892]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-02.44.21:931][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.44.21:970][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.44.21:971][892]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028C0B4E56C0), frame # 1676892
+[2021.12.09-02.44.21:972][892]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028C95D6BE00), frame # 1676892
+[2021.12.09-02.44.21:975][892]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.12.09-02.44.22:002][893]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.12.09-02.48.43:785][588]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.48.43:870][588]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.12.09-02.48.44:011][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.48.44:074][588]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter099DACEC43E3FEC08130BF80F351ACC4.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.48.44:103][588]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.48.44:103][588]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.49.32:430][374]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.49.32:514][374]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.12.09-02.49.32:662][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.49.32:718][374]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter4D112D76410B1B74D1429ABF33035004.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.49.32:748][374]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.49.32:748][374]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.49.49:130][949]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_Coffee.Item_Coffee
+[2021.12.09-02.50.27:869][476]BlueprintLog: New page: Compile Item_Coffee
+[2021.12.09-02.50.27:918][476]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.12.09-02.50.28:005][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/Items/Item_Coffee" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item_Coffee.uasset" SILENT=true
+[2021.12.09-02.50.28:014][476]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Item_CoffeeD2C70B4E4EF92C8088F397A9DF6F3DB1.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item_Coffee.uasset'
+[2021.12.09-02.50.28:046][476]AssetCheck: New page: Asset Save: Item_Coffee
+[2021.12.09-02.50.28:046][476]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/Item_Coffee.Item_Coffee
+[2021.12.09-02.50.37:443][325]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/BedSleep.BedSleep
+[2021.12.09-02.51.43:162][840]BlueprintLog: New page: Compile BedSleep
+[2021.12.09-02.51.43:211][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.12.09-02.51.43:284][840]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/BedSleepCEBB130347917CFC8F332ABDDA9609F8.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/BedSleep.uasset'
+[2021.12.09-02.51.43:344][840]AssetCheck: New page: Asset Save: BedSleep
+[2021.12.09-02.51.43:344][840]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/BedSleep.BedSleep
+[2021.12.09-02.52.40:396][552]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.52.40:492][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.12.09-02.52.40:649][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.52.40:703][552]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter9AE95A594B98591E40FA88AACC064691.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.52.40:731][552]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.52.40:731][552]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-02.52.54:197][714]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-02.52.54:208][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-02.52.54:208][714]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 10:52:54 AM)
+[2021.12.09-02.52.54:238][714]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.52.54:268][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030074s)
+[2021.12.09-02.52.54:269][714]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-02.52.54:269][714]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028BE5237C00), frame # 1726714
+[2021.12.09-02.52.54:269][714]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028CC6219300), frame # 1726714
+[2021.12.09-02.52.54:269][714]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2021.12.09-02.52.54:269][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.031235s)
+[2021.12.09-02.52.54:302][714]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.12.09-02.52.54:303][714]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-02.52.54:303][714]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-02.52.54:303][714]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-02.52.54:303][714]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-02.52.54:303][714]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-02.52.54:303][714]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-02.52.54:303][714]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-02.52.54:303][714]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-02.52.54:304][714]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-02.52.54:304][714]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-02.52.54:314][714]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-02.52.54:314][714]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-02.52.54:345][714]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-02.52.54:345][714]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-02.52.54:345][714]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-02.52.54:345][714]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-02.52.54:346][714]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-02.52.54:346][714]LogInit: FAudioDevice initialized.
+[2021.12.09-02.52.54:361][714]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-02.52.54:364][714]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-18.52.54
+[2021.12.09-02.52.54:364][714]LogWorld: Bringing up level for play took: 0.002558
+[2021.12.09-02.52.54:365][714]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2021.12.09-02.52.54:368][714]PIE: Server logged in
+[2021.12.09-02.52.54:369][714]PIE: Play in editor total start time 0.161 seconds.
+[2021.12.09-02.52.55:665][867]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.52.56:865][ 11]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.52.58:115][161]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.52.58:532][211]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.52.59:099][279]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.52.59:807][364]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.53.00:340][428]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.53.00:773][480]LogBlueprintUserMessages: [CD_FirstPersonCharacter_C_0] Hello
+[2021.12.09-02.53.01:528][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.53.01:528][567]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-02.53.01:529][567]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-02.53.01:529][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.53.01:536][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-02.53.01:541][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-02.53.01:584][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-02.53.01:586][567]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028CC6219300), frame # 1727567
+[2021.12.09-02.53.01:586][567]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028BE5237C00), frame # 1727567
+[2021.12.09-02.53.01:589][567]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.12.09-02.53.01:610][568]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2021.12.09-02.54.56:181][ 32]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-02.54.56:269][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.12.09-02.54.56:429][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-02.54.56:485][ 32]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter965EE2534EDF6883DE9D17BFA43F2BC3.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-02.54.56:515][ 32]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-02.54.56:515][ 32]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-03.02.28:139][576]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2021.12.09-03.02.28:141][576]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.043
+[2021.12.09-03.02.28:142][576]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ColdDawn/Character/CD_FirstPersonCharacter] ([1] browsable assets)...
+[2021.12.09-03.02.28:161][576]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter]
+[2021.12.09-03.02.28:161][576]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/Character/CD_FirstPersonCharacter]
+[2021.12.09-03.02.28:220][576]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter_Auto4E6897A524E1CE18D3410D68F6A8F065A.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Character/CD_FirstPersonCharacter_Auto4.uasset'
+[2021.12.09-03.02.28:220][576]LogFileHelpers: Auto-saving content packages took 0.079
+[2021.12.09-03.12.56:577][164]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.09-03.12.56:669][164]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.12.09-03.12.56:834][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-03.12.56:889][164]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter68FB53E243221ECF7BE8FD9DC9FEB317.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-03.12.56:919][164]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-03.12.56:919][164]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-03.12.57:719][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Character/CD_FirstPersonCharacter" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset" SILENT=true
+[2021.12.09-03.12.57:770][236]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_FirstPersonCharacter6CCA515E4635A8932B64788AB1A34052.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.09-03.12.57:797][236]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.09-03.12.57:797][236]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.09-03.13.07:348][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-03.13.07:359][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-03.13.07:359][ 50]PIE: New page: PIE session: CD_Hospital (Dec 8, 2021, 11:13:07 AM)
+[2021.12.09-03.13.07:399][ 50]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-03.13.07:426][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026870s)
+[2021.12.09-03.13.07:427][ 50]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.09-03.13.07:427][ 50]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028CB4269000), frame # 1793050
+[2021.12.09-03.13.07:427][ 50]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028C1B39EE80), frame # 1793050
+[2021.12.09-03.13.07:427][ 50]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2021.12.09-03.13.07:427][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.027998s)
+[2021.12.09-03.13.07:459][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.12.09-03.13.07:460][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-03.13.07:460][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-03.13.07:460][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-03.13.07:460][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-03.13.07:460][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-03.13.07:460][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-03.13.07:461][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-03.13.07:461][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-03.13.07:461][ 50]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-03.13.07:461][ 50]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-03.13.07:469][ 50]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-03.13.07:470][ 50]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-03.13.07:505][ 50]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.09-03.13.07:505][ 50]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-03.13.07:505][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-03.13.07:505][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-03.13.07:505][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-03.13.07:517][ 50]LogInit: FAudioDevice initialized.
+[2021.12.09-03.13.07:522][ 50]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-03.13.07:525][ 50]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.08-19.13.07
+[2021.12.09-03.13.07:526][ 50]LogWorld: Bringing up level for play took: 0.002494
+[2021.12.09-03.13.07:526][ 50]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2021.12.09-03.13.07:529][ 50]PIE: Server logged in
+[2021.12.09-03.13.07:530][ 50]PIE: Play in editor total start time 0.171 seconds.
+[2021.12.09-03.14.13:650][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-03.14.13:650][972]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.09-03.14.13:650][972]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-03.14.13:651][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-03.14.13:660][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-03.14.13:666][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-03.14.13:723][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-03.14.13:725][972]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028C1B39EE80), frame # 1800972
+[2021.12.09-03.14.13:725][972]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028CB4269000), frame # 1800972
+[2021.12.09-03.14.13:731][972]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2021.12.09-03.14.13:764][973]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2021.12.09-03.14.16:778][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
