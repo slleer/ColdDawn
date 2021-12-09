@@ -1,0 +1,1720 @@
+﻿Log file open, 12/09/21 03:29:36
+LogInit: Display: Running engine for game: ColdDawn
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.227449
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: NVIDIA GeForce RTX 3070 Ti
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=Jackyyu2 -epicuserid=6275c2edd00c49c5a25f818562fc7496 -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: E:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../projects/ColdDawn/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../projects/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../projects/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.09-11.29.36:850][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../projects/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../projects/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.09-11.29.36:850][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../projects/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.09-11.29.36:850][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [../../../projects/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.09-11.29.36:857][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:857][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.09-11.29.36:857][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.09-11.29.36:857][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.09-11.29.36:858][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.09-11.29.36:859][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.09-11.29.36:859][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.09-11.29.36:859][  0]LogHAL: Display: Platform has ~ 32 GB [34240229376 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.09-11.29.36:859][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.09-11.29.36:859][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.09-11.29.36:859][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.09-11.29.36:860][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../projects/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.09-11.29.36:861][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../projects/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.09-11.29.36:861][  0]LogInit: Computer: DESKTOP-UUNE467
+[2021.12.09-11.29.36:861][  0]LogInit: User: Asi
+[2021.12.09-11.29.36:861][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.12.09-11.29.36:861][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.09-11.29.36:861][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.12.09-11.29.36:861][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.09-11.29.36:861][  0]LogMemory: Process Physical Memory: 117.22 MB used, 117.22 MB peak
+[2021.12.09-11.29.36:861][  0]LogMemory: Process Virtual Memory: 111.23 MB used, 111.23 MB peak
+[2021.12.09-11.29.36:861][  0]LogMemory: Physical Memory: 17863.11 MB used,  14790.91 MB free, 32654.03 MB total
+[2021.12.09-11.29.36:861][  0]LogMemory: Virtual Memory: 5180.83 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2021.12.09-11.29.36:868][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.09-11.29.36:911][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.09-11.29.36:912][  0]LogInit: Using OS detected language (en-US).
+[2021.12.09-11.29.36:912][  0]LogInit: Using OS detected locale (en-US).
+[2021.12.09-11.29.36:914][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.12.09-11.29.37:177][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.09-11.29.37:215][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.09-11.29.37:215][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.09-11.29.37:354][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.09-11.29.37:354][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.09-11.29.37:354][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.09-11.29.37:354][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.09-11.29.37:491][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Ti' (Feature Level 11_0)
+[2021.12.09-11.29.37:491][  0]LogD3D11RHI:       8041/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.12.09-11.29.37:493][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.09-11.29.37:494][  0]LogD3D11RHI:       0/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.09-11.29.37:494][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.09-11.29.37:525][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.09-11.29.37:525][  0]LogD3D11RHI:     GPU DeviceId: 0x2482 (for the marketing name, search the web for "GPU Device Id")
+[2021.12.09-11.29.37:525][  0]LogWindows: EnumDisplayDevices:
+[2021.12.09-11.29.37:525][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070 Ti' (P:1 D:1)
+[2021.12.09-11.29.37:525][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070 Ti' (P:0 D:1)
+[2021.12.09-11.29.37:525][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070 Ti' (P:0 D:0)
+[2021.12.09-11.29.37:526][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070 Ti' (P:0 D:0)
+[2021.12.09-11.29.37:526][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.12.09-11.29.37:526][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Ti
+[2021.12.09-11.29.37:526][  0]LogD3D11RHI:   Driver Version: 471.41 (internal:30.0.14.7141, unified:471.41)
+[2021.12.09-11.29.37:526][  0]LogD3D11RHI:      Driver Date: 7-12-2021
+[2021.12.09-11.29.37:526][  0]LogRHI: Texture pool is 5628 MB (70% of 8041 MB)
+[2021.12.09-11.29.37:628][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.09-11.29.37:628][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.09-11.29.37:628][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.12.09-11.29.37:637][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
+[2021.12.09-11.29.37:682][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.12.09-11.29.38:011][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.09-11.29.38:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.09-11.29.38:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.09-11.29.38:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.09-11.29.38:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.09-11.29.38:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.09-11.29.38:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.09-11.29.38:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.09-11.29.38:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.09-11.29.38:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.09-11.29.38:145][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.09-11.29.38:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.09-11.29.38:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.09-11.29.38:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.09-11.29.38:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.09-11.29.38:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.09-11.29.38:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.09-11.29.38:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.09-11.29.38:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.09-11.29.38:242][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.09-11.29.38:249][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.09-11.29.38:307][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../projects/ColdDawn/Intermediate/Shaders/WorkingDirectory/130228/).
+[2021.12.09-11.29.38:307][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Asi/AppData/Local/Temp/UnrealShaderWorkingDir/71E6B0D9467742584003ED813E2344F2/'.
+[2021.12.09-11.29.38:307][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.12.09-11.29.38:308][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.09-11.29.38:308][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.09-11.29.39:020][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.09-11.29.39:074][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Asi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.09-11.29.39:074][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Asi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.12.09-11.29.39:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../projects/ColdDawn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.09-11.29.39:075][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.09-11.29.39:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../projects/ColdDawn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.09-11.29.39:075][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.09-11.29.39:085][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.09-11.29.39:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.09-11.29.39:086][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.09-11.29.39:088][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Asi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.09-11.29.39:088][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.09-11.29.39:088][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.09-11.29.39:133][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.09-11.29.39:134][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.09-11.29.39:158][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2021.12.09-11.29.39:467][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.09-11.29.39:596][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.09-11.29.39:596][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.09-11.29.39:596][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.09-11.29.39:596][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.09-11.29.39:596][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.09-11.29.39:616][  0]LogNetVersion: ColdDawn 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3432050753)
+[2021.12.09-11.29.40:082][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020C2CCA1D00), frame # 0
+[2021.12.09-11.29.40:082][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020C2CC02AC0), frame # 0
+[2021.12.09-11.29.40:083][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020C2CC07200), frame # 0
+[2021.12.09-11.29.40:126][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.034441 seconds
+[2021.12.09-11.29.40:133][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.12.09-11.29.40:133][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.12.09-11.29.40:133][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.09-11.29.40:460][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.09-11.29.40:464][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.09-11.29.40:532][  0]SourceControl: Source control is disabled
+[2021.12.09-11.29.40:532][  0]SourceControl: Source control is disabled
+[2021.12.09-11.29.40:535][  0]SourceControl: Source control is disabled
+[2021.12.09-11.29.40:537][  0]SourceControl: Source control is disabled
+[2021.12.09-11.29.40:543][  0]SourceControl: Source control is disabled
+[2021.12.09-11.29.40:554][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.09-11.29.40:555][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.09-11.29.40:762][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.09-11.29.40:782][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.09-11.29.40:782][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.09-11.29.40:830][  0]LogOcInput: OculusInput pre-init called
+[2021.12.09-11.29.40:839][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.12.09-11.29.40:839][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.12.09-11.29.40:897][  0]LogEngine: Initializing Engine...
+[2021.12.09-11.29.40:899][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.09-11.29.40:899][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.09-11.29.40:899][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.12.09-11.29.41:016][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.09-11.29.41:024][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.09-11.29.41:024][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020C330C1200), frame # 0
+[2021.12.09-11.29.41:025][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020C330DCA40), frame # 0
+[2021.12.09-11.29.41:041][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-11.29.41:041][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-11.29.41:041][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-11.29.41:041][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-11.29.41:041][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-11.29.41:041][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-11.29.41:041][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-11.29.41:041][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-11.29.41:041][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-11.29.41:041][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-11.29.41:050][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-11.29.41:050][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-11.29.41:077][  0]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.12.09-11.29.41:081][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-11.29.41:082][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-11.29.41:082][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-11.29.41:083][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-11.29.41:084][  0]LogInit: FAudioDevice initialized.
+[2021.12.09-11.29.41:085][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.09-11.29.41:142][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/Asi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.09-11.29.41:142][  0]LogInit: Texture streaming: Enabled
+[2021.12.09-11.29.41:158][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.09-11.29.41:158][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.09-11.29.41:159][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.09-11.29.41:233][  0]LogInit: Transaction tracking system initialized
+[2021.12.09-11.29.41:251][  0]BlueprintLog: New page: Editor Load
+[2021.12.09-11.29.41:310][  0]LocalizationService: Localization service is disabled
+[2021.12.09-11.29.41:380][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.09-11.29.41:381][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.09-11.29.41:449][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.12.09-11.29.41:449][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.09-11.29.41:579][  0]LogFileCache: Scanning file cache for directory 'E:/UE_4.25/projects/ColdDawn/Content/' took 0.01s
+[2021.12.09-11.29.41:749][  0]SourceControl: Source control is disabled
+[2021.12.09-11.29.41:749][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.241
+[2021.12.09-11.29.41:749][  0]Cmd: MAP LOAD FILE="../../../projects/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.09-11.29.41:750][  0]LightingResults: New page: Lighting Build
+[2021.12.09-11.29.41:750][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.29.41:750][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.29.41:750][  0]MapCheck: New page: Map Check
+[2021.12.09-11.29.41:750][  0]LightingResults: New page: Lighting Build
+[2021.12.09-11.29.41:763][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020C330C1200), frame # 0
+[2021.12.09-11.29.41:763][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020C330DCA40), frame # 0
+[2021.12.09-11.29.41:764][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.12.09-11.29.41:899][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/ColdDawn/InventorySystem/InventoryUI/Inventory_Window.Inventory_Window_C:ExecuteUbergraph_Inventory_Window:CallFunc_Array_Get_Item'. Unknown structure.
+[2021.12.09-11.29.42:103][  0]LogBlueprint: Error: [Compiler ThirdPersonGameMode] In use pin  HUD Canvas  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2021.12.09-11.29.43:476][  0]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.09-11.29.43:476][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020C3B48E200), frame # 0
+[2021.12.09-11.29.43:476][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020C3B4B2E80), frame # 0
+[2021.12.09-11.29.43:490][  0]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere needed to have new flag set bUsedWithStaticLighting !
+[2021.12.09-11.29.43:491][  0]LogMaterial: Display: Missing cached shader map for material M_MaterialSphere, compiling. 
+[2021.12.09-11.29.43:543][  0]MapCheck: Warning: M_MaterialSphere Material /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2021.12.09-11.29.43:583][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2021.12.09-11.29.43:583][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2021.12.09-11.29.43:583][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2021.12.09-11.29.43:583][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2021.12.09-11.29.43:583][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2021.12.09-11.29.43:583][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2021.12.09-11.29.43:583][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2021.12.09-11.29.43:583][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.12.09-11.29.43:583][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.09-11.29.43:614][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.12.09-11.29.43:615][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.09-11.29.43:615][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.162ms to complete.
+[2021.12.09-11.29.43:634][  0]LogFileHelpers: Loading map 'tutorial_map_v1' took 1.885
+[2021.12.09-11.29.43:636][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.128
+[2021.12.09-11.29.43:791][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.29.43:801][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.29.43:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.29.43:821][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.29.43:827][  0]LogCollectionManager: Loaded 0 collections in 0.000967 seconds
+[2021.12.09-11.29.43:848][  0]LogFileCache: Scanning file cache for directory 'E:/UE_4.25/projects/ColdDawn/Saved/Collections/' took 0.00s
+[2021.12.09-11.29.43:848][  0]LogFileCache: Scanning file cache for directory 'E:/UE_4.25/projects/ColdDawn/Content/Developers/Asi/Collections/' took 0.00s
+[2021.12.09-11.29.43:848][  0]LogFileCache: Scanning file cache for directory 'E:/UE_4.25/projects/ColdDawn/Content/Collections/' took 0.00s
+[2021.12.09-11.29.43:848][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 3427 classes and 821 folders.
+[2021.12.09-11.29.43:851][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.09-11.29.43:912][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.09-11.29.43:913][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.12.09-11.29.43:942][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.09-11.29.43:942][  0]LogLoad: (Engine Initialization) Total time: 8.43 seconds
+[2021.12.09-11.29.43:942][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.09-11.29.43:959][  0]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2021.12.09-11.29.43:959][  0]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2021.12.09-11.29.44:010][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.09-11.29.44:018][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.09-11.29.44:019][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.09-11.29.44:025][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.09-11.29.44:165][  0]LogRenderer: Reallocating scene render targets to support 888x360 Format 10 NumSamples 1 (Frame:1).
+[2021.12.09-11.29.44:624][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/UE_4.25/projects/ColdDawn/Content/' took 0.66s
+[2021.12.09-11.29.44:654][  1]LogAssetRegistry: Asset discovery search completed in 5.4969 seconds
+[2021.12.09-11.29.44:660][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.12.09-11.29.45:050][  8]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.09-11.29.45:065][  8]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.Zombie_male_
+[2021.12.09-11.29.45:264][  8]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 125 classes and 0 folders.
+[2021.12.09-11.29.46:557][  8]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.09-11.29.46:635][  9]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.09-11.29.49:720][290]LogRenderer: Reallocating scene render targets to support 1784x808 Format 10 NumSamples 1 (Frame:8).
+[2021.12.09-11.29.53:583][460]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.Zombie_mob
+[2021.12.09-11.29.55:944][604]LogSlate: Window 'Zombie_mob' being destroyed
+[2021.12.09-11.29.57:885][788]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.09-11.29.57:885][788]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2021.12.09-11.29.58:237][788]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/ColdDawn/Blueprints/zombies/male_zombie/task/BTTask_BlueprintBase_New.
+[2021.12.09-11.30.05:531][192]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.12.09-11.30.05:543][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.30.05:545][192]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRangeCFFD14F74476B2EA4F62249063CA6894.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.30.05:546][192]LogMetaData: Removing '/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.SKEL_InRange_C' ref from Metadata '/Game/ColdDawn/Blueprints/zombies/male_zombie/task/BTTask_BlueprintBase_New.PackageMetaData'
+[2021.12.09-11.30.05:546][192]LogMetaData: Removing '/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange_C' ref from Metadata '/Game/ColdDawn/Blueprints/zombies/male_zombie/task/BTTask_BlueprintBase_New.PackageMetaData'
+[2021.12.09-11.30.05:586][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.30.05:593][192]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange4CEC256F4D1F2828277D4496246FCD20.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.30.05:801][192]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.12.09-11.30.05:840][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.12.09-11.30.05:862][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.12.09-11.30.05:957][192]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.
+[2021.12.09-11.30.05:964][192]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.30.05:964][192]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.30.17:370][318]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.09-11.30.23:517][982]BlueprintLog: New page: Compile InRange
+[2021.12.09-11.30.23:548][982]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.12.09-11.30.23:592][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.30.23:599][982]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange539BD7224C230B0AFE1FEE9C89A54B48.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.30.23:625][982]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.30.23:625][982]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.30.23:632][982]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.09-11.30.25:230][147]BlueprintLog: New page: Compile InRange
+[2021.12.09-11.30.25:255][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.12.09-11.30.25:283][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.30.25:288][147]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRangeC51236594E7B0D3F5EFFEEB9B3ABC86D.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.30.25:323][147]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.30.25:323][147]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.30.34:786][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.30.34:792][133]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange99A787FC49866B4CAEFFC886B3E2842F.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.30.34:810][133]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.30.34:810][133]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.30.40:005][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.30.40:013][728]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRangeDE97312B4F3DDEB292400EBFDE2E9AB0.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.30.40:029][728]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.30.40:029][728]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.31.01:581][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.31.01:588][169]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRangeB1E1AB8B4BF9CA2582F6E0944FBBCB1E.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.31.01:608][169]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.31.01:608][169]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.31.02:227][240]BlueprintLog: New page: Compile InRange
+[2021.12.09-11.31.02:257][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.12.09-11.31.56:655][802]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.31.56:655][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.31.59:295][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.12.09-11.32.00:407][970]LogSlate: Window 'Delete Assets' being destroyed
+[2021.12.09-11.32.00:539][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.12.09-11.32.00:570][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.12.09-11.32.00:589][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.12.09-11.32.02:925][120]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2021.12.09-11.32.03:240][120]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/ColdDawn/Blueprints/zombies/male_zombie/task/BTService_BlueprintBase_New.
+[2021.12.09-11.32.10:520][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.12.09-11.32.10:527][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.32.10:529][654]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange4B5677F0460126AA2DDAB3808BD49993.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.32.10:529][654]LogMetaData: Removing '/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.SKEL_InRange_C' ref from Metadata '/Game/ColdDawn/Blueprints/zombies/male_zombie/task/BTService_BlueprintBase_New.PackageMetaData'
+[2021.12.09-11.32.10:530][654]LogMetaData: Removing '/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange_C' ref from Metadata '/Game/ColdDawn/Blueprints/zombies/male_zombie/task/BTService_BlueprintBase_New.PackageMetaData'
+[2021.12.09-11.32.10:564][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.32.10:569][654]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange9D0838C742EAC726BDE179995441F3A6.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.32.10:761][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.12.09-11.32.10:798][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.12.09-11.32.10:822][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.12.09-11.32.10:920][654]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.
+[2021.12.09-11.32.10:927][654]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.32.10:927][654]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.32.24:192][ 53]BlueprintLog: New page: Compile InRange
+[2021.12.09-11.32.24:216][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.12.09-11.32.24:242][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.32.24:246][ 53]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange9913570841501570229897A4A9105CEC.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.32.24:260][ 53]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.32.24:260][ 53]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.32.32:973][  1]BlueprintLog: New page: Compile InRange
+[2021.12.09-11.32.33:001][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.12.09-11.32.33:046][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.32.33:052][  1]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRangeFEF3BC4446FE0ACEF8200A9F9C593C8A.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.32.33:087][  1]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.32.33:088][  1]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.33.24:169][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.33.24:176][833]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange8876E4AF439ECF3750E597ACE3C29A31.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.33.24:189][833]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.33.24:189][833]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.33.33:044][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.33.33:051][683]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange7CD03C054D8F38A6981FF1A023BE8097.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.33.33:068][683]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.33.33:068][683]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.33.42:355][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.33.42:363][599]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange9749469843D358113C9E348D1DD5F57A.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.33.42:381][599]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.33.42:381][599]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.33.46:935][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.33.46:945][ 83]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRangeE16893C94F67B2FDE4E434A809E0CF24.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.33.46:965][ 83]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.33.46:965][ 83]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.33.53:175][725]BlueprintLog: New page: Compile InRange
+[2021.12.09-11.33.53:205][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.12.09-11.33.53:239][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.33.53:246][725]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange76C31F5A472B3705910704929B54D783.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.33.53:260][725]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.33.53:260][725]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.33.57:018][133]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.33.57:019][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.35.17:877][975]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_mob4E7363C749BF4326361CB48827F78B28.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.uasset'
+[2021.12.09-11.35.17:897][975]AssetCheck: New page: Asset Save: Zombie_mob
+[2021.12.09-11.35.17:897][975]LogContentValidation: Display: Validating BehaviorTree /Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.Zombie_mob
+[2021.12.09-11.36.11:466][390]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.09-11.36.17:183][ 34]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_mob0167FCCE408AC520C6268E9EA53BEDAA.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.uasset'
+[2021.12.09-11.36.17:184][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie.uasset" SILENT=true
+[2021.12.09-11.36.17:188][ 34]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie6B2E786844AD21186802149B97E49D94.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie.uasset'
+[2021.12.09-11.36.17:206][ 34]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.09-11.36.17:206][ 34]LogContentValidation: Display: Validating BehaviorTree /Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.Zombie_mob
+[2021.12.09-11.36.17:206][ 34]LogContentValidation: Display: Validating BlackboardData /Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie.Zombie
+[2021.12.09-11.36.53:251][ 94]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_mob44B7665645BE8F1CAAF61F9E102D70DE.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.uasset'
+[2021.12.09-11.36.53:265][ 94]AssetCheck: New page: Asset Save: Zombie_mob
+[2021.12.09-11.36.53:265][ 94]LogContentValidation: Display: Validating BehaviorTree /Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.Zombie_mob
+[2021.12.09-11.36.54:519][184]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-11.36.54:538][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-11.36.54:538][184]BlueprintLog: Warning: Blueprint failed to compile:  ThirdPersonGameMode
+[2021.12.09-11.36.54:538][184]LogCustomDialog: Dialog displayed:
+[2021.12.09-11.36.56:675][184]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2021.12.09-11.36.56:683][184]PIE: New page: PIE session: tutorial_map_v1 (Dec 8, 2021, 7:36:56 PM)
+[2021.12.09-11.36.56:684][184]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.09-11.36.56:685][184]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.09-11.36.56:685][184]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.36.56:731][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045247s)
+[2021.12.09-11.36.56:732][184]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.09-11.36.56:732][184]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020C580E3A00), frame # 37184
+[2021.12.09-11.36.56:732][184]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020C3E8839C0), frame # 37184
+[2021.12.09-11.36.56:732][184]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2021.12.09-11.36.56:732][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.046769s)
+[2021.12.09-11.36.56:759][184]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.12.09-11.36.56:762][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-11.36.56:762][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-11.36.56:762][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-11.36.56:762][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-11.36.56:762][184]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-11.36.56:762][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-11.36.56:763][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-11.36.56:763][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-11.36.56:763][184]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-11.36.56:763][184]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-11.36.56:765][184]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-11.36.56:765][184]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-11.36.56:779][184]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.12.09-11.36.56:779][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-11.36.56:779][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-11.36.56:779][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-11.36.56:780][184]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-11.36.56:792][184]LogInit: FAudioDevice initialized.
+[2021.12.09-11.36.56:801][184]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-11.36.56:809][184]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.12.09-03.36.56
+[2021.12.09-11.36.56:810][184]LogWorld: Bringing up level for play took: 0.007237
+[2021.12.09-11.36.56:810][184]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.12.09-11.36.56:824][184]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.12.09-11.36.56:828][184]PIE: Server logged in
+[2021.12.09-11.36.56:830][184]PIE: Play in editor total start time 2.295 seconds.
+[2021.12.09-11.37.54:856][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.37.54:856][954]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.37.54:857][954]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.37.54:858][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.37.54:875][954]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-11.37.54:881][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.37.54:922][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.37.54:941][954]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020C3E8839C0), frame # 41954
+[2021.12.09-11.37.54:941][954]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020C580E3A00), frame # 41954
+[2021.12.09-11.37.54:974][954]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.12.09-11.37.55:027][955]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.12.09-11.38.36:684][456]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.AttackTask
+[2021.12.09-11.38.40:905][765]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.38.40:905][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.38.41:871][824]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.39.57:109][675]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-11.39.57:130][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-11.39.57:130][675]PIE: New page: PIE session: tutorial_map_v1 (Dec 8, 2021, 7:39:57 PM)
+[2021.12.09-11.39.57:154][675]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.39.57:197][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043305s)
+[2021.12.09-11.39.57:198][675]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.09-11.39.57:198][675]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020CF9D79400), frame # 45675
+[2021.12.09-11.39.57:198][675]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020CE0B6EE80), frame # 45675
+[2021.12.09-11.39.57:198][675]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2021.12.09-11.39.57:199][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.044968s)
+[2021.12.09-11.39.57:236][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.12.09-11.39.57:245][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-11.39.57:245][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-11.39.57:245][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-11.39.57:245][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-11.39.57:245][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-11.39.57:245][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-11.39.57:245][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-11.39.57:245][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-11.39.57:245][675]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-11.39.57:245][675]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-11.39.57:248][675]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-11.39.57:248][675]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-11.39.57:261][675]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.12.09-11.39.57:261][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-11.39.57:261][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-11.39.57:261][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-11.39.57:262][675]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-11.39.57:273][675]LogInit: FAudioDevice initialized.
+[2021.12.09-11.39.57:285][675]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-11.39.57:292][675]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.12.09-03.39.57
+[2021.12.09-11.39.57:292][675]LogWorld: Bringing up level for play took: 0.007008
+[2021.12.09-11.39.57:293][675]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.12.09-11.39.57:298][675]PIE: Server logged in
+[2021.12.09-11.39.57:299][675]PIE: Play in editor total start time 0.173 seconds.
+[2021.12.09-11.40.33:747][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.40.33:747][755]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.40.33:747][755]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.40.33:749][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.40.33:758][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-11.40.33:764][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.40.33:809][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.40.33:811][755]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020CE0B6EE80), frame # 48755
+[2021.12.09-11.40.33:811][755]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020CF9D79400), frame # 48755
+[2021.12.09-11.40.33:815][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.12.09-11.40.33:861][756]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.12.09-11.41.23:273][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.12.09-11.41.23:276][ 77]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.040
+[2021.12.09-11.41.23:277][ 77]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob] ([1] browsable assets)...
+[2021.12.09-11.41.23:277][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob]
+[2021.12.09-11.41.23:288][ 77]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_mob_Auto121C33477473331030852999E44277599.tmp' to '../../../projects/ColdDawn/Saved/Autosaves/Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob_Auto1.uasset'
+[2021.12.09-11.41.23:288][ 77]LogFileHelpers: Auto-saving content packages took 0.012
+[2021.12.09-11.42.15:634][701]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_mob5879DC3E445F6BCE982EB1BA04AB4CC8.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.uasset'
+[2021.12.09-11.42.15:659][701]AssetCheck: New page: Asset Save: Zombie_mob
+[2021.12.09-11.42.15:659][701]LogContentValidation: Display: Validating BehaviorTree /Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.Zombie_mob
+[2021.12.09-11.42.20:098][ 74]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-11.42.20:116][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-11.42.20:116][ 74]PIE: New page: PIE session: tutorial_map_v1 (Dec 8, 2021, 7:42:20 PM)
+[2021.12.09-11.42.20:116][ 74]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.42.20:159][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042797s)
+[2021.12.09-11.42.20:159][ 74]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.09-11.42.20:160][ 74]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020CE7BEB800), frame # 51074
+[2021.12.09-11.42.20:160][ 74]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020CE0B5E200), frame # 51074
+[2021.12.09-11.42.20:160][ 74]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2021.12.09-11.42.20:160][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.044114s)
+[2021.12.09-11.42.20:190][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.12.09-11.42.20:192][ 74]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-11.42.20:193][ 74]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-11.42.20:193][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-11.42.20:193][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-11.42.20:193][ 74]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-11.42.20:193][ 74]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-11.42.20:193][ 74]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-11.42.20:193][ 74]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-11.42.20:193][ 74]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-11.42.20:193][ 74]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-11.42.20:195][ 74]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-11.42.20:195][ 74]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-11.42.20:208][ 74]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.12.09-11.42.20:208][ 74]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-11.42.20:208][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-11.42.20:208][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-11.42.20:209][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-11.42.20:220][ 74]LogInit: FAudioDevice initialized.
+[2021.12.09-11.42.20:230][ 74]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-11.42.20:236][ 74]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.12.09-03.42.20
+[2021.12.09-11.42.20:237][ 74]LogWorld: Bringing up level for play took: 0.006323
+[2021.12.09-11.42.20:237][ 74]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.12.09-11.42.20:242][ 74]PIE: Server logged in
+[2021.12.09-11.42.20:243][ 74]PIE: Play in editor total start time 0.13 seconds.
+[2021.12.09-11.43.04:866][683]LogCharacterMovement: Zombie_male__2 is stuck and failed to move! Velocity: X=9.19 Y=33.58 Z=0.00 Location: X=-2736.47 Y=1209.01 Z=90.28 Normal: X=-0.31 Y=0.95 Z=0.00 PenetrationDepth:29.042 Actor:BaseProjectile_C_3 Component:Bullet BoneName:None (0 other events since notify)
+[2021.12.09-11.43.05:298][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.43.05:298][706]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.43.05:299][706]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.43.05:300][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.43.05:309][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-11.43.05:315][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.43.05:343][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.43.05:359][706]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020CE0B5E200), frame # 54706
+[2021.12.09-11.43.05:359][706]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020CE7BEB800), frame # 54706
+[2021.12.09-11.43.05:363][706]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.12.09-11.43.05:408][707]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.12.09-11.43.35:800][391]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_mob5A0AA5624B7C051490C21FBADC7CEBD8.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.uasset'
+[2021.12.09-11.43.35:829][391]AssetCheck: New page: Asset Save: Zombie_mob
+[2021.12.09-11.43.35:829][391]LogContentValidation: Display: Validating BehaviorTree /Game/ColdDawn/Blueprints/zombies/male_zombie/task/Zombie_mob.Zombie_mob
+[2021.12.09-11.43.46:567][748]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/PlayerChase.PlayerChase
+[2021.12.09-11.43.48:926][852]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-11.43.48:948][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-11.43.48:948][852]PIE: New page: PIE session: tutorial_map_v1 (Dec 8, 2021, 7:43:48 PM)
+[2021.12.09-11.43.48:949][852]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.43.49:001][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052428s)
+[2021.12.09-11.43.49:002][852]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.09-11.43.49:002][852]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020C99472200), frame # 55852
+[2021.12.09-11.43.49:002][852]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020CC47CBD80), frame # 55852
+[2021.12.09-11.43.49:003][852]LogPlayLevel: PIE: World Init took: (0.001750s)
+[2021.12.09-11.43.49:003][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.054406s)
+[2021.12.09-11.43.49:036][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.12.09-11.43.49:039][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-11.43.49:039][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-11.43.49:039][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-11.43.49:039][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-11.43.49:039][852]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-11.43.49:039][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-11.43.49:039][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-11.43.49:039][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-11.43.49:039][852]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-11.43.49:039][852]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-11.43.49:042][852]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-11.43.49:042][852]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-11.43.49:054][852]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.12.09-11.43.49:055][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-11.43.49:055][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-11.43.49:055][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-11.43.49:055][852]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-11.43.49:067][852]LogInit: FAudioDevice initialized.
+[2021.12.09-11.43.49:074][852]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-11.43.49:081][852]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.12.09-03.43.49
+[2021.12.09-11.43.49:082][852]LogWorld: Bringing up level for play took: 0.007161
+[2021.12.09-11.43.49:082][852]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.12.09-11.43.49:087][852]PIE: Server logged in
+[2021.12.09-11.43.49:088][852]PIE: Play in editor total start time 0.144 seconds.
+[2021.12.09-11.44.24:619][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.44.24:619][991]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.44.24:619][991]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.44.24:620][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.44.24:627][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-11.44.24:633][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.44.24:661][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.44.24:678][991]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020CC47CBD80), frame # 58991
+[2021.12.09-11.44.24:678][991]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020C99472200), frame # 58991
+[2021.12.09-11.44.24:681][991]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.12.09-11.44.24:728][992]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.12.09-11.44.37:846][984]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-11.44.37:866][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-11.44.37:866][984]PIE: New page: PIE session: tutorial_map_v1 (Dec 8, 2021, 7:44:37 PM)
+[2021.12.09-11.44.37:906][984]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.44.37:956][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049518s)
+[2021.12.09-11.44.37:957][984]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.09-11.44.37:957][984]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020CA007BE00), frame # 59984
+[2021.12.09-11.44.37:957][984]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020CC39B20C0), frame # 59984
+[2021.12.09-11.44.37:957][984]LogPlayLevel: PIE: World Init took: (0.001496s)
+[2021.12.09-11.44.37:957][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.051210s)
+[2021.12.09-11.44.37:991][984]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.12.09-11.44.37:994][984]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-11.44.37:994][984]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-11.44.37:994][984]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-11.44.37:994][984]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-11.44.37:994][984]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-11.44.37:994][984]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-11.44.37:994][984]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-11.44.37:994][984]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-11.44.37:995][984]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-11.44.37:995][984]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-11.44.37:997][984]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-11.44.37:997][984]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-11.44.38:010][984]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.12.09-11.44.38:011][984]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-11.44.38:011][984]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-11.44.38:011][984]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-11.44.38:012][984]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-11.44.38:023][984]LogInit: FAudioDevice initialized.
+[2021.12.09-11.44.38:030][984]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-11.44.38:037][984]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.12.09-03.44.38
+[2021.12.09-11.44.38:038][984]LogWorld: Bringing up level for play took: 0.007253
+[2021.12.09-11.44.38:038][984]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.12.09-11.44.38:043][984]PIE: Server logged in
+[2021.12.09-11.44.38:044][984]PIE: Play in editor total start time 0.181 seconds.
+[2021.12.09-11.44.57:719][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.44.57:719][264]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.44.57:719][264]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.44.57:720][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.44.57:728][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-11.44.57:733][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.44.57:764][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.44.57:779][264]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020CC39B20C0), frame # 61264
+[2021.12.09-11.44.57:779][264]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020CA007BE00), frame # 61264
+[2021.12.09-11.44.57:783][264]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.12.09-11.44.57:833][265]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.12.09-11.45.04:582][605]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.45.04:582][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.45.14:603][125]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.AttackTask
+[2021.12.09-11.47.39:726][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.47.39:736][757]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRangeFB56F9CB46111DDFD8BB5B97D6FAC2A9.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.47.39:758][757]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.47.39:758][757]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.48.09:697][849]BlueprintLog: New page: Compile InRange
+[2021.12.09-11.48.09:754][849]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.12.09-11.48.09:791][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset" SILENT=true
+[2021.12.09-11.48.09:801][849]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/InRange1B5C681444685682504EFA9CE43CA405.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.uasset'
+[2021.12.09-11.48.09:833][849]AssetCheck: New page: Asset Save: InRange
+[2021.12.09-11.48.09:833][849]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/InRange.InRange
+[2021.12.09-11.49.50:420][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset" SILENT=true
+[2021.12.09-11.49.50:446][361]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_male_C3B252EE445006CE33BACAB3FE51C58A.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset'
+[2021.12.09-11.49.50:486][361]AssetCheck: New page: Asset Save: Zombie_male_
+[2021.12.09-11.49.50:486][361]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.Zombie_male_
+[2021.12.09-11.49.51:005][385]BlueprintLog: New page: Compile Zombie_male_
+[2021.12.09-11.49.51:074][385]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2021.12.09-11.49.58:721][719]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/ColdDawn/Blueprints/zombies/male_zombie/animations/AttackAnimation1.AttackAnimation1
+[2021.12.09-11.49.58:740][719]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2021.12.09-11.49.58:881][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.12.09-11.49.58:887][719]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2021.12.09-11.49.58:931][719]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.12.09-11.50.07:980][ 45]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.50.07:980][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.50.08:112][ 45]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.50.08:112][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.50.11:166][187]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/AttackTask7E965B374753F37876309EAF30743857.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.uasset'
+[2021.12.09-11.50.11:190][187]AssetCheck: New page: Asset Save: AttackTask
+[2021.12.09-11.50.11:190][187]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.AttackTask
+[2021.12.09-11.50.48:769][857]BlueprintLog: New page: Compile Zombie_male_
+[2021.12.09-11.50.48:883][857]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2021.12.09-11.50.48:946][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset" SILENT=true
+[2021.12.09-11.50.48:971][857]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_male_6B53D3C4414E66DB561A539F25EC98FF.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset'
+[2021.12.09-11.50.48:996][857]AssetCheck: New page: Asset Save: Zombie_male_
+[2021.12.09-11.50.48:996][857]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.Zombie_male_
+[2021.12.09-11.53.00:764][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset" SILENT=true
+[2021.12.09-11.53.00:787][454]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_male_4A7F9EA84D556708440A31AB81E64B29.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset'
+[2021.12.09-11.53.00:805][454]AssetCheck: New page: Asset Save: Zombie_male_
+[2021.12.09-11.53.00:805][454]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.Zombie_male_
+[2021.12.09-11.53.01:205][473]BlueprintLog: New page: Compile Zombie_male_
+[2021.12.09-11.53.01:284][473]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2021.12.09-11.53.04:797][630]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/ColdDawn/Blueprints/zombies/male_zombie/animations/AttackAnimation1.AttackAnimation1
+[2021.12.09-11.53.04:802][630]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.12.09-11.53.04:838][630]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.12.09-11.53.33:873][114]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2021.12.09-11.53.34:000][114]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/tutorial_map_v1_Auto21DD8A09345C8464707E5138577143CFD.tmp' to '../../../projects/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/tutorial_map_v1_Auto2.umap'
+[2021.12.09-11.53.34:001][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.167
+[2021.12.09-11.53.34:001][114]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.167
+[2021.12.09-11.53.34:001][114]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask] ([1] browsable assets)...
+[2021.12.09-11.53.34:001][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask]
+[2021.12.09-11.53.34:007][114]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/AttackTask_Auto2DF6823D544CA5AA27744319316F4A7F7.tmp' to '../../../projects/ColdDawn/Saved/Autosaves/Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask_Auto2.uasset'
+[2021.12.09-11.53.34:008][114]LogFileHelpers: Auto-saving content packages took 0.007
+[2021.12.09-11.53.44:179][451]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/ColdDawn/Blueprints/zombies/male_zombie/animations/AttackAnimation2.AttackAnimation2
+[2021.12.09-11.53.55:333][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset" SILENT=true
+[2021.12.09-11.53.55:357][961]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_male_0E281FCE40AE0C4FB9FF5DA94F355034.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset'
+[2021.12.09-11.53.55:379][961]AssetCheck: New page: Asset Save: Zombie_male_
+[2021.12.09-11.53.55:379][961]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.Zombie_male_
+[2021.12.09-11.53.56:078][994]BlueprintLog: New page: Compile Zombie_male_
+[2021.12.09-11.53.56:155][994]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.12.09-11.53.58:802][126]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-11.53.58:822][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-11.53.58:822][126]PIE: New page: PIE session: tutorial_map_v1 (Dec 8, 2021, 7:53:58 PM)
+[2021.12.09-11.53.58:822][126]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.53.58:870][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047745s)
+[2021.12.09-11.53.58:871][126]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.09-11.53.58:871][126]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D14EDBE00), frame # 77126
+[2021.12.09-11.53.58:871][126]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020C57241800), frame # 77126
+[2021.12.09-11.53.58:871][126]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2021.12.09-11.53.58:871][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.049194s)
+[2021.12.09-11.53.58:909][126]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2021.12.09-11.53.58:911][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-11.53.58:911][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-11.53.58:911][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-11.53.58:911][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-11.53.58:911][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-11.53.58:911][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-11.53.58:912][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-11.53.58:912][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-11.53.58:912][126]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-11.53.58:912][126]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-11.53.58:914][126]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-11.53.58:914][126]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-11.53.58:927][126]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.12.09-11.53.58:927][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-11.53.58:927][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-11.53.58:927][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-11.53.58:928][126]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-11.53.58:939][126]LogInit: FAudioDevice initialized.
+[2021.12.09-11.53.58:946][126]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-11.53.58:952][126]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.12.09-03.53.58
+[2021.12.09-11.53.58:953][126]LogWorld: Bringing up level for play took: 0.005993
+[2021.12.09-11.53.58:953][126]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.12.09-11.53.58:958][126]PIE: Server logged in
+[2021.12.09-11.53.58:959][126]PIE: Play in editor total start time 0.141 seconds.
+[2021.12.09-11.54.30:534][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.54.30:534][104]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.54.30:534][104]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.54.30:535][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.54.30:546][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-11.54.30:553][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.54.30:598][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.54.30:604][104]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020C57241800), frame # 80104
+[2021.12.09-11.54.30:604][104]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D14EDBE00), frame # 80104
+[2021.12.09-11.54.30:607][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2021.12.09-11.54.30:652][105]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.12.09-11.55.18:265][604]LogEditorTransaction: Undo Move Nodes
+[2021.12.09-11.55.18:352][604]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.12.09-11.55.18:996][630]LogEditorTransaction: Undo Paste clipboard contents
+[2021.12.09-11.55.19:081][630]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.12.09-11.56.20:087][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset" SILENT=true
+[2021.12.09-11.56.20:110][ 96]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_male_E0209AC34D93416C0391D596E888B04E.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset'
+[2021.12.09-11.56.20:128][ 96]AssetCheck: New page: Asset Save: Zombie_male_
+[2021.12.09-11.56.20:128][ 96]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.Zombie_male_
+[2021.12.09-11.56.22:642][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_" FILE="../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset" SILENT=true
+[2021.12.09-11.56.22:664][241]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/Zombie_male_8C3F598F439BCB9D3D603A9C62A93195.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.uasset'
+[2021.12.09-11.56.22:679][241]AssetCheck: New page: Asset Save: Zombie_male_
+[2021.12.09-11.56.22:679][241]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/Zombie_male_.Zombie_male_
+[2021.12.09-11.56.25:419][394]BlueprintLog: New page: Compile Zombie_male_
+[2021.12.09-11.56.25:490][394]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2021.12.09-11.57.03:091][496]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/AttackTaskAE66EEED43FD6956A3C4B5BF706F3C70.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.uasset'
+[2021.12.09-11.57.03:112][496]AssetCheck: New page: Asset Save: AttackTask
+[2021.12.09-11.57.03:112][496]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.AttackTask
+[2021.12.09-11.57.06:645][689]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/AttackTask46D221624D86CE5B7405D98BE9F0DFD8.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.uasset'
+[2021.12.09-11.57.06:663][689]AssetCheck: New page: Asset Save: AttackTask
+[2021.12.09-11.57.06:663][689]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.AttackTask
+[2021.12.09-11.57.08:361][780]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/AttackTask85499A1E4C2DAC6409FB0D8EAD52908F.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.uasset'
+[2021.12.09-11.57.08:382][780]AssetCheck: New page: Asset Save: AttackTask
+[2021.12.09-11.57.08:382][780]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.AttackTask
+[2021.12.09-11.57.09:314][832]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/AttackTask1EDF679442831C449A0BD4B2F207C762.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.uasset'
+[2021.12.09-11.57.09:335][832]AssetCheck: New page: Asset Save: AttackTask
+[2021.12.09-11.57.09:335][832]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.AttackTask
+[2021.12.09-11.57.10:016][869]BlueprintLog: New page: Compile AttackTask
+[2021.12.09-11.57.10:075][869]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2021.12.09-11.57.13:297][ 39]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.57.13:298][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.57.13:455][ 39]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.57.13:455][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.57.19:215][378]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-11.57.19:237][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-11.57.19:238][378]PIE: New page: PIE session: tutorial_map_v1 (Dec 8, 2021, 7:57:19 PM)
+[2021.12.09-11.57.19:238][378]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.57.19:289][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051043s)
+[2021.12.09-11.57.19:290][378]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.09-11.57.19:290][378]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020C99471E00), frame # 89378
+[2021.12.09-11.57.19:290][378]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020CCA1B25C0), frame # 89378
+[2021.12.09-11.57.19:290][378]LogPlayLevel: PIE: World Init took: (0.001402s)
+[2021.12.09-11.57.19:290][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.052591s)
+[2021.12.09-11.57.19:341][378]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2021.12.09-11.57.19:345][378]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-11.57.19:345][378]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-11.57.19:345][378]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-11.57.19:345][378]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-11.57.19:345][378]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-11.57.19:345][378]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-11.57.19:345][378]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-11.57.19:345][378]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-11.57.19:346][378]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-11.57.19:346][378]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-11.57.19:348][378]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-11.57.19:348][378]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-11.57.19:360][378]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.12.09-11.57.19:360][378]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-11.57.19:360][378]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-11.57.19:360][378]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-11.57.19:361][378]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-11.57.19:371][378]LogInit: FAudioDevice initialized.
+[2021.12.09-11.57.19:378][378]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.09-11.57.19:384][378]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.12.09-03.57.19
+[2021.12.09-11.57.19:385][378]LogWorld: Bringing up level for play took: 0.006351
+[2021.12.09-11.57.19:385][378]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.12.09-11.57.19:390][378]PIE: Server logged in
+[2021.12.09-11.57.19:391][378]PIE: Play in editor total start time 0.157 seconds.
+[2021.12.09-11.57.41:575][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.57.41:575][926]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.09-11.57.41:576][926]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.57.41:577][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.57.41:585][926]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-11.57.41:592][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.57.41:636][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-11.57.41:637][926]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020CCA1B25C0), frame # 91926
+[2021.12.09-11.57.41:637][926]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020C99471E00), frame # 91926
+[2021.12.09-11.57.41:642][926]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.12.09-11.57.41:682][927]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.12.09-11.57.42:259][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/tutorial_map_v1" FILE="../../../projects/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.09-11.57.42:292][990]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.12.09-11.57.42:413][990]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/tutorial_map_v1232199E542A4F112A79CD5BC83132B7A.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.12.09-11.57.42:445][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/tutorial_map_v1_BuiltData" FILE="../../../projects/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset" SILENT=true
+[2021.12.09-11.57.42:677][990]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/tutorial_map_v1_BuiltDataE481FDF64AF1C1F1348977843257388E.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.09-11.57.42:705][990]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.09-11.57.42:705][990]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.09-11.57.42:705][990]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.09-11.57.58:436][294]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/AttackTaskCA6C91CF485DBB40474AE7B7ED2FCCD7.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.uasset'
+[2021.12.09-11.57.58:470][294]AssetCheck: New page: Asset Save: AttackTask
+[2021.12.09-11.57.58:470][294]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/zombies/male_zombie/task/AttackTask.AttackTask
+[2021.12.09-11.58.03:415][723]LogSlate: Window 'AttackTask' being destroyed
+[2021.12.09-11.58.03:421][723]LogSlate: Window 'AttackTask' being destroyed
+[2021.12.09-11.58.03:456][723]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.03:456][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.58.03:523][723]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.03:523][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.58.03:589][723]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.03:589][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-11.58.05:009][874]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.12.09-11.58.05:979][874]LogSlate: Window 'Save Content' being destroyed
+[2021.12.09-11.58.06:027][874]LogSavePackage: Moving '../../../projects/ColdDawn/Saved/AttackAnimation207B316484E03C18288C5B88B09F0582C.tmp' to '../../../projects/ColdDawn/Content/ColdDawn/Blueprints/zombies/male_zombie/animations/AttackAnimation2.uasset'
+[2021.12.09-11.58.06:108][874]LogSlate: Window 'ColdDawn - Unreal Editor' being destroyed
+[2021.12.09-11.58.06:234][874]AssetCheck: New page: Asset Save: AttackAnimation2
+[2021.12.09-11.58.06:234][874]LogContentValidation: Display: Validating AnimMontage /Game/ColdDawn/Blueprints/zombies/male_zombie/animations/AttackAnimation2.AttackAnimation2
+[2021.12.09-11.58.06:243][875]Cmd: QUIT_EDITOR
+[2021.12.09-11.58.06:243][875]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.12.09-11.58.06:250][875]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.12.09-11.58.06:847][875]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.12.09-11.58.06:856][875]LogExit: Preparing to exit.
+[2021.12.09-11.58.08:017][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:018][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:018][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:018][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:018][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:018][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:018][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:018][875]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.08:024][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:024][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:024][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:024][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:024][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:024][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:024][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:024][875]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.08:030][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:030][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:030][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:030][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:030][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:030][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:030][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:030][875]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.08:035][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:035][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:035][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:035][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:035][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:035][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:035][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:035][875]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.08:041][875]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.08:047][875]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.08:053][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:053][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:053][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:053][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:053][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:053][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:053][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.09-11.58.08:053][875]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-11.58.08:125][875]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.12.09-11.58.08:137][875]LogExit: Editor shut down
+[2021.12.09-11.58.08:145][875]LogExit: Transaction tracking system shut down
+[2021.12.09-11.58.08:345][875]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020C3B48E200), frame # 93875
+[2021.12.09-11.58.08:345][875]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020C3B4B2E80), frame # 93875
+[2021.12.09-11.58.08:348][875]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000020C2CCA1D00), frame # 93875
+[2021.12.09-11.58.08:348][875]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020C2CC02AC0), frame # 93875
+[2021.12.09-11.58.08:348][875]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020C2CC07200), frame # 93875
+[2021.12.09-11.58.08:477][875]LogExit: Object subsystem successfully closed.
+[2021.12.09-11.58.08:499][875]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module SequencerWidgets (804)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module PinnedCommandList (802)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module SkeletonEditor (800)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module AnimationEditor (798)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (796)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module Voice (794)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module BlueprintGraph (792)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2021.12.09-11.58.08:511][875]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2021.12.09-11.58.08:512][875]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2021.12.09-11.58.08:513][875]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2021.12.09-11.58.08:514][875]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2021.12.09-11.58.08:514][875]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2021.12.09-11.58.08:514][875]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2021.12.09-11.58.08:514][875]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2021.12.09-11.58.08:514][875]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2021.12.09-11.58.08:680][875]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2021.12.09-11.58.08:681][875]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2021.12.09-11.58.08:713][875]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2021.12.09-11.58.08:731][875]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2021.12.09-11.58.08:731][875]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2021.12.09-11.58.08:731][875]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2021.12.09-11.58.08:731][875]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2021.12.09-11.58.08:733][875]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2021.12.09-11.58.08:733][875]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2021.12.09-11.58.08:733][875]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2021.12.09-11.58.08:733][875]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2021.12.09-11.58.08:734][875]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2021.12.09-11.58.08:876][875]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2021.12.09-11.58.08:879][875]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.12.09-11.58.08:880][875]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.12.09-11.58.08:980][875]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.12.09-11.58.09:081][875]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.12.09-11.58.09:081][875]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.12.09-11.58.09:081][875]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.12.09-11.58.09:081][875]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.12.09-11.58.09:082][875]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.12.09-11.58.09:082][875]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.12.09-11.58.09:082][875]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.12.09-11.58.09:082][875]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.12.09-11.58.09:082][875]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.12.09-11.58.09:082][875]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.12.09-11.58.09:083][875]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.12.09-11.58.09:084][875]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.12.09-11.58.09:085][875]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.12.09-11.58.09:085][875]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.12.09-11.58.09:085][875]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.12.09-11.58.09:085][875]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.12.09-11.58.09:085][875]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.12.09-11.58.09:086][875]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.12.09-11.58.09:087][875]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.12.09-11.58.09:088][875]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.12.09-11.58.09:091][875]LogHMD: Freeing OpenVRDLLHandle.
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.12.09-11.58.09:091][875]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.12.09-11.58.09:092][875]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.12.09-11.58.09:092][875]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.12.09-11.58.09:099][875]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.12.09-11.58.09:099][875]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.12.09-11.58.09:099][875]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA22EBB9E-47D3-2E05-FB28-D0B61652B8E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=6b71276541906ae3f0f629a0660bad1a%7C6275c2edd00c49c5a25f818562fc7496%7Ca2d8b04b-d014-4f49-afbb-be764c135728&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.12.09-11.58.09:125][875]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.12.09-11.58.09:126][875]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.12.09-11.58.09:127][875]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.12.09-11.58.09:128][875]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.12.09-11.58.09:128][875]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.12.09-11.58.09:128][875]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.12.09-11.58.09:128][875]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.12.09-11.58.09:129][875]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.12.09-11.58.09:129][875]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.12.09-11.58.09:129][875]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.12.09-11.58.09:129][875]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.12.09-11.58.09:130][875]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.12.09-11.58.09:130][875]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.12.09-11.58.09:130][875]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.12.09-11.58.09:130][875]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.12.09-11.58.09:130][875]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.12.09-11.58.09:130][875]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.12.09-11.58.09:130][875]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.12.09-11.58.09:130][875]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.12.09-11.58.09:130][875]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.12.09-11.58.09:132][875]LogD3D11RHI: Shutdown
+[2021.12.09-11.58.09:132][875]LogD3D11RHI: CleanupD3DDevice
+[2021.12.09-11.58.09:145][875]LogExit: Exiting.
+[2021.12.09-11.58.09:156][875]Log file closed, 12/09/21 03:58:09
