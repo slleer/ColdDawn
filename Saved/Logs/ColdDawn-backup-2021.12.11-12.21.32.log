@@ -1,0 +1,1083 @@
+﻿Log file open, 12/11/21 03:30:23
+LogInit: Display: Running engine for game: ColdDawn
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.258777
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.11-11.30.24:119][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.11-11.30.24:119][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.11-11.30.24:120][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.11-11.30.24:120][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.11-11.30.24:120][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.11-11.30.24:120][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.11-11.30.24:120][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.11-11.30.24:120][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.11-11.30.24:122][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.11-11.30.24:122][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.11-11.30.24:123][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.11-11.30.24:124][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.11-11.30.24:124][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.11-11.30.24:124][  0]LogHAL: Display: Platform has ~ 4 GB [4185088000 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.11-11.30.24:124][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.11-11.30.24:124][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.11-11.30.24:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.11-11.30.24:125][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.11-11.30.24:126][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.11-11.30.24:127][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.11-11.30.24:127][  0]LogInit: Computer: DML-GE0OEAKTBKD
+[2021.12.11-11.30.24:127][  0]LogInit: User: Administrator
+[2021.12.11-11.30.24:127][  0]LogInit: CPU Page size=4096, Cores=2
+[2021.12.11-11.30.24:127][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.11-11.30.24:127][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2021.12.11-11.30.24:127][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.11-11.30.24:127][  0]LogMemory: Process Physical Memory: 115.32 MB used, 115.32 MB peak
+[2021.12.11-11.30.24:127][  0]LogMemory: Process Virtual Memory: 100.16 MB used, 100.16 MB peak
+[2021.12.11-11.30.24:127][  0]LogMemory: Physical Memory: 3183.84 MB used,  807.37 MB free, 3991.21 MB total
+[2021.12.11-11.30.24:127][  0]LogMemory: Virtual Memory: 5129.55 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2021.12.11-11.30.24:132][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.11-11.30.24:164][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.11-11.30.24:165][  0]LogInit: Using OS detected language (en-US).
+[2021.12.11-11.30.24:165][  0]LogInit: Using OS detected locale (en-US).
+[2021.12.11-11.30.24:169][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.12.11-11.30.24:378][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.11-11.30.24:416][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.11-11.30.24:416][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.11-11.30.24:709][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.11-11.30.24:709][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.11-11.30.24:709][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.11-11.30.24:709][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.11-11.30.24:840][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 930MX' (Feature Level 11_0)
+[2021.12.11-11.30.24:840][  0]LogD3D11RHI:       2010/0/1995 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.12.11-11.30.24:863][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2021.12.11-11.30.24:863][  0]LogD3D11RHI:       128/0/1995 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.12.11-11.30.24:866][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.11-11.30.24:866][  0]LogD3D11RHI:       0/0/1995 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.11-11.30.24:866][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.11-11.30.24:872][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.11-11.30.24:872][  0]LogD3D11RHI:     GPU DeviceId: 0x134e (for the marketing name, search the web for "GPU Device Id")
+[2021.12.11-11.30.24:872][  0]LogWindows: EnumDisplayDevices:
+[2021.12.11-11.30.24:873][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2021.12.11-11.30.24:873][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.12.11-11.30.24:873][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.12.11-11.30.24:873][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.12.11-11.30.24:873][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 930MX
+[2021.12.11-11.30.24:874][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.12.11-11.30.24:874][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.12.11-11.30.24:874][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2021.12.11-11.30.24:977][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.11-11.30.24:978][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.11-11.30.25:003][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.12.11-11.30.25:413][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.11-11.30.25:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.11-11.30.25:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.11-11.30.25:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.11-11.30.25:484][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.11-11.30.25:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.11-11.30.25:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.11-11.30.25:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.11-11.30.25:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.11-11.30.25:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.11-11.30.25:553][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.11-11.30.25:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.11-11.30.25:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.11-11.30.25:612][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.11-11.30.25:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.11-11.30.25:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.11-11.30.25:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.11-11.30.25:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.11-11.30.25:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.11-11.30.25:661][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.11-11.30.25:669][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.11-11.30.25:731][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Intermediate/Shaders/WorkingDirectory/8164/).
+[2021.12.11-11.30.25:731][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/59D940924C9D75D2F5B4729D2AF0CA3B/'.
+[2021.12.11-11.30.25:732][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.12.11-11.30.25:732][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.11-11.30.25:732][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.11-11.30.26:658][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.11-11.30.26:734][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.11-11.30.26:734][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.12.11-11.30.26:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.11-11.30.26:737][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.11-11.30.26:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.11-11.30.26:737][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.11-11.30.26:755][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.11-11.30.26:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.11-11.30.26:755][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.11-11.30.26:757][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.11-11.30.26:757][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.11-11.30.26:757][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.11-11.30.26:816][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.11-11.30.26:817][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.11-11.30.26:854][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2021.12.11-11.30.27:190][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.11-11.30.27:341][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.11-11.30.27:341][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.11-11.30.27:341][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.11-11.30.27:341][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.11-11.30.27:341][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.11-11.30.27:364][  0]LogNetVersion: ColdDawn 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3432050753)
+[2021.12.11-11.30.28:165][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000294FC5C9BC0), frame # 0
+[2021.12.11-11.30.28:165][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000294FC516AC0), frame # 0
+[2021.12.11-11.30.28:166][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000294FC571E00), frame # 0
+[2021.12.11-11.30.28:250][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.076393 seconds
+[2021.12.11-11.30.28:255][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.12.11-11.30.28:255][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.12.11-11.30.28:255][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.11-11.30.28:625][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.11-11.30.28:628][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.11-11.30.28:712][  0]SourceControl: Source control is disabled
+[2021.12.11-11.30.28:712][  0]SourceControl: Source control is disabled
+[2021.12.11-11.30.28:715][  0]SourceControl: Source control is disabled
+[2021.12.11-11.30.28:718][  0]SourceControl: Source control is disabled
+[2021.12.11-11.30.28:725][  0]SourceControl: Source control is disabled
+[2021.12.11-11.30.28:738][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.11-11.30.28:739][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.11-11.30.29:003][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.11-11.30.29:028][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.11-11.30.29:028][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.11-11.30.29:087][  0]LogOcInput: OculusInput pre-init called
+[2021.12.11-11.30.29:100][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.12.11-11.30.29:100][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.12.11-11.30.29:187][  0]LogEngine: Initializing Engine...
+[2021.12.11-11.30.29:188][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.11-11.30.29:188][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.11-11.30.29:189][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.12.11-11.30.29:345][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.11-11.30.29:356][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.11-11.30.29:356][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029483BB4600), frame # 0
+[2021.12.11-11.30.29:356][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029483BB2200), frame # 0
+[2021.12.11-11.30.29:379][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-11.30.29:379][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-11.30.29:379][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-11.30.29:379][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-11.30.29:379][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-11.30.29:379][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-11.30.29:379][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-11.30.29:379][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-11.30.29:379][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-11.30.29:379][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-11.30.29:392][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-11.30.29:392][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-11.30.29:534][  0]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.11-11.30.29:538][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-11.30.29:541][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-11.30.29:541][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-11.30.29:542][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-11.30.29:543][  0]LogInit: FAudioDevice initialized.
+[2021.12.11-11.30.29:544][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.11-11.30.29:628][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.11-11.30.29:630][  0]LogInit: Texture streaming: Enabled
+[2021.12.11-11.30.29:647][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.11-11.30.29:647][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.11-11.30.29:656][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.11-11.30.29:711][  0]LogInit: Transaction tracking system initialized
+[2021.12.11-11.30.29:733][  0]BlueprintLog: New page: Editor Load
+[2021.12.11-11.30.29:803][  0]LocalizationService: Localization service is disabled
+[2021.12.11-11.30.29:894][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.11-11.30.29:895][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.11-11.30.29:999][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.12.11-11.30.29:999][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.11-11.30.30:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Documents/GitHub/ColdDawn/Content/' took 0.07s
+[2021.12.11-11.30.30:538][  0]SourceControl: Source control is disabled
+[2021.12.11-11.30.30:538][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.384
+[2021.12.11-11.30.30:539][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.11-11.30.30:539][  0]LightingResults: New page: Lighting Build
+[2021.12.11-11.30.30:540][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.30.30:540][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.30.30:540][  0]MapCheck: New page: Map Check
+[2021.12.11-11.30.30:540][  0]LightingResults: New page: Lighting Build
+[2021.12.11-11.30.30:549][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029483BB4600), frame # 0
+[2021.12.11-11.30.30:549][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029483BB2200), frame # 0
+[2021.12.11-11.30.30:550][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.12.11-11.30.33:514][  0]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.11-11.30.33:514][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000294A01A8A00), frame # 0
+[2021.12.11-11.30.33:514][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000294A00F9BC0), frame # 0
+[2021.12.11-11.30.33:528][  0]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere needed to have new flag set bUsedWithStaticLighting !
+[2021.12.11-11.30.33:564][  0]LogMaterial: Display: Missing cached shader map for material M_MaterialSphere, compiling. 
+[2021.12.11-11.30.33:655][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2021.12.11-11.30.33:655][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2021.12.11-11.30.33:655][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2021.12.11-11.30.33:656][  0]MapCheck: Warning: M_MaterialSphere Material /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2021.12.11-11.30.33:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.11-11.30.33:922][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.12.11-11.30.33:923][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.11-11.30.33:923][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.23ms to complete.
+[2021.12.11-11.30.33:969][  0]LogFileHelpers: Loading map 'tutorial_map_v1' took 3.431
+[2021.12.11-11.30.33:976][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.821
+[2021.12.11-11.30.34:327][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.30.34:345][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.30.34:362][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.30.34:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.30.34:403][  0]LogCollectionManager: Loaded 0 collections in 0.003347 seconds
+[2021.12.11-11.30.34:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Collections/' took 0.00s
+[2021.12.11-11.30.34:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Documents/GitHub/ColdDawn/Content/Developers/Administrator/Collections/' took 0.00s
+[2021.12.11-11.30.34:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Documents/GitHub/ColdDawn/Content/Collections/' took 0.00s
+[2021.12.11-11.30.34:466][  0]LogContentBrowser: Native class hierarchy populated in 0.0239 seconds. Added 3427 classes and 821 folders.
+[2021.12.11-11.30.34:484][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2021.12.11-11.30.34:728][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2021.12.11-11.30.34:734][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0031 seconds. Added 2 classes and 0 folders.
+[2021.12.11-11.30.34:896][  0]LogSlate: Took 0.001093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.11-11.30.34:917][  0]LogSlate: Took 0.003357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.11-11.30.34:963][  0]LogSlate: Took 0.001188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.11-11.30.35:199][  0]LogRenderer: Reallocating scene render targets to support 1012x432 Format 10 NumSamples 1 (Frame:1).
+[2021.12.11-11.30.35:559][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2021.12.11-11.30.35:559][  0]LogLoad: (Engine Initialization) Total time: 13.40 seconds
+[2021.12.11-11.30.35:559][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.11-11.30.35:668][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.11-11.30.36:176][  0]LogSlate: Took 0.044044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.11-11.30.40:905][  3]LogAssetRegistry: Asset discovery search completed in 14.0513 seconds
+[2021.12.11-11.30.40:918][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2021.12.11-11.30.40:950][  3]LogSlate: Took 0.000579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.11-11.30.48:557][282]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.30.49:189][282]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0130 seconds. Added 125 classes and 0 folders.
+[2021.12.11-11.30.50:715][282]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogUI.QuestLogUI
+[2021.12.11-11.30.51:248][282]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/QuestSystem/QuestLog.QuestLog
+[2021.12.11-11.30.51:763][282]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestUI.QuestUI
+[2021.12.11-11.30.52:217][282]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.11-11.30.52:841][282]LogSlate: Took 0.003579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.11-11.30.53:321][283]LogSlate: Took 0.001299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.11-11.31.17:852][136]LogSlate: Took 0.014581 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.12.11-11.31.32:364][549]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.31.32:364][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.31.32:412][549]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.31.32:412][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.31.32:787][553]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.31.32:787][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.31.33:135][565]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.31.33:135][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.31.33:171][565]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.31.33:171][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.31.33:729][578]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.31.33:729][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.35.19:621][407]BlueprintLog: New page: Compile QuestLogEntryUI
+[2021.12.11-11.35.19:791][407]LogUObjectHash: Compacting FUObjectHashTables data took   7.89ms
+[2021.12.11-11.35.19:935][407]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogEntryUI2B3BE7E749EF7B0EFF5D54A43FDBA903.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.uasset'
+[2021.12.11-11.35.19:976][407]AssetCheck: New page: Asset Save: QuestLogEntryUI
+[2021.12.11-11.35.19:976][407]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.35.20:024][407]LogSlate: Took 0.001175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.11-11.35.34:780][949]BlueprintLog: New page: Compile QuestLogEntryUI
+[2021.12.11-11.35.34:848][949]LogUObjectHash: Compacting FUObjectHashTables data took   6.56ms
+[2021.12.11-11.35.34:908][949]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogEntryUI5A14DE0C417E6B52BC35E4ACE3ADA6E7.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.uasset'
+[2021.12.11-11.35.34:934][949]AssetCheck: New page: Asset Save: QuestLogEntryUI
+[2021.12.11-11.35.34:934][949]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.35.35:424][965]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogEntryUI72FE3CF84E77C1CFDA0490B202D3B149.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.uasset'
+[2021.12.11-11.35.35:445][965]AssetCheck: New page: Asset Save: QuestLogEntryUI
+[2021.12.11-11.35.35:445][965]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.36.16:579][721]BlueprintLog: New page: Compile QuestLogEntryUI
+[2021.12.11-11.36.16:630][721]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.12.11-11.36.16:698][721]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogEntryUIE1AFA88040FF34B427BEA0B9381EFC76.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.uasset'
+[2021.12.11-11.36.16:717][721]AssetCheck: New page: Asset Save: QuestLogEntryUI
+[2021.12.11-11.36.16:717][721]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.36.23:255][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2021.12.11-11.36.23:441][ 38]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v19160CB11489568CCA86349ACAF0330DE.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.12.11-11.36.24:339][ 38]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1_BuiltDataEB2094904E3A3312BDD9FA948D40DCD9.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.11-11.36.24:399][ 38]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.11-11.36.24:399][ 38]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.11-11.36.24:399][ 38]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.11-11.36.30:740][332]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogUI.QuestLogUI
+[2021.12.11-11.36.47:821][994]BlueprintLog: New page: Compile QuestLogUI
+[2021.12.11-11.36.47:903][994]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.12.11-11.36.48:045][994]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogUI51CADCE0415DC2FA270B6D91672B14EA.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogUI.uasset'
+[2021.12.11-11.36.48:067][994]AssetCheck: New page: Asset Save: QuestLogUI
+[2021.12.11-11.36.48:067][994]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogUI.QuestLogUI
+[2021.12.11-11.37.02:315][620]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-11.37.02:365][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-11.37.02:376][620]PIE: New page: PIE session: tutorial_map_v1 (Dec 10, 2021, 7:37:02 PM)
+[2021.12.11-11.37.02:390][620]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.11-11.37.02:394][620]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.11-11.37.02:396][620]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.11-11.37.02:494][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097527s)
+[2021.12.11-11.37.02:498][620]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.11-11.37.02:498][620]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029553845C00), frame # 13620
+[2021.12.11-11.37.02:498][620]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000294954AD940), frame # 13620
+[2021.12.11-11.37.02:499][620]LogPlayLevel: PIE: World Init took: (0.004354s)
+[2021.12.11-11.37.02:501][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.104091s)
+[2021.12.11-11.37.02:538][620]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2021.12.11-11.37.02:544][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-11.37.02:545][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-11.37.02:545][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-11.37.02:545][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-11.37.02:545][620]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-11.37.02:545][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-11.37.02:545][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-11.37.02:545][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-11.37.02:546][620]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-11.37.02:546][620]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-11.37.02:553][620]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-11.37.02:553][620]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-11.37.02:595][620]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.11-11.37.02:595][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-11.37.02:595][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-11.37.02:595][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-11.37.02:596][620]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-11.37.02:616][620]LogInit: FAudioDevice initialized.
+[2021.12.11-11.37.02:652][620]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-11.37.02:676][620]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-03.37.02
+[2021.12.11-11.37.02:701][620]LogWorld: Bringing up level for play took: 0.047474
+[2021.12.11-11.37.02:705][620]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.12.11-11.37.02:762][620]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0161 seconds. Added 20 classes and 0 folders.
+[2021.12.11-11.37.02:791][620]PIE: Server logged in
+[2021.12.11-11.37.02:793][620]PIE: Play in editor total start time 0.439 seconds.
+[2021.12.11-11.37.05:952][727]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.11-11.37.07:588][823]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.11-11.37.13:174][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.37.13:174][137]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.11-11.37.13:178][137]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.37.13:186][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.37.13:216][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-11.37.13:248][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.37.13:335][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.37.13:338][137]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000294954AD940), frame # 14137
+[2021.12.11-11.37.13:338][137]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029553845C00), frame # 14137
+[2021.12.11-11.37.13:384][137]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2021.12.11-11.37.13:427][138]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.12.11-11.37.16:169][264]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-11.37.16:208][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-11.37.16:208][264]PIE: New page: PIE session: tutorial_map_v1 (Dec 10, 2021, 7:37:16 PM)
+[2021.12.11-11.37.16:236][264]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.11-11.37.16:296][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059656s)
+[2021.12.11-11.37.16:297][264]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.11-11.37.16:297][264]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002953CAFE000), frame # 14264
+[2021.12.11-11.37.16:297][264]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002953D94E5C0), frame # 14264
+[2021.12.11-11.37.16:298][264]LogPlayLevel: PIE: World Init took: (0.002168s)
+[2021.12.11-11.37.16:298][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.062178s)
+[2021.12.11-11.37.16:354][264]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2021.12.11-11.37.16:357][264]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-11.37.16:357][264]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-11.37.16:357][264]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-11.37.16:357][264]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-11.37.16:357][264]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-11.37.16:357][264]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-11.37.16:357][264]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-11.37.16:357][264]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-11.37.16:358][264]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-11.37.16:358][264]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-11.37.16:360][264]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-11.37.16:360][264]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-11.37.16:377][264]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.11-11.37.16:378][264]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-11.37.16:378][264]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-11.37.16:378][264]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-11.37.16:378][264]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-11.37.16:395][264]LogInit: FAudioDevice initialized.
+[2021.12.11-11.37.16:418][264]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-11.37.16:444][264]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-03.37.16
+[2021.12.11-11.37.16:446][264]LogWorld: Bringing up level for play took: 0.026153
+[2021.12.11-11.37.16:446][264]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.12.11-11.37.16:454][264]PIE: Server logged in
+[2021.12.11-11.37.16:455][264]PIE: Play in editor total start time 0.249 seconds.
+[2021.12.11-11.37.17:220][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.37.17:220][286]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.11-11.37.17:221][286]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.37.17:227][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.37.17:249][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-11.37.17:264][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.37.17:350][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.37.17:351][286]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002953D94E5C0), frame # 14286
+[2021.12.11-11.37.17:352][286]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002953CAFE000), frame # 14286
+[2021.12.11-11.37.17:360][286]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2021.12.11-11.37.17:398][287]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.12.11-11.39.15:240][513]BlueprintLog: New page: Compile QuestLogEntryUI
+[2021.12.11-11.39.15:319][513]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2021.12.11-11.39.15:440][513]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogEntryUIF6A0A7F64B2589FA3E7BA8BE3BCC73BB.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.uasset'
+[2021.12.11-11.39.15:465][513]AssetCheck: New page: Asset Save: QuestLogEntryUI
+[2021.12.11-11.39.15:465][513]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.39.16:671][555]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogEntryUI302ED5EA4A7774307C7D0F8149F5572B.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.uasset'
+[2021.12.11-11.39.16:691][555]AssetCheck: New page: Asset Save: QuestLogEntryUI
+[2021.12.11-11.39.16:691][555]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.39.37:832][486]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-11.39.37:862][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-11.39.37:862][486]PIE: New page: PIE session: tutorial_map_v1 (Dec 10, 2021, 7:39:37 PM)
+[2021.12.11-11.39.37:862][486]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.11-11.39.37:920][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058328s)
+[2021.12.11-11.39.37:921][486]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.11-11.39.37:921][486]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000295530FC200), frame # 21486
+[2021.12.11-11.39.37:921][486]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002956CC70CC0), frame # 21486
+[2021.12.11-11.39.37:922][486]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2021.12.11-11.39.37:922][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.059932s)
+[2021.12.11-11.39.37:968][486]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2021.12.11-11.39.37:972][486]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-11.39.37:972][486]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-11.39.37:972][486]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-11.39.37:972][486]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-11.39.37:972][486]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-11.39.37:972][486]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-11.39.37:972][486]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-11.39.37:972][486]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-11.39.37:973][486]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-11.39.37:973][486]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-11.39.37:975][486]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-11.39.37:975][486]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-11.39.37:995][486]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.11-11.39.37:995][486]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-11.39.37:995][486]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-11.39.37:995][486]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-11.39.37:996][486]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-11.39.38:014][486]LogInit: FAudioDevice initialized.
+[2021.12.11-11.39.38:024][486]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-11.39.38:035][486]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-03.39.38
+[2021.12.11-11.39.38:036][486]LogWorld: Bringing up level for play took: 0.011579
+[2021.12.11-11.39.38:036][486]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.12.11-11.39.38:044][486]PIE: Server logged in
+[2021.12.11-11.39.38:044][486]PIE: Play in editor total start time 0.183 seconds.
+[2021.12.11-11.39.41:222][622]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.11-11.39.42:854][718]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.11-11.39.47:159][965]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.11-11.39.49:677][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.39.49:677][102]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.11-11.39.49:678][102]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.39.49:679][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.39.49:702][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-11.39.49:710][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.39.49:777][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.39.49:783][102]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000295530FC200), frame # 22102
+[2021.12.11-11.39.49:783][102]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002956CC70CC0), frame # 22102
+[2021.12.11-11.39.49:787][102]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.12.11-11.39.49:828][103]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.12.11-11.40.10:550][119]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.40.25:503][692]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.40.25:604][692]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2021.12.11-11.40.25:691][692]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI2409275D4AFDBFDDF98156BDF2A64086.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.40.25:721][692]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.40.25:721][692]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.40.57:282][947]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.40.57:361][947]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2021.12.11-11.40.57:458][947]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UIA3460E1F46C123E94856378122AC4A86.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.40.57:498][947]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.40.57:498][947]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.40.57:924][955]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UID1A710F3475FE8E76AFF52880BFAED65.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.40.57:944][955]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.40.57:944][955]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.41.05:847][284]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UIAE2B22244F9BE1A053A69CB6AFF29823.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.41.05:868][284]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.41.05:868][284]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.42.35:283][611]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.42.35:294][611]LogBlueprint: Warning: [Compiler Objectives_UI] 'CD First Person Character' does not inherit from 'Game Mode Base' ( Cast To CD_FirstPersonCharacter  would always fail).
+[2021.12.11-11.42.35:371][611]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2021.12.11-11.42.52:104][279]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UIF36441C44AAA3C87593DB18BCE5AE40C.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.42.52:127][279]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.42.52:127][279]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.43.10:885][  6]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.43.10:970][  6]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2021.12.11-11.43.11:023][  6]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI8699EF8C406C8092E36BA0B0C7358968.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.43.11:046][  6]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.43.11:046][  6]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.43.11:516][ 20]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI413C6A394D72C1160EFCD5938E7C9D24.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.43.11:540][ 20]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.43.11:540][ 20]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.43.23:106][487]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI6235734440CA9BF35A18BEAA80BE29DC.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.43.23:130][487]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.43.23:130][487]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.43.25:192][570]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2021.12.11-11.43.25:358][570]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1F7D69FE34AD977531D39AB980A039776.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.12.11-11.43.26:103][570]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1_BuiltData02C9CF6C428838E8A005DFB567551162.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.11-11.43.26:164][570]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.11-11.43.26:165][570]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.11-11.43.26:165][570]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.11-11.43.38:814][ 65]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.43.38:898][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   7.00ms
+[2021.12.11-11.43.38:948][ 65]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI901B14CD4E46CF7678D0E9A0A509E2CF.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.43.38:970][ 65]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.43.38:970][ 65]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.43.39:324][ 75]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UIFB8CACF744CF564AB325CEB86CBF5765.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.43.39:347][ 75]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.43.39:347][ 75]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.43.52:550][670]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.44.21:383][831]BlueprintLog: New page: Compile SingleObjectivesUI
+[2021.12.11-11.44.21:499][831]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2021.12.11-11.44.21:607][831]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUIB519DD2F43178256FC541EAAD45F9CB5.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.44.21:633][831]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.44.21:633][831]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.44.22:135][842]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUIF193F88D447ED50F29E61BAE5A61FBE6.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.44.22:158][842]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.44.22:158][842]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.45.03:787][488]LogSlate: Took 0.001490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.11-11.45.13:153][763]BlueprintLog: New page: Compile SingleObjectivesUI
+[2021.12.11-11.45.13:236][763]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2021.12.11-11.45.13:294][763]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUI0182A2FD41A740B215E495B84A174694.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.45.13:317][763]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.45.13:317][763]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.45.13:643][771]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUI3D90993D40ABD3AEB1E3A0B623D2FF3A.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.45.13:667][771]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.45.13:667][771]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.45.27:427][277]BlueprintLog: New page: Compile SingleObjectivesUI
+[2021.12.11-11.45.27:506][277]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2021.12.11-11.45.27:606][277]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUIF2654B1140569486F7806098ED958BC0.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.45.27:629][277]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.45.27:629][277]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.45.28:432][297]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUI56AE27C5493C1783F4CE5EADDB6A89CC.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.45.28:452][297]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.45.28:452][297]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.46.15:097][  2]BlueprintLog: New page: Compile SingleObjectivesUI
+[2021.12.11-11.46.15:185][  2]LogUObjectHash: Compacting FUObjectHashTables data took   7.70ms
+[2021.12.11-11.46.15:270][  2]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUI8192525949B7A8057B5F03868DBB6FC1.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.46.15:296][  2]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.46.15:296][  2]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.46.15:676][ 11]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUI92869F9D467112321AFF00835AFFA270.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.46.15:699][ 11]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.46.15:699][ 11]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.46.29:554][564]BlueprintLog: New page: Compile SingleObjectivesUI
+[2021.12.11-11.46.29:636][564]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2021.12.11-11.46.29:718][564]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUI57ABC3924BB2F14F1FCBB18517FA5F2E.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.46.29:739][564]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.46.29:739][564]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.46.30:166][576]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUIF5E20EFE453A7631672525B9BEE93EE1.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.46.30:185][576]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.46.30:185][576]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.46.32:787][672]BlueprintLog: New page: Compile SingleObjectivesUI
+[2021.12.11-11.46.32:872][672]LogUObjectHash: Compacting FUObjectHashTables data took   5.46ms
+[2021.12.11-11.46.32:963][672]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUIE155F2EF4C596CF2ED9ED79A01F08FD3.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.46.32:983][672]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.46.32:983][672]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.46.33:554][685]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUI670AAFD74F5143FE061CD68F02261973.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.46.33:575][685]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.46.33:575][685]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.47.14:510][171]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.47.14:608][171]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2021.12.11-11.47.14:702][171]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UIAD37EB7547B781FF51C84CB19C56E980.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.47.14:724][171]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.47.14:724][171]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.47.15:946][208]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI3D820BDE4D2E1E1239B2358207A03FE8.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.47.15:968][208]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.47.15:968][208]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.47.30:785][799]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.47.30:870][799]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2021.12.11-11.47.30:968][799]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI5236AD7E40C0BE2264AE609E0313E586.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.47.30:989][799]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.47.30:989][799]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.47.31:374][804]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI042DAFA24B6A9FEEE7BA8DB1C77A9D34.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.47.31:395][804]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.47.31:395][804]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.47.53:352][651]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.47.53:442][651]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2021.12.11-11.47.53:536][651]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI0589D99D42A94055224478BDED1C8D4F.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.47.53:559][651]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.47.53:559][651]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.47.55:073][698]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI156DC3A24535F57C6B5738B795E52232.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.47.55:092][698]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.47.55:092][698]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.47.57:693][807]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2021.12.11-11.47.57:853][807]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1C355536848A6ACDB40B21784CD6AF7A2.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.12.11-11.47.58:566][807]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1_BuiltData6F78C51E4289D7ECB66390AE2EB2B7CB.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.11-11.47.58:634][807]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.11-11.47.58:634][807]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.11-11.47.58:634][807]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.11-11.48.10:962][322]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/HUD_UI.HUD_UI
+[2021.12.11-11.48.17:548][562]BlueprintLog: New page: Compile HUD_UI
+[2021.12.11-11.48.17:647][562]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2021.12.11-11.48.17:777][562]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/HUD_UI0A100F7C4D9574D6BD3EE0AF46C1C88E.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/HUD_UI.uasset'
+[2021.12.11-11.48.17:812][562]AssetCheck: New page: Asset Save: HUD_UI
+[2021.12.11-11.48.17:812][562]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/HUD_UI.HUD_UI
+[2021.12.11-11.48.18:669][583]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/HUD_UI7151C5B64501B45F01A784967625AC6C.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/HUD_UI.uasset'
+[2021.12.11-11.48.18:690][583]AssetCheck: New page: Asset Save: HUD_UI
+[2021.12.11-11.48.18:690][583]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/HUD_UI.HUD_UI
+[2021.12.11-11.49.08:746][449]BlueprintLog: New page: Compile Objectives_UI
+[2021.12.11-11.49.08:936][449]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2021.12.11-11.49.09:011][449]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UIC2FFBBB5413431BB755A05B49EF01E15.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.49.09:037][449]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.49.09:037][449]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.49.09:927][474]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Objectives_UI08C0C57F4717C577DB3C28AC5DA6E834.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/Objectives_UI.uasset'
+[2021.12.11-11.49.09:947][474]AssetCheck: New page: Asset Save: Objectives_UI
+[2021.12.11-11.49.09:947][474]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/Objectives_UI.Objectives_UI
+[2021.12.11-11.49.59:282][199]BlueprintLog: New page: Compile QuestLogEntryUI
+[2021.12.11-11.49.59:384][199]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2021.12.11-11.49.59:547][199]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogEntryUI18ADEA774A497F3DF7EB1B9D82EADFB2.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.uasset'
+[2021.12.11-11.49.59:572][199]AssetCheck: New page: Asset Save: QuestLogEntryUI
+[2021.12.11-11.49.59:572][199]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.49.59:988][205]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestLogEntryUIC5CCF12E4695F1B3BC770199C9A88119.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.uasset'
+[2021.12.11-11.50.00:018][205]AssetCheck: New page: Asset Save: QuestLogEntryUI
+[2021.12.11-11.50.00:018][205]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/QuestLogEntryUI.QuestLogEntryUI
+[2021.12.11-11.50.02:106][297]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-11.50.02:145][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-11.50.02:147][297]PIE: New page: PIE session: tutorial_map_v1 (Dec 10, 2021, 7:50:02 PM)
+[2021.12.11-11.50.02:148][297]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.11-11.50.02:258][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109192s)
+[2021.12.11-11.50.02:259][297]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.11-11.50.02:260][297]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000295AE807E00), frame # 45297
+[2021.12.11-11.50.02:260][297]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000295A6EDE700), frame # 45297
+[2021.12.11-11.50.02:261][297]LogPlayLevel: PIE: World Init took: (0.002800s)
+[2021.12.11-11.50.02:261][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.112537s)
+[2021.12.11-11.50.02:318][297]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2021.12.11-11.50.02:326][297]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-11.50.02:326][297]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-11.50.02:326][297]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-11.50.02:326][297]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-11.50.02:326][297]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-11.50.02:326][297]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-11.50.02:326][297]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-11.50.02:326][297]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-11.50.02:328][297]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-11.50.02:329][297]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-11.50.02:350][297]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-11.50.02:350][297]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-11.50.02:406][297]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.11-11.50.02:406][297]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-11.50.02:406][297]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-11.50.02:406][297]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-11.50.02:407][297]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-11.50.02:458][297]LogInit: FAudioDevice initialized.
+[2021.12.11-11.50.02:571][297]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-11.50.02:605][297]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-03.50.02
+[2021.12.11-11.50.02:607][297]LogWorld: Bringing up level for play took: 0.035934
+[2021.12.11-11.50.02:609][297]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.12.11-11.50.02:633][297]PIE: Server logged in
+[2021.12.11-11.50.02:633][297]PIE: Play in editor total start time 0.489 seconds.
+[2021.12.11-11.50.05:827][438]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.11-11.50.08:142][571]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.11-11.50.14:400][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.50.14:401][881]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.11-11.50.14:402][881]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-11.50.14:405][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.50.14:441][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-11.50.14:454][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-11.50.14:555][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-11.50.14:568][881]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000295AE807E00), frame # 45881
+[2021.12.11-11.50.14:568][881]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000295A6EDE700), frame # 45881
+[2021.12.11-11.50.14:572][881]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.12.11-11.50.14:638][882]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.12.11-11.50.32:611][481]BlueprintLog: New page: Compile SingleObjectivesUI
+[2021.12.11-11.50.32:719][481]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2021.12.11-11.50.32:850][481]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUI262C7E144740FA2385E425B93A8595C6.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.50.32:873][481]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.50.32:873][481]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.50.34:262][514]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/SingleObjectivesUIBCB9BFEC47D9B0CF65F2C5888BB19740.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.uasset'
+[2021.12.11-11.50.34:283][514]AssetCheck: New page: Asset Save: SingleObjectivesUI
+[2021.12.11-11.50.34:283][514]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/SingleObjectivesUI.SingleObjectivesUI
+[2021.12.11-11.50.43:999][778]BlueprintLog: New page: Compile HUD_UI
+[2021.12.11-11.50.44:098][778]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2021.12.11-11.50.44:213][778]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/HUD_UIBC9AAFC34CBE3DFFB51B66AAE99F6B7D.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/HUD_UI.uasset'
+[2021.12.11-11.50.44:237][778]AssetCheck: New page: Asset Save: HUD_UI
+[2021.12.11-11.50.44:237][778]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/HUD_UI.HUD_UI
+[2021.12.11-11.50.44:579][783]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/HUD_UIF4138D3A4ECE223F7C1FF0BBF0F07DED.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/QuestUI/HUD_UI.uasset'
+[2021.12.11-11.50.44:602][783]AssetCheck: New page: Asset Save: HUD_UI
+[2021.12.11-11.50.44:602][783]LogContentValidation: Display: Validating WidgetBlueprint /Game/ColdDawn/QuestSystem/QuestUI/HUD_UI.HUD_UI
