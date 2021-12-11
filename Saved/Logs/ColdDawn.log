@@ -4052,3 +4052,780 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.11-03.32.37:270][ 17]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/doors/CD_Door_PUSH_Double.CD_Door_PUSH_Double
 [2021.12.11-03.32.37:270][ 17]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
 [2021.12.11-03.32.37:270][ 17]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
+[2021.12.11-03.34.43:411][343]LogEditorTransaction: Undo Set Location
+[2021.12.11-03.34.43:882][347]LogEditorTransaction: Undo Set Location
+[2021.12.11-03.35.09:233][358]BlueprintLog: New page: Compile CD_Door_PUSH_Double
+[2021.12.11-03.35.09:313][358]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.12.11-03.35.09:325][358]PIE: Warning: Constraint in '/Engine/Transient.World_39:PersistentLevel.CD_Door_PUSH_Double_C_10.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2021.12.11-03.35.09:325][358]PIE: Warning: Constraint in '/Engine/Transient.World_39:PersistentLevel.CD_Door_PUSH_Double_C_10.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2021.12.11-03.35.09:418][358]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Door_PUSH_Double2F10E55A41BBCC4467B7EFA959E7EA4A.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/doors/CD_Door_PUSH_Double.uasset'
+[2021.12.11-03.35.09:511][358]AssetCheck: New page: Asset Save: CD_Door_PUSH_Double
+[2021.12.11-03.35.09:511][358]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/doors/CD_Door_PUSH_Double.CD_Door_PUSH_Double
+[2021.12.11-03.35.10:986][411]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-03.35.11:001][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-03.35.11:001][411]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 11:35:11 AM)
+[2021.12.11-03.35.11:001][411]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.35.11:188][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186755s)
+[2021.12.11-03.35.11:189][411]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-03.35.11:189][411]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EBF59C2000), frame # 948411
+[2021.12.11-03.35.11:189][411]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB195896C0), frame # 948411
+[2021.12.11-03.35.11:190][411]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2021.12.11-03.35.11:190][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.188443s)
+[2021.12.11-03.35.11:227][411]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.12.11-03.35.11:229][411]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-03.35.11:229][411]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-03.35.11:229][411]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-03.35.11:229][411]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-03.35.11:229][411]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-03.35.11:229][411]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-03.35.11:229][411]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-03.35.11:229][411]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-03.35.11:229][411]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-03.35.11:229][411]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-03.35.11:237][411]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-03.35.11:237][411]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-03.35.11:272][411]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-03.35.11:272][411]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-03.35.11:272][411]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-03.35.11:272][411]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-03.35.11:273][411]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-03.35.11:285][411]LogInit: FAudioDevice initialized.
+[2021.12.11-03.35.11:295][411]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-03.35.11:353][411]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-19.35.11
+[2021.12.11-03.35.11:358][411]LogWorld: Bringing up level for play took: 0.062354
+[2021.12.11-03.35.11:358][411]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2021.12.11-03.35.11:370][411]PIE: Server logged in
+[2021.12.11-03.35.11:371][411]PIE: Play in editor total start time 0.371 seconds.
+[2021.12.11-03.35.12:159][434]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-03.35.12:511][448]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-03.35.47:423][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.35.47:423][117]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.35.47:424][117]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-03.35.47:434][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.35.47:449][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-03.35.47:457][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.35.47:514][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.35.47:520][117]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB195896C0), frame # 950117
+[2021.12.11-03.35.47:520][117]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EBF59C2000), frame # 950117
+[2021.12.11-03.35.47:526][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.12.11-03.35.47:611][118]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2021.12.11-03.36.22:571][671]LogEditorViewport: Clicking on Actor (LMB): CD_Door_PUSH_Double_C (CD_Door_PUSH_Double2)
+[2021.12.11-03.36.41:804][286]BlueprintLog: New page: Compile CD_Door_PUSH_Double
+[2021.12.11-03.36.41:870][286]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.12.11-03.36.41:879][286]PIE: Warning: Constraint in '/Engine/Transient.World_39:PersistentLevel.CD_Door_PUSH_Double_C_11.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2021.12.11-03.36.41:879][286]PIE: Warning: Constraint in '/Engine/Transient.World_39:PersistentLevel.CD_Door_PUSH_Double_C_11.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2021.12.11-03.36.41:976][286]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Door_PUSH_Double45712A9A4A97C7B4B764CC893976C942.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/doors/CD_Door_PUSH_Double.uasset'
+[2021.12.11-03.36.42:005][286]AssetCheck: New page: Asset Save: CD_Door_PUSH_Double
+[2021.12.11-03.36.42:005][286]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/doors/CD_Door_PUSH_Double.CD_Door_PUSH_Double
+[2021.12.11-03.38.04:183][594]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-03.38.04:197][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-03.38.04:197][594]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 11:38:04 AM)
+[2021.12.11-03.38.04:197][594]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.38.04:389][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.191680s)
+[2021.12.11-03.38.04:390][594]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-03.38.04:390][594]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB6AE88E00), frame # 951594
+[2021.12.11-03.38.04:390][594]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB60F5A340), frame # 951594
+[2021.12.11-03.38.04:391][594]LogPlayLevel: PIE: World Init took: (0.001488s)
+[2021.12.11-03.38.04:391][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.193541s)
+[2021.12.11-03.38.04:430][594]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.12.11-03.38.04:432][594]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-03.38.04:432][594]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-03.38.04:432][594]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-03.38.04:432][594]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-03.38.04:432][594]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-03.38.04:432][594]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-03.38.04:433][594]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-03.38.04:433][594]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-03.38.04:433][594]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-03.38.04:433][594]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-03.38.04:441][594]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-03.38.04:441][594]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-03.38.04:476][594]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-03.38.04:476][594]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-03.38.04:476][594]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-03.38.04:476][594]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-03.38.04:476][594]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-03.38.04:488][594]LogInit: FAudioDevice initialized.
+[2021.12.11-03.38.04:496][594]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-03.38.04:554][594]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-19.38.04
+[2021.12.11-03.38.04:558][594]LogWorld: Bringing up level for play took: 0.061234
+[2021.12.11-03.38.04:558][594]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2021.12.11-03.38.04:565][594]PIE: Server logged in
+[2021.12.11-03.38.04:566][594]PIE: Play in editor total start time 0.369 seconds.
+[2021.12.11-03.38.15:321][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.38.15:321][ 58]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.38.15:323][ 58]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-03.38.15:332][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.38.15:341][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-03.38.15:348][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.38.15:403][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.38.15:409][ 58]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB60F5A340), frame # 952058
+[2021.12.11-03.38.15:409][ 58]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB6AE88E00), frame # 952058
+[2021.12.11-03.38.15:415][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.12.11-03.38.15:501][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2021.12.11-03.38.38:576][825]BlueprintLog: New page: Compile CD_Door_PUSH_Double
+[2021.12.11-03.38.38:637][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.12.11-03.38.38:645][825]PIE: Warning: Constraint in '/Engine/Transient.World_39:PersistentLevel.CD_Door_PUSH_Double_C_12.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2021.12.11-03.38.38:646][825]PIE: Warning: Constraint in '/Engine/Transient.World_39:PersistentLevel.CD_Door_PUSH_Double_C_12.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2021.12.11-03.38.38:740][825]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Door_PUSH_DoubleD315766247D01026EEA0358ED8494CA2.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/doors/CD_Door_PUSH_Double.uasset'
+[2021.12.11-03.38.38:771][825]AssetCheck: New page: Asset Save: CD_Door_PUSH_Double
+[2021.12.11-03.38.38:771][825]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/doors/CD_Door_PUSH_Double.CD_Door_PUSH_Double
+[2021.12.11-03.38.41:352][910]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-03.38.41:368][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-03.38.41:368][910]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 11:38:41 AM)
+[2021.12.11-03.38.41:368][910]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.38.41:566][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.197861s)
+[2021.12.11-03.38.41:566][910]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-03.38.41:567][910]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EAA1DD8200), frame # 952910
+[2021.12.11-03.38.41:567][910]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E91146CCC0), frame # 952910
+[2021.12.11-03.38.41:567][910]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2021.12.11-03.38.41:567][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.199445s)
+[2021.12.11-03.38.41:604][910]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.12.11-03.38.41:606][910]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-03.38.41:606][910]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-03.38.41:606][910]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-03.38.41:606][910]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-03.38.41:606][910]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-03.38.41:606][910]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-03.38.41:606][910]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-03.38.41:606][910]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-03.38.41:606][910]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-03.38.41:606][910]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-03.38.41:615][910]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-03.38.41:615][910]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-03.38.41:649][910]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-03.38.41:649][910]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-03.38.41:649][910]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-03.38.41:649][910]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-03.38.41:649][910]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-03.38.41:662][910]LogInit: FAudioDevice initialized.
+[2021.12.11-03.38.41:669][910]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-03.38.41:735][910]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-19.38.41
+[2021.12.11-03.38.41:739][910]LogWorld: Bringing up level for play took: 0.069353
+[2021.12.11-03.38.41:740][910]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2021.12.11-03.38.41:746][910]PIE: Server logged in
+[2021.12.11-03.38.41:747][910]PIE: Play in editor total start time 0.38 seconds.
+[2021.12.11-03.38.51:091][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.38.51:091][354]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.38.51:094][354]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-03.38.51:105][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.38.51:120][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-03.38.51:128][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.38.51:179][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.38.51:185][354]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E91146CCC0), frame # 953354
+[2021.12.11-03.38.51:185][354]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EAA1DD8200), frame # 953354
+[2021.12.11-03.38.51:193][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.12.11-03.38.51:283][355]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2021.12.11-03.38.53:252][423]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-03.38.53:269][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-03.38.53:269][423]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 11:38:53 AM)
+[2021.12.11-03.38.53:270][423]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.38.53:457][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186835s)
+[2021.12.11-03.38.53:457][423]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-03.38.53:457][423]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB8AAD0600), frame # 953423
+[2021.12.11-03.38.53:457][423]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB2B164B80), frame # 953423
+[2021.12.11-03.38.53:458][423]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2021.12.11-03.38.53:458][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.188602s)
+[2021.12.11-03.38.53:494][423]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.12.11-03.38.53:496][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-03.38.53:496][423]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-03.38.53:496][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-03.38.53:496][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-03.38.53:496][423]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-03.38.53:496][423]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-03.38.53:496][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-03.38.53:496][423]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-03.38.53:496][423]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-03.38.53:496][423]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-03.38.53:504][423]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-03.38.53:504][423]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-03.38.53:541][423]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-03.38.53:541][423]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-03.38.53:541][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-03.38.53:541][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-03.38.53:542][423]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-03.38.53:554][423]LogInit: FAudioDevice initialized.
+[2021.12.11-03.38.53:560][423]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-03.38.53:617][423]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-19.38.53
+[2021.12.11-03.38.53:621][423]LogWorld: Bringing up level for play took: 0.060582
+[2021.12.11-03.38.53:622][423]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2021.12.11-03.38.53:628][423]PIE: Server logged in
+[2021.12.11-03.38.53:629][423]PIE: Play in editor total start time 0.36 seconds.
+[2021.12.11-03.39.17:381][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.39.17:381][878]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.39.17:382][878]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-03.39.17:394][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.39.17:407][878]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-03.39.17:415][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.39.17:471][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.39.17:475][878]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB2B164B80), frame # 954878
+[2021.12.11-03.39.17:475][878]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB8AAD0600), frame # 954878
+[2021.12.11-03.39.17:485][878]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2021.12.11-03.39.17:558][879]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2021.12.11-03.39.21:752][145]LogEditorViewport: Clicking on Actor (LMB): CD_Door_PUSH_Double_C (CD_Door_PUSH_Double)
+[2021.12.11-03.39.46:656][600]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-03.39.49:144][747]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-03.39.59:197][237]LogEditorViewport: Clicking on Actor (LMB): CD_Door_PUSH_Double_C (CD_Door_PUSH_Double2)
+[2021.12.11-03.40.00:646][285]Cmd: DELETE
+[2021.12.11-03.40.00:646][285]Cmd: ACTOR DELETE
+[2021.12.11-03.40.00:698][285]LogEditorActor: Deleted Actor: CD_Door_PUSH_Double_C
+[2021.12.11-03.40.00:736][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.12.11-03.40.00:741][285]LogEditorActor: Deleted 1 Actors (0.094 secs)
+[2021.12.11-03.40.40:031][  3]Cmd: EDIT COPY
+[2021.12.11-03.40.40:743][ 41]Cmd: EDIT PASTE
+[2021.12.11-03.40.44:120][215]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-03.40.53:794][693]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-03.41.06:132][401]Cmd: DELETE
+[2021.12.11-03.41.06:132][401]Cmd: ACTOR DELETE
+[2021.12.11-03.41.06:190][401]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-03.41.06:226][401]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.12.11-03.41.06:351][401]LogEditorActor: Deleted 1 Actors (0.219 secs)
+[2021.12.11-03.41.21:574][302]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.41.35:974][ 59]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.41.40:810][317]Cmd: TRANSACTION UNDO
+[2021.12.11-03.41.40:810][317]LogEditorTransaction: Undo Create Actors
+[2021.12.11-03.41.47:891][653]Cmd: TRANSACTION UNDO
+[2021.12.11-03.41.47:891][653]LogEditorTransaction: Undo Create Actors
+[2021.12.11-03.41.52:012][808]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (OfficeNavMeshBoundsVolume)
+[2021.12.11-03.42.03:182][483]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.42.57:331][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.11-03.42.57:375][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.12.11-03.42.58:142][ 84]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_HospitalDFB6876B426D6F8F668ACA922B9AC741.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap'
+[2021.12.11-03.42.58:173][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset" SILENT=true
+[2021.12.11-03.42.59:192][ 84]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_BuiltData53F3A2284096B24144F04FBB92995858.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset'
+[2021.12.11-03.42.59:334][ 84]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.11-03.42.59:334][ 84]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.11-03.42.59:334][ 84]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
+[2021.12.11-03.43.17:984][706]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.43.21:478][813]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.43.25:670][941]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.43.28:787][ 35]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.43.32:052][132]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.43.48:398][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-03.43.55:115][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-03.44.07:161][479]Cmd: EDIT COPY
+[2021.12.11-03.44.07:683][497]Cmd: EDIT PASTE
+[2021.12.11-03.44.39:262][633]LogEditorViewport: Clicking Background
+[2021.12.11-03.44.54:944][574]LogEditorViewport: Clicking Background
+[2021.12.11-03.44.57:889][751]LogEditorViewport: Clicking Background
+[2021.12.11-03.45.01:100][971]LogEditorViewport: Clicking Background
+[2021.12.11-03.45.08:722][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor2)
+[2021.12.11-03.45.10:719][384]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-03.45.26:668][ 90]LogEditorViewport: Clicking Background
+[2021.12.11-03.46.56:212][515]Cmd: EDIT COPY
+[2021.12.11-03.47.01:023][684]Cmd: EDIT COPY
+[2021.12.11-03.47.05:582][846]Cmd: DELETE
+[2021.12.11-03.47.05:582][846]Cmd: ACTOR DELETE
+[2021.12.11-03.47.05:639][846]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-03.47.05:680][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.12.11-03.47.05:809][846]LogEditorActor: Deleted 1 Actors (0.227 secs)
+[2021.12.11-03.47.18:045][223]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-03.47.20:130][317]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-03.47.54:876][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-03.48.22:583][823]Cmd: EDIT PASTE
+[2021.12.11-03.48.27:717][ 42]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.49.37:519][720]Cmd: EDIT COPY
+[2021.12.11-03.49.43:597][925]Cmd: EDIT COPY
+[2021.12.11-03.49.45:169][974]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-03.49.47:844][151]Cmd: DELETE
+[2021.12.11-03.49.47:844][151]Cmd: ACTOR DELETE
+[2021.12.11-03.49.47:917][151]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-03.49.47:958][151]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.12.11-03.49.48:099][151]LogEditorActor: Deleted 1 Actors (0.255 secs)
+[2021.12.11-03.49.53:117][395]Cmd: EDIT PASTE
+[2021.12.11-03.50.07:415][984]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-03.50.41:585][183]Cmd: TRANSACTION UNDO
+[2021.12.11-03.50.41:585][183]LogEditorTransaction: Undo Select Surfaces
+[2021.12.11-03.50.49:300][591]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush4)
+[2021.12.11-03.51.14:114][933]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.51.18:616][186]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.51.21:574][341]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-03.51.50:029][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor2)
+[2021.12.11-03.52.23:324][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FirstFloorRoof)
+[2021.12.11-03.53.08:620][196]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.12.11-03.53.09:406][196]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto106D69B6844EBABCCA8FBB8A1AA67BDD3.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto1.umap'
+[2021.12.11-03.53.09:409][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.837
+[2021.12.11-03.53.09:409][196]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.837
+[2021.12.11-03.53.15:960][378]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-03.53.15:977][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-03.53.15:977][378]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 11:53:15 AM)
+[2021.12.11-03.53.15:977][378]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.53.16:184][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.206451s)
+[2021.12.11-03.53.16:185][378]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-03.53.16:185][378]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB29957200), frame # 994378
+[2021.12.11-03.53.16:185][378]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EBBAF88A40), frame # 994378
+[2021.12.11-03.53.16:185][378]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2021.12.11-03.53.16:185][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.208247s)
+[2021.12.11-03.53.16:223][378]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.12.11-03.53.16:226][378]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-03.53.16:226][378]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-03.53.16:226][378]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-03.53.16:226][378]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-03.53.16:226][378]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-03.53.16:226][378]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-03.53.16:226][378]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-03.53.16:226][378]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-03.53.16:227][378]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-03.53.16:227][378]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-03.53.16:235][378]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-03.53.16:235][378]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-03.53.16:270][378]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-03.53.16:270][378]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-03.53.16:270][378]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-03.53.16:270][378]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-03.53.16:271][378]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-03.53.16:283][378]LogInit: FAudioDevice initialized.
+[2021.12.11-03.53.16:293][378]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-03.53.16:351][378]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-19.53.16
+[2021.12.11-03.53.16:355][378]LogWorld: Bringing up level for play took: 0.060597
+[2021.12.11-03.53.16:355][378]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2021.12.11-03.53.16:362][378]PIE: Server logged in
+[2021.12.11-03.53.16:363][378]PIE: Play in editor total start time 0.386 seconds.
+[2021.12.11-03.53.42:416][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.53.42:416][958]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-03.53.42:417][958]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-03.53.42:426][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.53.42:439][958]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-03.53.42:447][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-03.53.42:483][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-03.53.42:507][958]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EBBAF88A40), frame # 995958
+[2021.12.11-03.53.42:507][958]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB29957200), frame # 995958
+[2021.12.11-03.53.42:513][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.12.11-03.53.42:601][959]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2021.12.11-03.53.44:824][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FirstFloorRoof)
+[2021.12.11-03.53.45:989][131]Cmd: DELETE
+[2021.12.11-03.53.45:990][131]Cmd: ACTOR DELETE
+[2021.12.11-03.53.46:035][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.11-03.53.46:070][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.12.11-03.53.46:075][131]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2021.12.11-03.53.55:044][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-03.54.31:396][812]Cmd: EDIT COPY
+[2021.12.11-03.54.31:845][829]Cmd: EDIT PASTE
+[2021.12.11-03.55.03:537][  0]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8D4BA9F8-4D9B-C2FC-4075-5E8382867587%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=feba47c645a0091f9229f69a1de95a7f%7Cc2ff131402da48cfa614908fe2591f84%7C98a9caec-bb2d-4e1c-9fe8-a6fb5593aa41&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: request failed, libcurl error: 0 (No error)
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e956277f70 [can pipeline])
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 1 (Re-using existing connection! (#83) with host datarouter.ol.epicgames.com)
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.231.8.74) port 443 (#83))
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 7 (Closing connection 83)
+[2021.12.11-03.55.21:443][543]LogHttp: Warning: 000001EBBBEAEB00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.12.11-03.55.21:473][544]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8D4BA9F8-4D9B-C2FC-4075-5E8382867587%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=feba47c645a0091f9229f69a1de95a7f%7Cc2ff131402da48cfa614908fe2591f84%7C98a9caec-bb2d-4e1c-9fe8-a6fb5593aa41&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.12.11-03.58.36:428][ 94]Cmd: TRANSACTION UNDO
+[2021.12.11-03.58.36:428][ 94]LogEditorTransaction: Undo Edit Y
+[2021.12.11-03.59.14:094][396]Cmd: DELETE
+[2021.12.11-03.59.14:094][396]Cmd: ACTOR DELETE
+[2021.12.11-03.59.14:157][396]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.11-03.59.14:210][396]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.12.11-03.59.14:222][396]LogEditorActor: Deleted 1 Actors (0.127 secs)
+[2021.12.11-04.00.23:017][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-04.00.23:968][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-04.01.07:074][ 75]Cmd: EDIT COPY
+[2021.12.11-04.01.08:592][126]Cmd: DELETE
+[2021.12.11-04.01.08:592][126]Cmd: ACTOR DELETE
+[2021.12.11-04.01.08:655][126]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-04.01.08:656][126]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-04.01.08:700][126]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.12.11-04.01.08:836][126]LogEditorActor: Deleted 2 Actors (0.244 secs)
+[2021.12.11-04.01.10:206][177]Cmd: EDIT PASTE
+[2021.12.11-04.04.43:245][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.12.11-04.04.44:061][727]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto2C1487C5640A0246426D6E4832C0FD896.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto2.umap'
+[2021.12.11-04.04.44:065][727]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.880
+[2021.12.11-04.04.44:065][727]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.880
+[2021.12.11-04.05.32:702][861]Cmd: TRANSACTION UNDO
+[2021.12.11-04.05.32:702][861]LogEditorTransaction: Undo Move Actors
+[2021.12.11-04.05.54:664][543]Cmd: EDIT COPY
+[2021.12.11-04.05.56:165][593]Cmd: DELETE
+[2021.12.11-04.05.56:165][593]Cmd: ACTOR DELETE
+[2021.12.11-04.05.56:223][593]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-04.05.56:262][593]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.12.11-04.05.56:401][593]LogEditorActor: Deleted 1 Actors (0.236 secs)
+[2021.12.11-04.06.19:479][833]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-04.06.28:403][259]Cmd: DELETE
+[2021.12.11-04.06.28:403][259]Cmd: ACTOR DELETE
+[2021.12.11-04.06.28:458][259]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-04.06.28:496][259]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.12.11-04.06.28:629][259]LogEditorActor: Deleted 1 Actors (0.226 secs)
+[2021.12.11-04.07.29:702][248]Cmd: EDIT PASTE
+[2021.12.11-04.07.31:046][272]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.07.58:762][156]Cmd: TRANSACTION UNDO
+[2021.12.11-04.07.58:762][156]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-04.07.59:853][173]Cmd: TRANSACTION UNDO
+[2021.12.11-04.07.59:853][173]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-04.08.00:847][190]Cmd: TRANSACTION UNDO
+[2021.12.11-04.08.00:847][190]LogEditorTransaction: Undo Paste
+[2021.12.11-04.08.25:488][870]Cmd: EDIT PASTE
+[2021.12.11-04.08.31:261][ 32]Cmd: TRANSACTION UNDO
+[2021.12.11-04.08.31:261][ 32]LogEditorTransaction: Undo Paste
+[2021.12.11-04.08.34:067][ 95]Cmd: TRANSACTION UNDO
+[2021.12.11-04.08.34:068][ 95]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-04.08.36:313][153]Cmd: TRANSACTION UNDO
+[2021.12.11-04.08.36:313][153]LogEditorTransaction: Undo Set Scale
+[2021.12.11-04.08.45:791][376]Cmd: EDIT PASTE
+[2021.12.11-04.09.11:776][434]Cmd: DELETE
+[2021.12.11-04.09.11:776][434]Cmd: ACTOR DELETE
+[2021.12.11-04.09.11:840][434]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-04.09.11:894][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2021.12.11-04.09.12:039][434]LogEditorActor: Deleted 1 Actors (0.263 secs)
+[2021.12.11-04.09.16:814][577]Cmd: EDIT COPY
+[2021.12.11-04.09.17:880][610]Cmd: EDIT PASTE
+[2021.12.11-04.09.24:853][874]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.09.28:307][ 12]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.10.50:697][554]Cmd: TRANSACTION UNDO
+[2021.12.11-04.10.50:697][554]LogEditorTransaction: Undo Move Actors
+[2021.12.11-04.11.37:215][429]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.12.24:425][325]Cmd: EDIT COPY
+[2021.12.11-04.12.25:471][358]Cmd: EDIT PASTE
+[2021.12.11-04.12.48:911][120]Cmd: EDIT COPY
+[2021.12.11-04.12.49:466][146]Cmd: EDIT PASTE
+[2021.12.11-04.13.36:551][992]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.13.44:696][275]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2021.12.11-04.14.51:105][429]Cmd: TRANSACTION UNDO
+[2021.12.11-04.14.51:106][429]LogEditorTransaction: Undo Edit Y
+[2021.12.11-04.16.10:665][ 97]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-04.17.08:947][307]Cmd: EDIT COPY
+[2021.12.11-04.17.10:102][357]Cmd: EDIT PASTE
+[2021.12.11-04.17.13:648][459]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.18.14:037][387]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2021.12.11-04.18.14:846][387]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto369460D8646AF13B93065159C631204F1.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto3.umap'
+[2021.12.11-04.18.14:848][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.896
+[2021.12.11-04.18.14:848][387]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.896
+[2021.12.11-04.18.16:651][437]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-04.18.16:651][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-04.18.19:373][508]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-04.18.19:373][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-04.18.24:302][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.11-04.18.24:302][621]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-04.18.24:302][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-04.18.25:887][669]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-04.18.25:887][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-04.18.27:410][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.11-04.18.27:410][689]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-04.18.27:410][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-04.18.29:560][751]LogSlate: Window 'spawn_zombie' being destroyed
+[2021.12.11-04.18.29:626][751]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.11-04.18.29:626][751]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-04.18.29:626][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-04.18.40:832][715]Cmd: EDIT COPY
+[2021.12.11-04.18.41:620][808]Cmd: EDIT PASTE
+[2021.12.11-04.19.11:334][876]Cmd: EDIT COPY
+[2021.12.11-04.19.11:857][937]Cmd: EDIT PASTE
+[2021.12.11-04.19.50:906][631]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-04.22.50:041][238]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-04.23.06:510][417]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush32)
+[2021.12.11-04.23.11:340][790]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.23.36:407][875]Cmd: TRANSACTION UNDO
+[2021.12.11-04.23.36:407][875]LogEditorTransaction: Undo Move Actors
+[2021.12.11-04.23.49:626][884]Cmd: EDIT COPY
+[2021.12.11-04.23.59:210][739]Cmd: EDIT COPY
+[2021.12.11-04.24.06:127][224]Cmd: EDIT PASTE
+[2021.12.11-04.24.16:757][823]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.26.37:618][140]Cmd: TRANSACTION UNDO
+[2021.12.11-04.26.37:618][140]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-04.26.38:216][152]Cmd: TRANSACTION UNDO
+[2021.12.11-04.26.38:216][152]LogEditorTransaction: Undo Set Location
+[2021.12.11-04.26.39:050][174]Cmd: TRANSACTION UNDO
+[2021.12.11-04.26.39:050][174]LogEditorTransaction: Undo Set Location
+[2021.12.11-04.26.40:043][208]Cmd: TRANSACTION UNDO
+[2021.12.11-04.26.40:043][208]LogEditorTransaction: Undo Set Location
+[2021.12.11-04.26.41:177][249]Cmd: TRANSACTION UNDO
+[2021.12.11-04.26.41:177][249]LogEditorTransaction: Undo Move Actors
+[2021.12.11-04.27.19:702][761]Cmd: TRANSACTION UNDO
+[2021.12.11-04.27.19:702][761]LogEditorTransaction: Undo Set Location
+[2021.12.11-04.28.15:566][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2021.12.11-04.28.16:467][ 33]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto449F3EC374341AD661C4FA0BEB3833240.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto4.umap'
+[2021.12.11-04.28.16:470][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 1.124
+[2021.12.11-04.28.16:470][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.124
+[2021.12.11-04.29.01:027][520]Cmd: TRANSACTION UNDO
+[2021.12.11-04.29.01:027][520]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-04.29.02:311][575]Cmd: TRANSACTION UNDO
+[2021.12.11-04.29.02:311][575]LogEditorTransaction: Undo Set Location
+[2021.12.11-04.30.30:781][512]Cmd: TRANSACTION UNDO
+[2021.12.11-04.30.30:781][512]LogEditorTransaction: Undo Set Location
+[2021.12.11-04.30.31:924][552]Cmd: TRANSACTION UNDO
+[2021.12.11-04.30.31:924][552]LogEditorTransaction: Undo Set Location
+[2021.12.11-04.30.32:818][578]Cmd: TRANSACTION UNDO
+[2021.12.11-04.30.32:818][578]LogEditorTransaction: Undo Set Location
+[2021.12.11-04.31.29:803][607]Cmd: EDIT COPY
+[2021.12.11-04.31.31:266][781]Cmd: EDIT PASTE
+[2021.12.11-04.31.51:130][730]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-04.32.04:796][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_54)
+[2021.12.11-04.32.22:583][831]Cmd: DELETE
+[2021.12.11-04.32.22:583][831]Cmd: ACTOR DELETE
+[2021.12.11-04.32.22:650][831]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-04.32.22:785][831]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2021.12.11-04.32.22:987][831]LogEditorActor: Deleted 1 Actors (0.404 secs)
+[2021.12.11-04.32.45:290][160]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.34.00:009][830]Cmd: EDIT COPY
+[2021.12.11-04.34.00:659][907]Cmd: EDIT PASTE
+[2021.12.11-04.37.53:196][273]Cmd: EDIT COPY
+[2021.12.11-04.37.53:777][342]Cmd: EDIT PASTE
+[2021.12.11-04.38.01:308][882]Cmd: TRANSACTION UNDO
+[2021.12.11-04.38.01:308][882]LogEditorTransaction: Undo Paste
+[2021.12.11-04.38.04:158][132]Cmd: EDIT PASTE
+[2021.12.11-04.38.05:988][296]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.38.16:251][175]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_OpenClose_C (CD_DoorActor_ButtonPress_OpenClose3)
+[2021.12.11-04.38.24:310][758]Cmd: TRANSACTION UNDO
+[2021.12.11-04.38.24:310][758]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-04.38.25:172][782]Cmd: TRANSACTION UNDO
+[2021.12.11-04.38.25:172][782]LogEditorTransaction: Undo Move Actors
+[2021.12.11-04.38.28:883][956]Cmd: EDIT COPY
+[2021.12.11-04.38.29:451][995]Cmd: EDIT PASTE
+[2021.12.11-04.38.37:440][478]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.39.17:791][952]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2021.12.11-04.39.20:299][105]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.39.36:619][233]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2021.12.11-04.39.40:744][482]Cmd: EDIT COPY
+[2021.12.11-04.39.41:456][532]Cmd: EDIT PASTE
+[2021.12.11-04.40.02:857][648]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2021.12.11-04.40.12:262][  6]Cmd: EDIT COPY
+[2021.12.11-04.40.13:151][ 48]Cmd: EDIT PASTE
+[2021.12.11-04.42.03:689][207]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.42.10:790][653]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-04.43.38:420][247]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.12.11-04.43.39:315][247]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto53463D92943D6F96FA72F4D8C930C549A.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto5.umap'
+[2021.12.11-04.43.39:318][247]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.949
+[2021.12.11-04.43.39:318][247]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.949
+[2021.12.11-04.46.11:909][427]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-04.46.16:109][690]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-04.47.27:948][719]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-04.47.31:858][963]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-04.50.55:632][150]Cmd: EDIT COPY
+[2021.12.11-04.50.56:184][170]Cmd: EDIT PASTE
+[2021.12.11-04.51.00:563][278]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.51.35:603][790]Cmd: TRANSACTION UNDO
+[2021.12.11-04.51.35:603][790]LogEditorTransaction: Undo Move Actors
+[2021.12.11-04.51.54:804][408]Cmd: EDIT COPY
+[2021.12.11-04.51.55:570][436]Cmd: EDIT PASTE
+[2021.12.11-04.52.05:034][728]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.54.47:588][715]MapCheck: New page: Map Check
+[2021.12.11-04.54.47:640][715]Cmd: MAP REBUILD ALLVISIBLE
+[2021.12.11-04.54.47:653][715]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.12.11-04.54.53:491][715]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=false
+[2021.12.11-04.54.53:859][715]LogEditorServer: Cleared 133 NULL BSP materials after rebuild.
+[2021.12.11-04.54.53:859][715]LightingResults: New page: Lighting Build - Dec 10, 2021, 12:54:53 PM
+[2021.12.11-04.54.53:900][715]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.12.11-04.54.53:911][715]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.12.11-04.54.53:911][715]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.12.11-04.54.53:914][715]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.12.11-04.54.53:914][715]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28620
+[2021.12.11-04.54.58:471][715]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.12.11-04.54.58:484][715]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.12.11-04.54.58:485][715]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.12.11-04.54.58:485][715]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.12.11-04.54.58:485][715]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.12.11-04.54.58:485][715]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.12.11-04.54.58:758][715]LogEditorBuildUtils: Build time 0:11
+[2021.12.11-04.54.58:831][715]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Door, compiling. 
+[2021.12.11-04.54.58:834][715]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Door, compiling. 
+[2021.12.11-04.54.58:898][716]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.12.11-04.54.58:898][716]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.12.11-04.54.58:898][716]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.12.11-04.54.58:898][716]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.12.11-04.54.58:909][716]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer hospital_lockerroom_Glass, compiling. 
+[2021.12.11-04.54.58:913][716]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.12.11-04.54.58:913][716]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.12.11-04.54.58:913][716]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer hospital_lockerroom_Glass, compiling. 
+[2021.12.11-04.54.59:506][716]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.12.11-04.54.59:506][716]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.12.11-04.55.00:004][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.12.11-04.55.02:061][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.12.11-04.55.02:981][750]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto675DC7E2C4748DE3D762EA0A35CDFBA78.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto6.umap'
+[2021.12.11-04.55.02:985][750]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.939
+[2021.12.11-04.55.02:985][750]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.939
+[2021.12.11-04.57.56:004][558]Job is a success!
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.023s
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport:      Bricks at depth
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport:          0: 0.4% covering 100.0% of volume
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport:          1: 5.6% covering 25.0% of volume
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport:          2: 94.0% covering 6.5% of volume
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport:      Bricks in each level
+[2021.12.11-04.57.56:565][559]LogVolumetricLightmapImport:          CD_Hospital 			 284 bricks 	 100.0% (Persistent Level)
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight23 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: PointLight2_4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight33 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight32 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: RectLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.57.58:317][559]LightingResults: Warning: PointLight6_10 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:077][559]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 1024X1024)
+[2021.12.11-04.58.05:078][559]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 1024X1024)
+[2021.12.11-04.58.05:279][559]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X512)
+[2021.12.11-04.58.05:279][559]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2021.12.11-04.58.05:291][559]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024)
+[2021.12.11-04.58.05:480][559]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X1024)
+[2021.12.11-04.58.05:480][559]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2021.12.11-04.58.05:481][559]Lightmass on SLEERBOX: 3:04 min total, 984 ms importing, 1.00 sec setup, 18.3 sec photons, 2:44 min processing, 0 ms extra exporting [5028/5028 mappings]. Threads: 30:04 min total, 18:36 min processing.
+[2021.12.11-04.58.05:532][559]LogStaticLightingSystem: CD_Hospital_BuiltData storing lightmap data for 2047 meshes in 54 LightmapResourceClusters (37.9 Meshes per cluster).
+[2021.12.11-04.58.05:689][559]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.12.11-04.58.05:820][559]LogStaticLightingSystem: Illumination: 3:11 min (6.76 sec encoding lightmaps, 242 ms encoding shadowmaps)
+[2021.12.11-04.58.05:820][559]LogStaticLightingSystem: Lightmap texture memory:  50.0 MB (48.0 MB streaming, 2.0 MB non-streaming), 50 textures
+[2021.12.11-04.58.05:820][559]LogStaticLightingSystem: Shadowmap texture memory: 24.0 MB (21.3 MB streaming, 2.7 MB non-streaming), 5 textures
+[2021.12.11-04.58.15:667][559]DumpUnbuiltLightIteractions
+[2021.12.11-04.58.15:667][559]Lights with unbuilt interactions: 0
+[2021.12.11-04.58.15:667][559]
+[2021.12.11-04.58.15:667][559]Primitives with unbuilt interactions: 0
+[2021.12.11-04.58.16:010][560]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.12.11-04.58.16:010][560]MapCheck: New page: CD_Hospital - Dec 10, 2021, 12:58:16 PM
+[2021.12.11-04.58.16:035][560]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 24.204ms to complete.
+[2021.12.11-04.58.41:939][829]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-04.58.54:416][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2021.12.11-04.58.55:787][275]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-04.58.56:991][412]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2021.12.11-04.58.57:932][508]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube9)
+[2021.12.11-04.58.58:645][569]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2021.12.11-04.59.00:748][804]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube10)
+[2021.12.11-04.59.05:653][350]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2021.12.11-04.59.12:608][104]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube12)
+[2021.12.11-04.59.13:237][165]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2021.12.11-04.59.13:788][217]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2021.12.11-04.59.14:592][289]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube11)
+[2021.12.11-04.59.15:979][422]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube13)
+[2021.12.11-04.59.18:836][725]Cmd: EDIT PASTE
+[2021.12.11-04.59.30:706][781]Cmd: EDIT PASTE
+[2021.12.11-04.59.39:199][417]Cmd: TRANSACTION UNDO
+[2021.12.11-04.59.39:199][417]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-04.59.45:794][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2021.12.11-04.59.46:260][966]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2021.12.11-04.59.46:655][984]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2021.12.11-04.59.47:435][ 45]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube11)
+[2021.12.11-04.59.48:432][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube13)
+[2021.12.11-04.59.49:691][239]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2021.12.11-04.59.53:682][579]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2021.12.11-04.59.54:158][617]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube8)
+[2021.12.11-04.59.54:834][672]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube10)
+[2021.12.11-04.59.55:844][758]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube9)
+[2021.12.11-04.59.58:582][  3]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2021.12.11-04.59.59:760][109]Cmd: EDIT COPY
+[2021.12.11-05.00.01:611][251]Cmd: EDIT PASTE
+[2021.12.11-05.00.33:509][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2021.12.11-05.00.34:764][807]Cmd: TRANSACTION UNDO
+[2021.12.11-05.00.34:765][807]LogEditorTransaction: Undo Clicking on Actors
+[2021.12.11-05.00.35:501][832]Cmd: TRANSACTION UNDO
+[2021.12.11-05.00.35:501][832]LogEditorTransaction: Undo Snap Actors To Floor
+[2021.12.11-05.01.53:308][710]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-05.01.55:689][836]Cmd: DELETE
+[2021.12.11-05.01.55:689][836]Cmd: ACTOR DELETE
+[2021.12.11-05.01.55:746][836]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-05.01.55:767][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.12.11-05.01.55:957][836]LogEditorActor: Deleted 1 Actors (0.268 secs)
+[2021.12.11-05.02.04:508][203]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-05.03.15:884][197]Cmd: TRANSACTION UNDO
+[2021.12.11-05.03.15:884][197]LogEditorTransaction: Undo Move Actors
+[2021.12.11-05.03.16:116][197]Cmd: TRANSACTION UNDO
+[2021.12.11-05.03.16:116][197]LogEditorTransaction: Undo Move Actors
+[2021.12.11-05.03.16:436][198]Cmd: TRANSACTION UNDO
+[2021.12.11-05.03.16:436][198]LogEditorTransaction: Undo Edit X
+[2021.12.11-05.03.18:031][247]Cmd: TRANSACTION UNDO
+[2021.12.11-05.03.18:031][247]LogEditorTransaction: Undo Move Actors
+[2021.12.11-05.03.18:747][262]Cmd: TRANSACTION UNDO
+[2021.12.11-05.03.18:747][262]LogEditorTransaction: Undo Move Actors
+[2021.12.11-05.03.19:492][283]Cmd: TRANSACTION UNDO
+[2021.12.11-05.03.19:492][283]LogEditorTransaction: Undo Move Actors
+[2021.12.11-05.03.20:255][305]Cmd: TRANSACTION UNDO
+[2021.12.11-05.03.20:255][305]LogEditorTransaction: Undo Move Actors
+[2021.12.11-05.04.05:901][628]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-05.05.12:950][286]Cmd: EDIT COPY
+[2021.12.11-05.05.13:573][340]Cmd: EDIT PASTE
+[2021.12.11-05.05.22:267][ 26]Cmd: EDIT COPY
+[2021.12.11-05.05.22:810][ 71]Cmd: EDIT PASTE
+[2021.12.11-05.05.26:712][346]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-05.06.51:566][191]Cmd: DELETE
+[2021.12.11-05.06.51:566][191]Cmd: ACTOR DELETE
+[2021.12.11-05.06.51:640][191]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-05.06.51:699][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.12.11-05.06.51:900][191]LogEditorActor: Deleted 1 Actors (0.334 secs)
+[2021.12.11-05.06.53:571][288]Cmd: EDIT COPY
+[2021.12.11-05.06.54:168][324]Cmd: EDIT PASTE
+[2021.12.11-05.07.39:070][135]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.12.11-05.08.10:954][965]Cmd: TRANSACTION UNDO
+[2021.12.11-05.08.10:954][965]LogEditorTransaction: Undo Move Actors
+[2021.12.11-05.08.12:385][ 13]Cmd: TRANSACTION UNDO
+[2021.12.11-05.08.12:385][ 13]LogEditorTransaction: Undo Move Actors
+[2021.12.11-05.09.51:136][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2021.12.11-05.10.13:804][218]Cmd: DELETE
+[2021.12.11-05.10.13:804][218]Cmd: ACTOR DELETE
+[2021.12.11-05.10.13:871][218]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-05.10.13:919][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.12.11-05.10.14:113][218]LogEditorActor: Deleted 1 Actors (0.309 secs)
+[2021.12.11-05.10.16:373][437]Cmd: EDIT COPY
+[2021.12.11-05.10.17:034][501]Cmd: EDIT PASTE
+[2021.12.11-05.11.41:586][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2021.12.11-05.14.41:666][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2021.12.11-05.14.52:349][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2021.12.11-05.15.32:920][172]Cmd: TRANSACTION UNDO
+[2021.12.11-05.15.32:920][172]LogEditorTransaction: Undo Snap Actors To Floor
+[2021.12.11-05.15.46:017][749]Cmd: EDIT COPY
+[2021.12.11-05.15.46:618][783]Cmd: EDIT PASTE
+[2021.12.11-05.15.51:813][  4]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-05.16.03:890][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2021.12.11-05.16.53:996][ 23]LogSlate: Window 'Message Log' being destroyed
+[2021.12.11-05.16.59:773][273]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.12.11-05.17.01:183][273]LogSlate: Window 'Save Content' being destroyed
+[2021.12.11-05.17.01:281][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.11-05.17.01:303][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.12.11-05.17.02:094][273]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_HospitalF8C826954F8E86E296A140AE7CBA4B18.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap'
+[2021.12.11-05.17.02:133][273]LogFileHelpers: Saving map 'CD_Hospital' took 0.854
+[2021.12.11-05.17.02:133][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset" SILENT=true
+[2021.12.11-05.17.03:860][273]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_BuiltDataC83FAD6448DB090421E8C890E404B4C6.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset'
+[2021.12.11-05.17.03:908][273]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.11-05.17.03:908][273]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.11-05.17.03:908][273]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
