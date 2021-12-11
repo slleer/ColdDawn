@@ -1,0 +1,1826 @@
+﻿Log file open, 12/10/21 15:54:13
+LogInit: Display: Running engine for game: ColdDawn
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.163764
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=blue-dog-leroy -epicuserid=c2ff131402da48cfa614908fe2591f84 -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: E:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.10-23.54.14:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.10-23.54.14:753][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.10-23.54.14:754][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.10-23.54.14:754][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.10-23.54.14:754][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.10-23.54.14:754][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.10-23.54.14:754][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.10-23.54.14:754][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.10-23.54.14:754][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.10-23.54.14:754][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.10-23.54.14:754][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.10-23.54.14:761][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:761][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.10-23.54.14:761][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.10-23.54.14:761][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:761][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.10-23.54.14:761][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:761][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.10-23.54.14:761][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.10-23.54.14:761][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.10-23.54.14:761][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.10-23.54.14:761][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.10-23.54.14:762][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.10-23.54.14:763][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.10-23.54.14:763][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.10-23.54.14:763][  0]LogHAL: Display: Platform has ~ 32 GB [34212347904 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.10-23.54.14:763][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.10-23.54.14:763][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.10-23.54.14:763][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.10-23.54.14:764][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.10-23.54.14:764][  0]LogInit: Computer: SLEERBOX
+[2021.12.10-23.54.14:764][  0]LogInit: User: steph
+[2021.12.10-23.54.14:764][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.12.10-23.54.14:764][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.10-23.54.14:764][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.12.10-23.54.14:764][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.10-23.54.14:764][  0]LogMemory: Process Physical Memory: 120.91 MB used, 120.91 MB peak
+[2021.12.10-23.54.14:764][  0]LogMemory: Process Virtual Memory: 116.17 MB used, 116.17 MB peak
+[2021.12.10-23.54.14:764][  0]LogMemory: Physical Memory: 13443.60 MB used,  19183.84 MB free, 32627.44 MB total
+[2021.12.10-23.54.14:764][  0]LogMemory: Virtual Memory: 5223.03 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2021.12.10-23.54.14:769][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.10-23.54.14:816][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.10-23.54.14:817][  0]LogInit: Using OS detected language (en-US).
+[2021.12.10-23.54.14:817][  0]LogInit: Using OS detected locale (en-US).
+[2021.12.10-23.54.14:818][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.12.10-23.54.15:031][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.10-23.54.15:031][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.10-23.54.15:192][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.12.10-23.54.15:192][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.10-23.54.15:192][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.10-23.54.15:192][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.10-23.54.15:284][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2021.12.10-23.54.15:284][  0]LogD3D11RHI:       8079/0/16313 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.12.10-23.54.15:309][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.12.10-23.54.15:309][  0]LogD3D11RHI:       128/0/16313 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2021.12.10-23.54.15:311][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.10-23.54.15:311][  0]LogD3D11RHI:       0/0/16313 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.10-23.54.15:311][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.10-23.54.15:318][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.10-23.54.15:318][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2021.12.10-23.54.15:318][  0]LogWindows: EnumDisplayDevices:
+[2021.12.10-23.54.15:318][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2021.12.10-23.54.15:319][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.12.10-23.54.15:319][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.12.10-23.54.15:319][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.12.10-23.54.15:320][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2021.12.10-23.54.15:320][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2021.12.10-23.54.15:320][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.12.10-23.54.15:320][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.12.10-23.54.15:320][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2021.12.10-23.54.15:320][  0]LogD3D11RHI:   Driver Version: 472.12 (internal:30.0.14.7212, unified:472.12)
+[2021.12.10-23.54.15:320][  0]LogD3D11RHI:      Driver Date: 9-13-2021
+[2021.12.10-23.54.15:320][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.12.10-23.54.15:389][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.10-23.54.15:389][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.10-23.54.15:389][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.12.10-23.54.15:406][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.12.10-23.54.15:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.10-23.54.15:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.10-23.54.15:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.10-23.54.15:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.10-23.54.15:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.10-23.54.15:788][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.10-23.54.15:795][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.10-23.54.15:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.10-23.54.15:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.10-23.54.15:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.10-23.54.15:823][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.10-23.54.15:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.10-23.54.15:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.10-23.54.15:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.10-23.54.15:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.10-23.54.15:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.10-23.54.15:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.10-23.54.15:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.10-23.54.15:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.10-23.54.15:885][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.10-23.54.15:890][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.10-23.54.15:932][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Intermediate/Shaders/WorkingDirectory/28620/).
+[2021.12.10-23.54.15:932][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/steph/AppData/Local/Temp/UnrealShaderWorkingDir/ED3A40DF46E7C8DEFF00BF8DFD4E27E5/'.
+[2021.12.10-23.54.15:933][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.12.10-23.54.15:933][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.10-23.54.15:933][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.10-23.54.16:542][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.10-23.54.16:588][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/steph/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.10-23.54.16:588][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/steph/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.12.10-23.54.16:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.10-23.54.16:588][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.10-23.54.16:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.10-23.54.16:588][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.10-23.54.16:597][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.10-23.54.16:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.10-23.54.16:597][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.10-23.54.16:598][  0]LogDerivedDataCache: Using Local data cache path C:/Users/steph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.10-23.54.16:598][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.10-23.54.16:598][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.10-23.54.16:645][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.10-23.54.16:646][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.10-23.54.16:670][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.12.10-23.54.16:868][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.10-23.54.16:957][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.10-23.54.16:957][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.10-23.54.16:957][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.10-23.54.16:957][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.10-23.54.16:957][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.10-23.54.16:973][  0]LogNetVersion: ColdDawn 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3432050753)
+[2021.12.10-23.54.17:322][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E97CEA1380), frame # 0
+[2021.12.10-23.54.17:322][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E97CDECE00), frame # 0
+[2021.12.10-23.54.17:323][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E97CE39E00), frame # 0
+[2021.12.10-23.54.17:361][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.032250 seconds
+[2021.12.10-23.54.17:365][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.12.10-23.54.17:365][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.12.10-23.54.17:365][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.10-23.54.17:604][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.10-23.54.17:607][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.10-23.54.17:663][  0]SourceControl: Source control is disabled
+[2021.12.10-23.54.17:663][  0]SourceControl: Source control is disabled
+[2021.12.10-23.54.17:666][  0]SourceControl: Source control is disabled
+[2021.12.10-23.54.17:668][  0]SourceControl: Source control is disabled
+[2021.12.10-23.54.17:673][  0]SourceControl: Source control is disabled
+[2021.12.10-23.54.17:846][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.10-23.54.17:861][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.10-23.54.17:861][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.10-23.54.17:898][  0]LogOcInput: OculusInput pre-init called
+[2021.12.10-23.54.18:115][  0]LogEngine: Initializing Engine...
+[2021.12.10-23.54.18:179][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.12.10-23.54.18:179][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.10-23.54.18:180][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.12.10-23.54.18:273][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.10-23.54.18:280][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.10-23.54.18:280][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E901C47C00), frame # 0
+[2021.12.10-23.54.18:280][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E901BEFB00), frame # 0
+[2021.12.10-23.54.18:294][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.10-23.54.18:294][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.10-23.54.18:294][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.10-23.54.18:294][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.10-23.54.18:294][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.10-23.54.18:294][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.10-23.54.18:294][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.10-23.54.18:294][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.10-23.54.18:294][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.10-23.54.18:294][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.10-23.54.18:321][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.10-23.54.18:321][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.10-23.54.18:378][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.10-23.54.18:381][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.10-23.54.18:382][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.10-23.54.18:382][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.10-23.54.18:382][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.10-23.54.18:383][  0]LogInit: FAudioDevice initialized.
+[2021.12.10-23.54.18:383][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.10-23.54.18:454][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/steph/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.10-23.54.18:454][  0]LogInit: Texture streaming: Enabled
+[2021.12.10-23.54.18:468][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.10-23.54.18:468][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.10-23.54.18:470][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.10-23.54.18:506][  0]LogInit: Transaction tracking system initialized
+[2021.12.10-23.54.18:520][  0]BlueprintLog: New page: Editor Load
+[2021.12.10-23.54.18:567][  0]LocalizationService: Localization service is disabled
+[2021.12.10-23.54.18:684][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.12.10-23.54.18:684][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.10-23.54.18:780][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/' took 0.01s
+[2021.12.10-23.54.18:957][  0]SourceControl: Source control is disabled
+[2021.12.10-23.54.18:957][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.653
+[2021.12.10-23.54.18:957][  0]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.10-23.54.18:958][  0]LightingResults: New page: Lighting Build
+[2021.12.10-23.54.18:958][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.10-23.54.18:958][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.10-23.54.18:958][  0]MapCheck: New page: Map Check
+[2021.12.10-23.54.18:958][  0]LightingResults: New page: Lighting Build
+[2021.12.10-23.54.18:967][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E901C47C00), frame # 0
+[2021.12.10-23.54.18:967][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E901BEFB00), frame # 0
+[2021.12.10-23.54.18:967][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.12.10-23.54.19:071][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/ColdDawn/InventorySystem/InventoryUI/Inventory_Window.Inventory_Window_C:ExecuteUbergraph_Inventory_Window:CallFunc_Array_Get_Item'. Unknown structure.
+[2021.12.10-23.54.20:041][  0]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.10-23.54.20:041][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9169A3E00), frame # 0
+[2021.12.10-23.54.20:041][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9169E1D00), frame # 0
+[2021.12.10-23.54.20:052][  0]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere needed to have new flag set bUsedWithStaticLighting !
+[2021.12.10-23.54.20:058][  0]LogMaterial: Display: Missing cached shader map for material M_MaterialSphere, compiling. 
+[2021.12.10-23.54.20:103][  0]MapCheck: Warning: M_MaterialSphere Material /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2021.12.10-23.54.20:146][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2021.12.10-23.54.20:146][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2021.12.10-23.54.20:146][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2021.12.10-23.54.20:146][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2021.12.10-23.54.20:146][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2021.12.10-23.54.20:146][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2021.12.10-23.54.20:146][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2021.12.10-23.54.20:146][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.12.10-23.54.20:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.10-23.54.20:173][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.12.10-23.54.20:174][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.10-23.54.20:174][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.131ms to complete.
+[2021.12.10-23.54.20:231][  0]LogFileHelpers: Loading map 'tutorial_map_v1' took 1.275
+[2021.12.10-23.54.20:234][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.930
+[2021.12.10-23.54.20:469][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.10-23.54.20:485][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.10-23.54.20:505][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.10-23.54.20:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.10-23.54.20:748][  0]LogCollectionManager: Loaded 0 collections in 0.000796 seconds
+[2021.12.10-23.54.20:779][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Collections/' took 0.00s
+[2021.12.10-23.54.20:779][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/Developers/steph/Collections/' took 0.00s
+[2021.12.10-23.54.20:779][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/Collections/' took 0.00s
+[2021.12.10-23.54.20:779][  0]LogContentBrowser: Native class hierarchy populated in 0.0208 seconds. Added 3429 classes and 824 folders.
+[2021.12.10-23.54.20:788][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2021.12.10-23.54.20:844][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2021.12.10-23.54.20:898][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.10-23.54.20:901][  0]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.10-23.54.20:912][  0]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.10-23.54.21:052][  0]LogRenderer: Reallocating scene render targets to support 1148x508 Format 10 NumSamples 1 (Frame:1).
+[2021.12.10-23.54.21:303][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2021.12.10-23.54.21:303][  0]LogLoad: (Engine Initialization) Total time: 8.00 seconds
+[2021.12.10-23.54.21:303][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.10-23.54.21:369][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.10-23.54.21:475][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.10-23.54.21:498][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/' took 0.18s
+[2021.12.10-23.54.21:609][  2]LogAssetRegistry: Asset discovery search completed in 4.9409 seconds
+[2021.12.10-23.54.21:619][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.12.10-23.54.23:811][207]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.10-23.54.24:514][207]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2021.12.10-23.54.24:514][207]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2021.12.10-23.54.24:514][207]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2021.12.10-23.54.24:514][207]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2021.12.10-23.54.24:514][207]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.12.10-23.54.24:514][207]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.12.10-23.54.24:922][207]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.10-23.54.24:945][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.12.10-23.54.24:951][207]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.10-23.54.24:951][207]LightingResults: New page: Lighting Build
+[2021.12.10-23.54.24:951][207]LoadErrors: New page: Loading map: CD_Hospital.umap
+[2021.12.10-23.54.24:952][207]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.10-23.54.24:952][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.10-23.54.24:953][207]MapCheck: New page: Map Check
+[2021.12.10-23.54.24:953][207]LightingResults: New page: Lighting Build
+[2021.12.10-23.54.24:969][207]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E9169A3E00), frame # 207
+[2021.12.10-23.54.24:969][207]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E9169E1D00), frame # 207
+[2021.12.10-23.54.24:971][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.12.10-23.54.25:373][207]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.10-23.54.25:373][207]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.10-23.54.25:373][207]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E99A5E4600), frame # 207
+[2021.12.10-23.54.25:373][207]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9AD9B0F40), frame # 207
+[2021.12.10-23.54.25:400][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.12.10-23.54.25:425][207]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.10-23.54.25:425][207]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.296ms to complete.
+[2021.12.10-23.54.25:425][207]LogFileHelpers: Loading map 'CD_Hospital' took 0.474
+[2021.12.10-23.54.34:031][835]MapCheck: New page: Map Check
+[2021.12.10-23.54.34:087][835]Cmd: MAP REBUILD ALLVISIBLE
+[2021.12.10-23.54.34:087][835]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.12.10-23.54.37:771][835]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=false
+[2021.12.10-23.54.38:046][835]LightingResults: New page: Lighting Build - Dec 10, 2021, 7:54:38 AM
+[2021.12.10-23.54.38:094][835]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.12.10-23.54.38:148][835]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.12.10-23.54.38:160][835]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.12.10-23.54.38:678][835]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.12.10-23.54.38:678][835]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28620
+[2021.12.10-23.54.45:706][835]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.12.10-23.54.45:717][835]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.12.10-23.54.45:717][835]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.12.10-23.54.45:717][835]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.12.10-23.54.45:717][835]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.12.10-23.54.45:717][835]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.12.10-23.54.45:965][835]LogEditorBuildUtils: Build time 0:11
+[2021.12.10-23.54.46:670][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.12.10-23.56.59:768][215]Job is a success!
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.023s
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport:      Bricks at depth
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport:          0: 0.4% covering 100.0% of volume
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport:          1: 5.9% covering 25.0% of volume
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport:          2: 93.8% covering 6.2% of volume
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport:      Bricks in each level
+[2021.12.10-23.57.00:408][216]LogVolumetricLightmapImport:          CD_Hospital 			 273 bricks 	 100.0% (Persistent Level)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:135][216]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 1024X1024)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 512X512)
+[2021.12.10-23.57.09:136][216]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 512X512)
+[2021.12.10-23.57.09:335][216]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 1024X512)
+[2021.12.10-23.57.09:335][216]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X1024)
+[2021.12.10-23.57.09:546][216]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X1024)
+[2021.12.10-23.57.09:546][216]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024)
+[2021.12.10-23.57.09:546][216]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X1024)
+[2021.12.10-23.57.09:546][216]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 1024X1024)
+[2021.12.10-23.57.09:546][216]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X1024)
+[2021.12.10-23.57.09:546][216]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2021.12.10-23.57.09:546][216]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2021.12.10-23.57.09:546][216]Lightmass on SLEERBOX: 2:22 min total, 890 ms importing, 1.18 sec setup, 19.4 sec photons, 2:00 min processing, 0 ms extra exporting [4872/4872 mappings]. Threads: 22:07 min total, 12:21 min processing.
+[2021.12.10-23.57.09:560][216]LogStaticLightingSystem: CD_Hospital_BuiltData storing lightmap data for 1974 meshes in 69 LightmapResourceClusters (28.6 Meshes per cluster).
+[2021.12.10-23.57.09:689][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.12.10-23.57.09:744][216]LogMaterial: Display: Material /DatasmithContent/Materials/FBXImporter/VRED/BrushedMetal.BrushedMetal needed to have new flag set bUsedWithStaticLighting !
+[2021.12.10-23.57.09:746][216]LogMaterial: Display: Missing cached shader map for material BrushedMetal, compiling. 
+[2021.12.10-23.57.09:844][216]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 78
+[2021.12.10-23.57.09:845][216]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 68
+[2021.12.10-23.57.09:845][216]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 58
+[2021.12.10-23.57.09:845][216]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 48
+[2021.12.10-23.57.09:845][216]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 38
+[2021.12.10-23.57.09:845][216]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 28
+[2021.12.10-23.57.09:845][216]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2021.12.10-23.57.09:845][216]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 8
+[2021.12.10-23.57.09:888][216]LogStaticLightingSystem: Illumination: 2:31 min (7.09 sec encoding lightmaps, 354 ms encoding shadowmaps)
+[2021.12.10-23.57.09:888][216]LogStaticLightingSystem: Lightmap texture memory:  48.5 MB (46.5 MB streaming, 2.0 MB non-streaming), 50 textures
+[2021.12.10-23.57.09:888][216]LogStaticLightingSystem: Shadowmap texture memory: 42.7 MB (40.0 MB streaming, 2.7 MB non-streaming), 9 textures
+[2021.12.10-23.57.19:852][216]DumpUnbuiltLightIteractions
+[2021.12.10-23.57.19:852][216]Lights with unbuilt interactions: 0
+[2021.12.10-23.57.19:852][216]
+[2021.12.10-23.57.19:852][216]Primitives with unbuilt interactions: 0
+[2021.12.10-23.57.20:215][217]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.12.10-23.57.20:216][217]MapCheck: New page: CD_Hospital - Dec 10, 2021, 7:57:20 AM
+[2021.12.10-23.57.20:226][217]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 10.393ms to complete.
+[2021.12.10-23.58.29:139][198]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.10-23.58.30:601][373]Cmd: DELETE
+[2021.12.10-23.58.30:601][373]Cmd: ACTOR DELETE
+[2021.12.10-23.58.30:659][373]LogEditorActor: Deleted Actor: DirectionalLight
+[2021.12.10-23.58.30:673][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.12.10-23.58.30:682][373]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2021.12.10-23.58.42:830][819]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2021.12.10-23.58.43:818][930]Cmd: DELETE
+[2021.12.10-23.58.43:818][930]Cmd: ACTOR DELETE
+[2021.12.10-23.58.43:863][930]LogEditorActor: Deleted Actor: PointLight
+[2021.12.10-23.58.43:875][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2021.12.10-23.58.43:878][930]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2021.12.10-23.59.03:217][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Trash_Can_9)
+[2021.12.10-23.59.04:334][350]Cmd: EDIT COPY
+[2021.12.10-23.59.05:636][506]Cmd: EDIT PASTE
+[2021.12.11-00.00.06:922][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_02)
+[2021.12.11-00.00.26:096][723]MapCheck: New page: Map Check
+[2021.12.11-00.00.26:149][723]Cmd: MAP REBUILD ALLVISIBLE
+[2021.12.11-00.00.26:150][723]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.12.11-00.00.30:005][723]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=false
+[2021.12.11-00.00.30:359][723]LightingResults: New page: Lighting Build - Dec 10, 2021, 8:00:30 AM
+[2021.12.11-00.00.30:387][723]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.12.11-00.00.30:390][723]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.12.11-00.00.30:390][723]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.12.11-00.00.30:391][723]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.12.11-00.00.30:391][723]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28620
+[2021.12.11-00.00.34:978][723]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.12.11-00.00.34:985][723]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.12.11-00.00.34:985][723]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.12.11-00.00.34:985][723]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.12.11-00.00.34:985][723]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.12.11-00.00.34:985][723]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.12.11-00.00.35:211][723]LogEditorBuildUtils: Build time 0:09
+[2021.12.11-00.00.35:258][723]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BrushedMetal, compiling. 
+[2021.12.11-00.00.35:262][723]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2021.12.11-00.00.35:262][723]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.12.11-00.00.35:262][723]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BrushedMetal, compiling. 
+[2021.12.11-00.00.35:314][723]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.12.11-00.00.35:314][723]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.12.11-00.00.35:841][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.12.11-00.02.20:081][262]Job is a success!
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb (trimmed 1.1Mb due to 0.010000 MinBrickError)
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport:      Bricks at depth
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport:          0: 3.4% covering 100.0% of volume
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport:          1: 55.2% covering 25.0% of volume
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport:          2: 41.4% covering 0.3% of volume
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport:      Bricks in each level
+[2021.12.11-00.02.20:551][263]LogVolumetricLightmapImport:          CD_Hospital 			 29 bricks 	 100.0% (Persistent Level)
+[2021.12.11-00.02.23:455][263]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:455][263]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:456][263]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (DXT1, 1024X1024)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 512X512)
+[2021.12.11-00.02.23:457][263]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (DXT1, 512X512)
+[2021.12.11-00.02.23:602][263]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 512X512)
+[2021.12.11-00.02.23:602][263]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 1024X512)
+[2021.12.11-00.02.23:602][263]Lightmass on SLEERBOX: 1:47 min total, 761 ms importing, 1.05 sec setup, 18.2 sec photons, 1:26 min processing, 0 ms extra exporting [4873/4873 mappings]. Threads: 15:56 min total, 9:14 min processing.
+[2021.12.11-00.02.23:616][263]LogStaticLightingSystem: CD_Hospital_BuiltData storing lightmap data for 1975 meshes in 35 LightmapResourceClusters (56.4 Meshes per cluster).
+[2021.12.11-00.02.23:733][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.12.11-00.02.23:882][263]LogStaticLightingSystem: Illumination: 1:53 min (1.70 sec encoding lightmaps, 99 ms encoding shadowmaps)
+[2021.12.11-00.02.23:882][263]LogStaticLightingSystem: Lightmap texture memory:  48.5 MB (46.5 MB streaming, 2.0 MB non-streaming), 50 textures
+[2021.12.11-00.02.23:882][263]LogStaticLightingSystem: Shadowmap texture memory: 3.0 MB (2.7 MB streaming, 0.3 MB non-streaming), 2 textures
+[2021.12.11-00.02.34:085][263]DumpUnbuiltLightIteractions
+[2021.12.11-00.02.34:085][263]Lights with unbuilt interactions: 0
+[2021.12.11-00.02.34:085][263]
+[2021.12.11-00.02.34:085][263]Primitives with unbuilt interactions: 0
+[2021.12.11-00.02.34:437][264]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.12.11-00.02.34:437][264]MapCheck: New page: CD_Hospital - Dec 10, 2021, 8:02:34 AM
+[2021.12.11-00.02.34:447][264]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 9.682ms to complete.
+[2021.12.11-00.03.11:891][451]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-00.03.12:132][480]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-00.03.12:359][506]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-00.03.36:093][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2021.12.11-00.05.07:008][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2021.12.11-00.05.25:768][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2021.12.11-00.05.37:556][609]EditorErrors: New page: Actor attachment
+[2021.12.11-00.06.07:562][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2021.12.11-00.06.11:575][218]Cmd: TRANSACTION UNDO
+[2021.12.11-00.06.11:575][218]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.07.10:689][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.12.11-00.07.11:435][159]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto1A3B8128048654E9811AEB19FD0F76F0F.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto1.umap'
+[2021.12.11-00.07.11:437][159]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.763
+[2021.12.11-00.07.11:437][159]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.763
+[2021.12.11-00.07.11:438][159]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/DatasmithContent/Materials/FBXImporter/VRED/BrushedMetal] ([1] browsable assets)...
+[2021.12.11-00.07.11:447][159]OBJ SavePackage:     Rendered thumbnail for [Material /DatasmithContent/Materials/FBXImporter/VRED/BrushedMetal.BrushedMetal]
+[2021.12.11-00.07.11:447][159]OBJ SavePackage: Finished generating thumbnails for package [/DatasmithContent/Materials/FBXImporter/VRED/BrushedMetal]
+[2021.12.11-00.07.11:489][159]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/BrushedMetal_Auto12CE4BCF14E49AC8B0C0641AFDB49EDA9.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/DatasmithContent/Materials/FBXImporter/VRED/BrushedMetal_Auto1.uasset'
+[2021.12.11-00.07.11:490][159]LogFileHelpers: Auto-saving content packages took 0.053
+[2021.12.11-00.08.06:108][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_02)
+[2021.12.11-00.08.14:294][589]Cmd: EDIT COPY
+[2021.12.11-00.08.15:147][690]Cmd: EDIT PASTE
+[2021.12.11-00.08.34:873][818]Cmd: TRANSACTION UNDO
+[2021.12.11-00.08.34:873][818]LogEditorTransaction: Undo Clicking on Actors
+[2021.12.11-00.08.35:678][858]Cmd: TRANSACTION UNDO
+[2021.12.11-00.08.35:678][858]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.08.36:969][  9]Cmd: TRANSACTION UNDO
+[2021.12.11-00.08.36:969][  9]LogEditorTransaction: Undo Paste
+[2021.12.11-00.08.47:334][ 58]Cmd: EDIT COPY
+[2021.12.11-00.08.47:999][137]Cmd: EDIT PASTE
+[2021.12.11-00.09.36:554][918]Cmd: EDIT PASTE
+[2021.12.11-00.17.11:526][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2021.12.11-00.17.12:281][417]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto2AE2D13C045B52EF4E1890DA658ADA73D.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto2.umap'
+[2021.12.11-00.17.12:284][417]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.772
+[2021.12.11-00.17.12:284][417]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.772
+[2021.12.11-00.29.14:002][384]Cmd: EDIT COPY
+[2021.12.11-00.29.14:745][473]Cmd: EDIT PASTE
+[2021.12.11-00.29.37:370][905]Cmd: EDIT COPY
+[2021.12.11-00.29.38:105][993]Cmd: EDIT PASTE
+[2021.12.11-00.30.00:929][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2021.12.11-00.30.07:138][297]Cmd: EDIT COPY
+[2021.12.11-00.30.08:516][462]Cmd: EDIT PASTE
+[2021.12.11-00.30.13:028][992]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-00.30.22:497][103]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-00.31.10:979][719]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2021.12.11-00.31.15:921][294]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2021.12.11-00.32.34:926][657]Cmd: DELETE
+[2021.12.11-00.32.34:926][657]Cmd: ACTOR DELETE
+[2021.12.11-00.32.34:970][657]LogEditorActor: Deleted Actor: PointLight
+[2021.12.11-00.32.34:984][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.12.11-00.32.34:988][657]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2021.12.11-00.32.35:847][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2021.12.11-00.32.36:385][816]Cmd: DELETE
+[2021.12.11-00.32.36:385][816]Cmd: ACTOR DELETE
+[2021.12.11-00.32.36:431][816]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.11-00.32.36:445][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.12.11-00.32.36:447][816]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2021.12.11-00.32.57:989][ 85]Cmd: EDIT COPY
+[2021.12.11-00.32.58:651][159]Cmd: EDIT PASTE
+[2021.12.11-00.33.28:442][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_9)
+[2021.12.11-00.33.31:007][986]Cmd: DELETE
+[2021.12.11-00.33.31:007][986]Cmd: ACTOR DELETE
+[2021.12.11-00.33.31:061][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.11-00.33.31:075][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.12.11-00.33.31:078][986]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2021.12.11-00.33.46:413][823]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_OpenClose_C (CD_DoorActor_ButtonPress_OpenClose4)
+[2021.12.11-00.33.59:561][195]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_OpenClose_C (CD_DoorActor_ButtonPress_OpenClose4)
+[2021.12.11-00.34.26:393][174]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_OpenClose_C (CD_DoorActor_ButtonPress_OpenClose4)
+[2021.12.11-00.34.28:036][367]Cmd: TRANSACTION UNDO
+[2021.12.11-00.34.28:036][367]LogEditorTransaction: Undo Clicking on Actors
+[2021.12.11-00.34.28:869][408]Cmd: TRANSACTION UNDO
+[2021.12.11-00.34.28:870][408]LogEditorTransaction: Undo Rename Actor
+[2021.12.11-00.34.30:305][575]Cmd: TRANSACTION UNDO
+[2021.12.11-00.34.30:305][575]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-00.34.31:826][744]Cmd: TRANSACTION UNDO
+[2021.12.11-00.34.31:826][744]LogEditorTransaction: Undo Clicking on Actors
+[2021.12.11-00.34.32:426][803]Cmd: TRANSACTION UNDO
+[2021.12.11-00.34.32:426][803]LogEditorTransaction: Undo Select Brush Surface
+[2021.12.11-00.34.32:934][851]Cmd: TRANSACTION UNDO
+[2021.12.11-00.34.32:934][851]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.34.46:543][273]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/CD_DoorActor_ButtonPress_OpenClose_StartOpen.CD_DoorActor_ButtonPress_OpenClose_StartOpen
+[2021.12.11-00.34.46:806][273]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 125 classes and 0 folders.
+[2021.12.11-00.34.48:761][378]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.11-00.34.49:970][447]LogSlate: Window 'CD_DoorActor_ButtonPress_OpenClose_StartOpen' being destroyed
+[2021.12.11-00.34.49:994][447]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-00.34.49:994][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-00.35.44:862][467]Cmd: TRANSACTION UNDO
+[2021.12.11-00.35.44:863][467]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.35.49:701][919]Cmd: EDIT COPY
+[2021.12.11-00.35.51:506][135]Cmd: EDIT PASTE
+[2021.12.11-00.36.09:950][ 64]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-00.36.10:275][102]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-00.36.10:525][129]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-00.36.10:770][158]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-00.36.11:460][240]Cmd: DELETE
+[2021.12.11-00.36.11:460][240]Cmd: ACTOR DELETE
+[2021.12.11-00.36.11:513][240]LogEditorActor: Deleted Actor: Brush
+[2021.12.11-00.36.11:539][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.12.11-00.36.11:669][240]LogEditorActor: Deleted 1 Actors (0.209 secs)
+[2021.12.11-00.37.24:790][889]LogEditorViewport: Clicking on Actor (LMB): hospital_locker_door_C (hospital_locker_door2)
+[2021.12.11-00.37.26:405][ 58]Cmd: DELETE
+[2021.12.11-00.37.26:405][ 58]Cmd: ACTOR DELETE
+[2021.12.11-00.37.26:452][ 58]LogEditorActor: Deleted Actor: hospital_locker_door_C
+[2021.12.11-00.37.26:481][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.12.11-00.37.26:495][ 58]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2021.12.11-00.37.49:892][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.12.11-00.38.10:263][280]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/LockedDoorsChests/hospital_stairs_exit_door_locked.hospital_stairs_exit_door_locked
+[2021.12.11-00.38.10:789][280]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.11-00.38.37:319][917]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/item_key_stairs_exitD98ED10C4847EB17990CEE90958D1198.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/item_key_stairs_exit.uasset'
+[2021.12.11-00.38.37:352][917]AssetCheck: New page: Asset Save: item_key_stairs_exit
+[2021.12.11-00.38.37:352][917]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/item_key_stairs_exit.item_key_stairs_exit
+[2021.12.11-00.38.55:322][920]BlueprintLog: New page: Compile hospital_stairs_exit_door_locked
+[2021.12.11-00.38.55:386][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.12.11-00.38.55:501][920]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/hospital_stairs_exit_door_lockedB3F2BE4F4E9DBD9FA0D75DB203294443.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/LockedDoorsChests/hospital_stairs_exit_door_locked.uasset'
+[2021.12.11-00.38.55:589][920]AssetCheck: New page: Asset Save: hospital_stairs_exit_door_locked
+[2021.12.11-00.38.55:589][920]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/LockedDoorsChests/hospital_stairs_exit_door_locked.hospital_stairs_exit_door_locked
+[2021.12.11-00.38.55:622][920]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.11-00.39.05:933][548]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/item_key_stairs_exit.item_key_stairs_exit
+[2021.12.11-00.39.06:320][549]LogRenderer: Reallocating scene render targets to support 1148x760 Format 10 NumSamples 1 (Frame:1).
+[2021.12.11-00.39.12:894][845]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.11-00.39.22:073][473]BlueprintLog: New page: Compile item_key_stairs_exit
+[2021.12.11-00.39.22:121][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.12.11-00.39.22:206][473]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/item_key_stairs_exitA5B2A5734B0E872D69FAA586FCB97E5B.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/item_key_stairs_exit.uasset'
+[2021.12.11-00.39.22:346][473]AssetCheck: New page: Asset Save: item_key_stairs_exit
+[2021.12.11-00.39.22:346][473]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/item_key_stairs_exit.item_key_stairs_exit
+[2021.12.11-00.39.47:828][219]BlueprintLog: New page: Compile item_key_stairs_exit
+[2021.12.11-00.39.47:872][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.12.11-00.39.47:969][219]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/item_key_stairs_exitB229D7484005FD708906C282D3715852.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/item_key_stairs_exit.uasset'
+[2021.12.11-00.39.48:008][219]AssetCheck: New page: Asset Save: item_key_stairs_exit
+[2021.12.11-00.39.48:008][219]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/item_key_stairs_exit.item_key_stairs_exit
+[2021.12.11-00.39.55:807][726]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-00.39.55:807][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-00.39.58:672][858]LogSlate: Window 'hospital_stairs_exit_door_locked' being destroyed
+[2021.12.11-00.39.58:723][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.11-00.39.58:723][858]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-00.39.58:723][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-00.40.23:244][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_02)
+[2021.12.11-00.40.26:329][721]Cmd: EDIT COPY
+[2021.12.11-00.40.27:021][773]Cmd: EDIT PASTE
+[2021.12.11-00.40.30:383][106]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-00.41.04:586][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_9)
+[2021.12.11-00.41.07:557][836]Cmd: EDIT COPY
+[2021.12.11-00.41.08:112][891]Cmd: EDIT PASTE
+[2021.12.11-00.41.15:774][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_9)
+[2021.12.11-00.41.36:402][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_10)
+[2021.12.11-00.41.43:270][125]Cmd: EDIT COPY
+[2021.12.11-00.41.44:568][256]Cmd: EDIT PASTE
+[2021.12.11-00.42.09:229][469]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-00.42.25:510][152]Cmd: EDIT COPY
+[2021.12.11-00.42.25:968][201]Cmd: EDIT PASTE
+[2021.12.11-00.42.32:681][741]Cmd: EDIT COPY
+[2021.12.11-00.42.33:098][784]Cmd: EDIT PASTE
+[2021.12.11-00.42.56:839][ 89]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2021.12.11-00.43.46:716][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.12.11-00.43.47:483][566]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto3ED1AFEC240F36BEBFD0CE4ABBC4C9CBF.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto3.umap'
+[2021.12.11-00.43.47:486][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.795
+[2021.12.11-00.43.47:486][566]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.795
+[2021.12.11-00.44.52:367][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_12)
+[2021.12.11-00.46.29:571][248]Cmd: DELETE
+[2021.12.11-00.46.29:571][248]Cmd: ACTOR DELETE
+[2021.12.11-00.46.29:618][248]LogEditorActor: Deleted Actor: RectLight
+[2021.12.11-00.46.29:640][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.12.11-00.46.29:651][248]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.12.11-00.46.32:376][571]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight8)
+[2021.12.11-00.47.33:000][993]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight8)
+[2021.12.11-00.47.34:036][108]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.34:036][108]LogEditorTransaction: Undo Clicking on Actors
+[2021.12.11-00.47.34:538][117]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.34:538][117]LogEditorTransaction: Undo Delete Actors
+[2021.12.11-00.47.34:938][128]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.34:938][128]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.47.35:593][178]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.35:593][178]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.47.36:173][225]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.36:173][225]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.47.37:085][297]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.37:085][297]LogEditorTransaction: Undo Rotate Actors
+[2021.12.11-00.47.38:007][369]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.38:007][369]LogEditorTransaction: Undo Create Actors
+[2021.12.11-00.47.39:115][434]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.39:115][434]LogEditorTransaction: Undo Edit Attenuation Radius
+[2021.12.11-00.47.40:280][523]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.40:280][523]LogEditorTransaction: Undo Edit Attenuation Radius
+[2021.12.11-00.47.41:175][593]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.41:175][593]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.47.42:128][667]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.42:128][667]LogEditorTransaction: Undo Move Actors
+[2021.12.11-00.47.42:915][729]Cmd: TRANSACTION UNDO
+[2021.12.11-00.47.42:915][729]LogEditorTransaction: Undo Edit Attenuation Radius
+[2021.12.11-00.49.09:314][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_14)
+[2021.12.11-00.49.26:083][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_13)
+[2021.12.11-00.49.34:745][958]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight10)
+[2021.12.11-00.49.38:898][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_12)
+[2021.12.11-00.49.51:339][439]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2021.12.11-00.51.25:239][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_5)
+[2021.12.11-00.51.29:646][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_3)
+[2021.12.11-00.51.33:398][706]Cmd: EDIT COPY
+[2021.12.11-00.51.36:509][ 31]Cmd: EDIT PASTE
+[2021.12.11-00.52.31:303][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_14)
+[2021.12.11-00.52.34:608][800]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight8)
+[2021.12.11-00.52.36:603][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_8)
+[2021.12.11-00.52.39:769][290]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight10)
+[2021.12.11-00.52.42:430][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_10)
+[2021.12.11-00.52.45:113][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_14)
+[2021.12.11-00.53.05:179][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_3)
+[2021.12.11-00.53.07:516][527]Cmd: EDIT COPY
+[2021.12.11-00.53.08:996][693]Cmd: EDIT PASTE
+[2021.12.11-00.53.54:979][786]Cmd: EDIT COPY
+[2021.12.11-00.53.55:416][837]Cmd: EDIT PASTE
+[2021.12.11-00.54.05:351][948]Cmd: EDIT COPY
+[2021.12.11-00.54.06:425][ 72]Cmd: EDIT PASTE
+[2021.12.11-00.54.18:713][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_17)
+[2021.12.11-00.54.22:788][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-00.54.24:117][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_18)
+[2021.12.11-00.54.33:217][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_15)
+[2021.12.11-00.54.38:340][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_16)
+[2021.12.11-00.54.59:445][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_18)
+[2021.12.11-00.55.00:340][ 93]Cmd: EDIT COPY
+[2021.12.11-00.55.00:732][139]Cmd: EDIT PASTE
+[2021.12.11-00.55.42:787][741]Cmd: EDIT COPY
+[2021.12.11-00.55.43:242][795]Cmd: EDIT PASTE
+[2021.12.11-00.55.49:321][507]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Laboratory_Table_Door_8)
+[2021.12.11-00.55.51:080][649]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2021.12.11-00.55.57:084][344]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2021.12.11-00.56.10:204][838]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2021.12.11-00.57.02:959][605]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-00.58.12:097][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_18)
+[2021.12.11-00.58.16:723][139]Cmd: DELETE
+[2021.12.11-00.58.16:723][139]Cmd: ACTOR DELETE
+[2021.12.11-00.58.16:770][139]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.11-00.58.16:793][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.12.11-00.58.16:805][139]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2021.12.11-00.58.20:282][467]Cmd: EDIT COPY
+[2021.12.11-00.58.21:462][578]Cmd: EDIT PASTE
+[2021.12.11-00.59.21:724][506]Cmd: DELETE
+[2021.12.11-00.59.21:724][506]Cmd: ACTOR DELETE
+[2021.12.11-00.59.21:757][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.12.11-00.59.21:765][506]LogEditorActor: Deleted 0 Actors (0.042 secs)
+[2021.12.11-00.59.27:812][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_18)
+[2021.12.11-00.59.48:497][175]Cmd: EDIT COPY
+[2021.12.11-00.59.48:910][222]Cmd: EDIT PASTE
+[2021.12.11-01.00.15:316][999]Cmd: DELETE
+[2021.12.11-01.00.15:316][999]Cmd: ACTOR DELETE
+[2021.12.11-01.00.15:358][999]LogEditorActor: Deleted Actor: RectLight
+[2021.12.11-01.00.15:376][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.12.11-01.00.15:383][999]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2021.12.11-01.00.33:335][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_18)
+[2021.12.11-01.00.35:979][ 84]Cmd: EDIT COPY
+[2021.12.11-01.00.37:484][173]Cmd: EDIT PASTE
+[2021.12.11-01.01.08:803][ 49]Cmd: EDIT COPY
+[2021.12.11-01.01.09:511][106]Cmd: EDIT PASTE
+[2021.12.11-01.01.52:680][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.12.11-01.01.53:423][ 69]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto473AF9B9947F8BDA9A2813EB16EE621F4.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto4.umap'
+[2021.12.11-01.01.53:426][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.766
+[2021.12.11-01.01.53:426][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.766
+[2021.12.11-01.02.51:288][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_21)
+[2021.12.11-01.02.53:971][ 51]Cmd: EDIT COPY
+[2021.12.11-01.02.54:570][ 83]Cmd: EDIT PASTE
+[2021.12.11-01.03.25:663][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_23)
+[2021.12.11-01.04.15:429][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_21)
+[2021.12.11-01.04.28:120][398]Cmd: EDIT COPY
+[2021.12.11-01.04.28:524][424]Cmd: EDIT PASTE
+[2021.12.11-01.04.39:142][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_22)
+[2021.12.11-01.04.44:782][ 56]Cmd: EDIT COPY
+[2021.12.11-01.04.45:161][100]Cmd: EDIT PASTE
+[2021.12.11-01.05.53:427][853]Cmd: TRANSACTION UNDO
+[2021.12.11-01.05.53:427][853]LogEditorTransaction: Undo Move Actors
+[2021.12.11-01.06.26:310][555]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight19)
+[2021.12.11-01.06.30:292][811]Cmd: EDIT COPY
+[2021.12.11-01.06.30:824][858]Cmd: EDIT PASTE
+[2021.12.11-01.06.52:076][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_26)
+[2021.12.11-01.07.06:481][597]Cmd: EDIT COPY
+[2021.12.11-01.07.07:058][656]Cmd: EDIT PASTE
+[2021.12.11-01.07.23:121][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_26)
+[2021.12.11-01.07.32:017][498]Cmd: EDIT COPY
+[2021.12.11-01.07.32:527][541]Cmd: EDIT PASTE
+[2021.12.11-01.07.36:043][936]Cmd: EDIT COPY
+[2021.12.11-01.07.36:380][976]Cmd: EDIT PASTE
+[2021.12.11-01.08.52:976][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_25)
+[2021.12.11-01.08.55:532][813]Cmd: EDIT COPY
+[2021.12.11-01.08.56:053][842]Cmd: EDIT PASTE
+[2021.12.11-01.09.21:120][519]Cmd: EDIT COPY
+[2021.12.11-01.09.21:567][571]Cmd: EDIT PASTE
+[2021.12.11-01.10.57:101][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_10)
+[2021.12.11-01.10.59:532][ 99]Cmd: EDIT COPY
+[2021.12.11-01.11.00:326][153]Cmd: EDIT PASTE
+[2021.12.11-01.11.22:334][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_32)
+[2021.12.11-01.11.23:486][604]Cmd: EDIT COPY
+[2021.12.11-01.11.23:899][637]Cmd: EDIT PASTE
+[2021.12.11-01.11.53:546][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.12.11-01.11.54:312][638]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto5B82D0B8C46D7EEE129A73382A3E43ADA.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto5.umap'
+[2021.12.11-01.11.54:314][638]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.800
+[2021.12.11-01.11.54:314][638]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.800
+[2021.12.11-01.12.16:993][892]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight22)
+[2021.12.11-01.12.23:679][562]Cmd: EDIT COPY
+[2021.12.11-01.12.24:286][619]Cmd: EDIT PASTE
+[2021.12.11-01.12.42:482][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_31)
+[2021.12.11-01.12.55:208][874]Cmd: EDIT COPY
+[2021.12.11-01.12.55:597][920]Cmd: EDIT PASTE
+[2021.12.11-01.13.03:924][644]Cmd: TRANSACTION UNDO
+[2021.12.11-01.13.03:924][644]LogEditorTransaction: Undo Move Actors
+[2021.12.11-01.13.23:010][512]Cmd: EDIT COPY
+[2021.12.11-01.13.23:355][550]Cmd: EDIT PASTE
+[2021.12.11-01.13.33:227][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_36)
+[2021.12.11-01.13.53:943][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_35)
+[2021.12.11-01.13.55:423][854]Cmd: EDIT COPY
+[2021.12.11-01.13.55:770][889]Cmd: EDIT PASTE
+[2021.12.11-01.14.02:053][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-01.14.03:790][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_35)
+[2021.12.11-01.14.05:635][900]Cmd: EDIT COPY
+[2021.12.11-01.14.06:007][944]Cmd: EDIT PASTE
+[2021.12.11-01.14.18:146][278]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-01.16.14:047][530]Cmd: EDIT COPY
+[2021.12.11-01.16.14:483][581]Cmd: EDIT PASTE
+[2021.12.11-01.17.05:103][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_35)
+[2021.12.11-01.17.12:611][945]Cmd: EDIT COPY
+[2021.12.11-01.17.21:178][889]Cmd: EDIT PASTE
+[2021.12.11-01.21.16:836][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_25)
+[2021.12.11-01.21.45:808][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_25)
+[2021.12.11-01.22.32:541][914]Cmd: EDIT COPY
+[2021.12.11-01.22.33:105][961]Cmd: EDIT PASTE
+[2021.12.11-01.22.50:157][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_11)
+[2021.12.11-01.22.51:254][540]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-01.22.55:906][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_9)
+[2021.12.11-01.23.01:296][643]Cmd: EDIT COPY
+[2021.12.11-01.23.01:681][688]Cmd: EDIT PASTE
+[2021.12.11-01.23.29:049][333]Cmd: EDIT COPY
+[2021.12.11-01.23.29:476][379]Cmd: EDIT PASTE
+[2021.12.11-01.24.01:092][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_42)
+[2021.12.11-01.24.02:949][638]Cmd: EDIT COPY
+[2021.12.11-01.24.03:756][730]Cmd: EDIT PASTE
+[2021.12.11-01.24.08:432][235]Cmd: TRANSACTION UNDO
+[2021.12.11-01.24.08:432][235]LogEditorTransaction: Undo Move Actors
+[2021.12.11-01.24.09:004][246]Cmd: TRANSACTION UNDO
+[2021.12.11-01.24.09:004][246]LogEditorTransaction: Undo Paste
+[2021.12.11-01.24.11:412][407]Cmd: EDIT PASTE
+[2021.12.11-01.24.20:415][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_42)
+[2021.12.11-01.24.26:780][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_43)
+[2021.12.11-01.24.29:243][954]Cmd: EDIT COPY
+[2021.12.11-01.24.29:666][996]Cmd: EDIT PASTE
+[2021.12.11-01.24.35:571][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_41)
+[2021.12.11-01.24.39:504][780]Cmd: EDIT COPY
+[2021.12.11-01.24.40:153][820]Cmd: EDIT PASTE
+[2021.12.11-01.24.48:582][592]Cmd: DUPLICATE
+[2021.12.11-01.24.48:582][592]Cmd: ACTOR DUPLICATE
+[2021.12.11-01.24.57:566][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_42)
+[2021.12.11-01.25.02:441][844]Cmd: EDIT COPY
+[2021.12.11-01.25.03:059][890]Cmd: EDIT PASTE
+[2021.12.11-01.25.30:294][931]Cmd: EDIT COPY
+[2021.12.11-01.25.30:892][  1]Cmd: EDIT PASTE
+[2021.12.11-01.25.47:215][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_48)
+[2021.12.11-01.25.48:375][ 32]Cmd: EDIT COPY
+[2021.12.11-01.25.48:708][ 70]Cmd: EDIT PASTE
+[2021.12.11-01.25.58:777][216]Cmd: EDIT PASTE
+[2021.12.11-01.26.01:864][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_47)
+[2021.12.11-01.26.03:671][764]Cmd: EDIT COPY
+[2021.12.11-01.26.04:100][813]Cmd: EDIT PASTE
+[2021.12.11-01.26.08:330][299]Cmd: EDIT COPY
+[2021.12.11-01.26.08:672][339]Cmd: EDIT PASTE
+[2021.12.11-01.27.02:308][704]Cmd: POLY SELECT MATCHING BRUSH
+[2021.12.11-01.27.06:706][ 51]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.12.11-01.27.06:728][ 52]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.12.11-01.27.06:728][ 52]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.12.11-01.27.06:728][ 52]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.12.11-01.27.06:728][ 52]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.12.11-01.27.40:030][461]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.12.11-01.27.45:473][461]LogSlate: Window 'Save Content' being destroyed
+[2021.12.11-01.27.45:587][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/DatasmithContent/Materials/FBXImporter/VRED/BrushedMetal" FILE="../../Plugins/Enterprise/DatasmithContent/Content/Materials/FBXImporter/VRED/BrushedMetal.uasset" SILENT=true
+[2021.12.11-01.27.45:622][461]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/BrushedMetal4FE665744629720C731063AD12CBC44D.tmp' to '../../Plugins/Enterprise/DatasmithContent/Content/Materials/FBXImporter/VRED/BrushedMetal.uasset'
+[2021.12.11-01.27.45:625][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.11-01.27.45:646][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.12.11-01.27.46:383][461]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital7D5BFB9144DF83B1D46A998D84D0E6F7.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap'
+[2021.12.11-01.27.46:409][461]LogFileHelpers: Saving map 'CD_Hospital' took 0.785
+[2021.12.11-01.27.46:409][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset" SILENT=true
+[2021.12.11-01.27.47:277][461]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_BuiltData17C880CC465FC6A5AC763A81E3EB5511.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset'
+[2021.12.11-01.27.47:350][461]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.11-01.27.47:350][461]LogContentValidation: Display: Validating Material /DatasmithContent/Materials/FBXImporter/VRED/BrushedMetal.BrushedMetal
+[2021.12.11-01.27.47:350][461]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.11-01.27.47:350][461]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
+[2021.12.11-01.28.39:180][356]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.11-01.28.42:658][612]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-01.28.48:791][316]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.11-01.28.55:390][ 85]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (BuildingFloor)
+[2021.12.11-01.28.56:231][183]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2021.12.11-01.28.57:907][378]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.12.11-01.28.58:732][449]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-01.28.58:746][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-01.28.58:746][449]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 9:28:58 AM)
+[2021.12.11-01.28.58:747][449]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.11-01.28.58:748][449]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.11-01.28.58:748][449]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-01.28.58:946][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.198441s)
+[2021.12.11-01.28.58:947][449]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-01.28.58:947][449]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EA03C5EC00), frame # 572449
+[2021.12.11-01.28.58:947][449]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9E5591300), frame # 572449
+[2021.12.11-01.28.58:948][449]LogPlayLevel: PIE: World Init took: (0.001892s)
+[2021.12.11-01.28.58:948][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.200760s)
+[2021.12.11-01.28.58:968][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.12.11-01.28.58:982][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-01.28.58:982][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-01.28.58:982][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-01.28.58:982][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-01.28.58:982][449]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-01.28.58:982][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-01.28.58:982][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-01.28.58:982][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-01.28.58:983][449]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-01.28.58:983][449]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-01.28.58:991][449]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-01.28.58:991][449]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-01.28.59:026][449]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-01.28.59:026][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-01.28.59:026][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-01.28.59:026][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-01.28.59:026][449]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-01.28.59:039][449]LogInit: FAudioDevice initialized.
+[2021.12.11-01.28.59:046][449]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-01.28.59:108][449]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-17.28.59
+[2021.12.11-01.28.59:110][449]LogWorld: Bringing up level for play took: 0.062474
+[2021.12.11-01.28.59:110][449]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.12.11-01.28.59:113][449]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 20 classes and 0 folders.
+[2021.12.11-01.28.59:118][449]PIE: Server logged in
+[2021.12.11-01.28.59:119][449]PIE: Play in editor total start time 0.374 seconds.
+[2021.12.11-01.29.32:978][309]LogProjectileMovement: Warning: BaseProjectile_GEN_VARIABLE_BaseProjectile_C_CAT_2 is outside the world bounds!
+[2021.12.11-01.29.45:441][779]LogProjectileMovement: Warning: TestProjectile_C_7 is outside the world bounds!
+[2021.12.11-01.29.46:524][909]LogProjectileMovement: Warning: TestProjectile_C_5 is outside the world bounds!
+[2021.12.11-01.29.46:633][922]LogProjectileMovement: Warning: TestProjectile_C_1 is outside the world bounds!
+[2021.12.11-01.31.35:248][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-01.31.35:248][873]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-01.31.35:250][873]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-01.31.35:258][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.31.35:266][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-01.31.35:272][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.31.35:296][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-01.31.35:316][873]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E9E5591300), frame # 589873
+[2021.12.11-01.31.35:316][873]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EA03C5EC00), frame # 589873
+[2021.12.11-01.31.35:326][873]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2021.12.11-01.31.35:361][874]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.12.11-01.31.50:839][700]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_OpenClose_StartOpen_C (CD_DoorActor_ButtonPress_OpenClose_StartOpen)
+[2021.12.11-01.31.54:284][ 71]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/CD_DoorActor_ButtonPress_OpenClose_StartOpen.CD_DoorActor_ButtonPress_OpenClose_StartOpen
+[2021.12.11-01.32.12:309][471]BlueprintLog: New page: Compile CD_DoorActor_ButtonPress_OpenClose_StartOpen
+[2021.12.11-01.32.12:370][471]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.12.11-01.32.12:473][471]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_DoorActor_ButtonPress_OpenCloB39BDDDB4AE9782C9B1B31B1FC25377A.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/CD_DoorActor_ButtonPress_OpenClose_StartOpen.uasset'
+[2021.12.11-01.32.12:736][471]AssetCheck: New page: Asset Save: CD_DoorActor_ButtonPress_OpenClose_StartOpen
+[2021.12.11-01.32.12:736][471]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/CD_DoorActor_ButtonPress_OpenClose_StartOpen.CD_DoorActor_ButtonPress_OpenClose_StartOpen
+[2021.12.11-01.32.13:840][557]LogSlate: Window 'CD_DoorActor_ButtonPress_OpenClose_StartOpen' being destroyed
+[2021.12.11-01.32.13:923][557]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-01.32.13:923][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.32.15:290][696]LogEditorViewport: Clicking on Actor (LMB): Item_cereal_C (Item_food2)
+[2021.12.11-01.32.16:403][816]LogEditorViewport: Clicking on Actor (LMB): Item_cereal_C (Item_food2)
+[2021.12.11-01.32.16:511][827]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2021.12.11-01.32.19:850][158]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_cereal.Item_cereal
+[2021.12.11-01.32.44:642][162]BlueprintLog: New page: Compile Item_cereal
+[2021.12.11-01.32.44:741][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.12.11-01.32.44:835][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/Items/Item_cereal" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item_cereal.uasset" SILENT=true
+[2021.12.11-01.32.44:844][162]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Item_cerealB27B4CB04D03C479B618CC845391F0E0.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/Items/Item_cereal.uasset'
+[2021.12.11-01.32.44:870][162]AssetCheck: New page: Asset Save: Item_cereal
+[2021.12.11-01.32.44:870][162]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/InventorySystem/Items/Item_cereal.Item_cereal
+[2021.12.11-01.32.45:882][221]LogSlate: Window 'Item_cereal' being destroyed
+[2021.12.11-01.32.45:963][221]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-01.32.45:963][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.33.29:776][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_23)
+[2021.12.11-01.33.35:518][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_23)
+[2021.12.11-01.33.38:048][120]Cmd: EDIT COPY
+[2021.12.11-01.33.38:541][167]Cmd: EDIT PASTE
+[2021.12.11-01.34.04:112][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_53)
+[2021.12.11-01.34.31:647][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_18)
+[2021.12.11-01.34.43:666][859]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight15)
+[2021.12.11-01.34.50:854][485]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight12)
+[2021.12.11-01.34.55:652][895]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight13)
+[2021.12.11-01.34.59:803][287]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight16)
+[2021.12.11-01.35.08:901][186]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight11)
+[2021.12.11-01.35.17:213][762]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight9)
+[2021.12.11-01.35.22:348][142]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight10)
+[2021.12.11-01.35.36:957][170]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight8)
+[2021.12.11-01.35.53:076][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_42)
+[2021.12.11-01.35.55:231][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_42)
+[2021.12.11-01.36.07:675][597]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight30)
+[2021.12.11-01.36.21:968][805]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.12.11-01.36.22:001][806]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 34
+[2021.12.11-01.36.22:001][806]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 29
+[2021.12.11-01.36.22:001][806]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2021.12.11-01.36.22:001][806]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2021.12.11-01.36.22:001][806]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2021.12.11-01.36.22:001][806]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2021.12.11-01.36.22:001][806]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2021.12.11-01.36.22:240][806]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2021.12.11-01.36.22:256][806]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 34
+[2021.12.11-01.36.22:495][807]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2021.12.11-01.36.22:726][808]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2021.12.11-01.36.23:696][831]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 97
+[2021.12.11-01.36.23:696][831]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 87
+[2021.12.11-01.36.23:829][832]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 77
+[2021.12.11-01.36.24:031][835]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 67
+[2021.12.11-01.36.24:128][836]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 58
+[2021.12.11-01.36.24:196][840]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 50
+[2021.12.11-01.36.24:259][842]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 43
+[2021.12.11-01.36.24:347][844]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 37
+[2021.12.11-01.36.26:215][885]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 32
+[2021.12.11-01.36.26:238][885]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/ColdDawn/InventorySystem/shiny.shiny
+[2021.12.11-01.36.26:292][885]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0017 seconds. Added 2 classes and 2 folders.
+[2021.12.11-01.36.26:561][885]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 27
+[2021.12.11-01.36.26:695][885]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2021.12.11-01.36.27:424][885]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2021.12.11-01.36.27:424][885]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2021.12.11-01.36.27:493][885]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.12.11-01.36.27:577][885]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2021.12.11-01.36.27:577][885]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2021.12.11-01.36.27:695][888]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2021.12.11-01.36.27:956][895]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.12.11-01.36.28:026][897]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.12.11-01.36.28:220][902]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.12.11-01.36.28:328][905]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.12.11-01.36.28:481][910]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.12.11-01.36.28:481][910]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2021.12.11-01.37.07:903][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/InventorySystem/shiny" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/shiny.uasset" SILENT=true
+[2021.12.11-01.37.07:910][ 91]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/shinyB5DD608E41EE260010907E8BA0668A7B.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/InventorySystem/shiny.uasset'
+[2021.12.11-01.37.07:940][ 91]AssetCheck: New page: Asset Save: shiny
+[2021.12.11-01.37.07:941][ 91]LogContentValidation: Display: Validating ParticleSystem /Game/ColdDawn/InventorySystem/shiny.shiny
+[2021.12.11-01.37.10:678][231]LogSlate: Window 'shiny' being destroyed
+[2021.12.11-01.37.10:712][231]LogCascade: Quitting Cascade. FXSystem=0x000001EA0787E9E0
+[2021.12.11-01.37.10:771][231]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-01.37.10:771][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.37.26:915][853]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight31)
+[2021.12.11-01.37.36:202][677]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight32)
+[2021.12.11-01.37.43:343][378]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight33)
+[2021.12.11-01.37.58:245][959]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight22)
+[2021.12.11-01.38.10:679][113]LogEditorViewport: Clicking on Actor (LMB): RectLight (RectLight26)
+[2021.12.11-01.38.33:754][792]LogEditorViewport: Clicking on Actor (LMB): Item_EnergyDrink_C (Item_EnergyDrink2)
+[2021.12.11-01.38.38:524][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_37)
+[2021.12.11-01.39.02:813][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.12.11-01.39.04:054][351]LogSlate: Window 'Save Content' being destroyed
+[2021.12.11-01.39.04:154][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.11-01.39.04:202][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.12.11-01.39.04:962][351]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital75AAC83E476AB9CB3B515B9C58F621B6.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap'
+[2021.12.11-01.39.04:989][351]LogFileHelpers: Saving map 'CD_Hospital' took 0.836
+[2021.12.11-01.39.04:989][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset" SILENT=true
+[2021.12.11-01.39.05:871][351]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_BuiltDataA6F9A6B14BFDC699618D32B49AA02568.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset'
+[2021.12.11-01.39.05:942][351]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.11-01.39.05:942][351]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.11-01.39.05:942][351]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
+[2021.12.11-01.39.18:541][987]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.11-01.39.18:566][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.12.11-01.39.18:571][987]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.11-01.39.18:571][987]LightingResults: New page: Lighting Build
+[2021.12.11-01.39.18:571][987]LoadErrors: New page: Loading map: tutorial_map_v1.umap
+[2021.12.11-01.39.18:584][987]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-01.39.18:584][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.39.18:585][987]MapCheck: New page: Map Check
+[2021.12.11-01.39.18:585][987]LightingResults: New page: Lighting Build
+[2021.12.11-01.39.18:613][987]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E9AD9B0F40), frame # 628987
+[2021.12.11-01.39.18:613][987]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E99A5E4600), frame # 628987
+[2021.12.11-01.39.18:621][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.12.11-01.39.19:053][987]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.11-01.39.19:054][987]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.11-01.39.19:054][987]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E91220DA00), frame # 628987
+[2021.12.11-01.39.19:054][987]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9DAD32980), frame # 628987
+[2021.12.11-01.39.19:076][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.12.11-01.39.19:106][987]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.11-01.39.19:106][987]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.096ms to complete.
+[2021.12.11-01.39.19:106][987]LogFileHelpers: Loading map 'tutorial_map_v1' took 0.535
+[2021.12.11-01.39.29:073][116]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.12.11-01.40.00:682][333]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.12.11-01.40.01:878][437]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.12.11-01.40.08:476][ 60]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.11-01.40.08:508][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.12.11-01.40.08:516][ 60]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.11-01.40.08:516][ 60]LightingResults: New page: Lighting Build
+[2021.12.11-01.40.08:516][ 60]LoadErrors: New page: Loading map: CD_Hospital.umap
+[2021.12.11-01.40.08:517][ 60]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-01.40.08:518][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.40.08:518][ 60]MapCheck: New page: Map Check
+[2021.12.11-01.40.08:518][ 60]LightingResults: New page: Lighting Build
+[2021.12.11-01.40.08:537][ 60]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E9DAD32980), frame # 634060
+[2021.12.11-01.40.08:537][ 60]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E91220DA00), frame # 634060
+[2021.12.11-01.40.08:540][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.12.11-01.40.09:494][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.11-01.40.09:495][ 60]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-01.40.09:495][ 60]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E989852C00), frame # 634060
+[2021.12.11-01.40.09:495][ 60]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9E761D6C0), frame # 634060
+[2021.12.11-01.40.09:527][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.12.11-01.40.09:552][ 60]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.11-01.40.09:553][ 60]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.339ms to complete.
+[2021.12.11-01.40.09:553][ 60]LogFileHelpers: Loading map 'CD_Hospital' took 1.037
+[2021.12.11-01.42.08:166][433]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BuildingFloor)
+[2021.12.11-01.42.09:207][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Table_01_99)
+[2021.12.11-01.42.27:923][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingFloor)
+[2021.12.11-01.42.45:144][ 62]Cmd: EDIT COPY
+[2021.12.11-01.42.46:077][126]Cmd: EDIT PASTE
+[2021.12.11-01.43.22:230][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cupboard_24)
+[2021.12.11-01.43.23:188][172]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-01.45.17:495][139]Cmd: TRANSACTION UNDO
+[2021.12.11-01.45.17:495][139]LogEditorTransaction: Undo Move Actors
+[2021.12.11-01.45.19:248][293]Cmd: EDIT COPY
+[2021.12.11-01.45.19:920][372]Cmd: EDIT PASTE
+[2021.12.11-01.45.24:428][860]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-01.46.12:997][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Medical_Screen_2)
+[2021.12.11-01.46.14:262][655]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-01.47.42:248][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Medical_Screen_25)
+[2021.12.11-01.47.51:480][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Medical_Screen_22)
+[2021.12.11-01.47.56:329][584]LogEditorViewport: Clicking on Actor (LMB): BedSleep_MilitaryBed_C (BedSleep_MilitaryBed2)
+[2021.12.11-01.48.07:563][632]LogEditorViewport: Clicking on Actor (context menu): BedSleep_MilitaryBed_C (BedSleep_MilitaryBed2)
+[2021.12.11-01.48.11:388][952]LogActorFactory: Actor Factory created SM_Military_Bed_2
+[2021.12.11-01.48.11:401][952]EditorErrors: New page: Actor Reattachment
+[2021.12.11-01.48.43:759][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Medical_Screen_22)
+[2021.12.11-01.48.51:097][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Drawer_Nightstand_20)
+[2021.12.11-01.48.55:151][787]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Drawer_Nightstand_19)
+[2021.12.11-01.48.56:491][929]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Drawer_Nightstand_18)
+[2021.12.11-01.48.57:755][ 71]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Table_Lamp_2)
+[2021.12.11-01.49.01:875][477]Cmd: TRANSACTION UNDO
+[2021.12.11-01.49.01:876][477]LogEditorTransaction: Undo Move Actors
+[2021.12.11-01.49.03:516][609]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Nightstand_6)
+[2021.12.11-01.49.04:303][689]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Drawer_Nightstand_20)
+[2021.12.11-01.49.09:727][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Medical_Screen_22)
+[2021.12.11-01.49.33:810][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Nightstand_6)
+[2021.12.11-01.49.37:860][936]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Drawer_Nightstand_20)
+[2021.12.11-01.49.38:387][988]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Drawer_Nightstand_19)
+[2021.12.11-01.49.38:975][ 49]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Drawer_Nightstand_18)
+[2021.12.11-01.49.39:820][141]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Table_Lamp_2)
+[2021.12.11-01.49.50:069][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Medical_Screen_22)
+[2021.12.11-01.52.14:487][944]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.12.11-01.52.16:132][944]LogSlate: Window 'Save Content' being destroyed
+[2021.12.11-01.52.16:248][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.11-01.52.16:267][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.12.11-01.52.17:083][944]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_HospitalB02AA40F44AE0E4707A4EB9EF40A6051.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap'
+[2021.12.11-01.52.17:117][944]LogFileHelpers: Saving map 'CD_Hospital' took 0.870
+[2021.12.11-01.52.17:117][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/CD_Hospital_BuiltData" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset" SILENT=true
+[2021.12.11-01.52.18:502][944]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_BuiltData49EE92024CB8AD91935BE6818125B485.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital_BuiltData.uasset'
+[2021.12.11-01.52.18:655][944]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.11-01.52.18:655][944]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.11-01.52.18:655][944]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/CD_Hospital_BuiltData.CD_Hospital_BuiltData
+[2021.12.11-01.52.26:748][327]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.11-01.52.26:769][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.12.11-01.52.26:774][327]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.11-01.52.26:774][327]LightingResults: New page: Lighting Build
+[2021.12.11-01.52.26:774][327]LoadErrors: New page: Loading map: tutorial_map_v1.umap
+[2021.12.11-01.52.26:787][327]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-01.52.26:788][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.52.26:789][327]MapCheck: New page: Map Check
+[2021.12.11-01.52.26:789][327]LightingResults: New page: Lighting Build
+[2021.12.11-01.52.26:818][327]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E9E761D6C0), frame # 703327
+[2021.12.11-01.52.26:818][327]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E989852C00), frame # 703327
+[2021.12.11-01.52.26:820][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.12.11-01.52.27:366][327]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.11-01.52.27:367][327]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.11-01.52.27:367][327]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EA0CF89800), frame # 703327
+[2021.12.11-01.52.27:367][327]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E98829D580), frame # 703327
+[2021.12.11-01.52.27:390][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.12.11-01.52.27:418][327]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.11-01.52.27:418][327]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2021.12.11-01.52.27:418][327]LogFileHelpers: Loading map 'tutorial_map_v1' took 0.643
+[2021.12.11-01.52.36:471][353]LogEditorViewport: Clicking on Actor (LMB): Zombie_male__C (Zombie_male_)
+[2021.12.11-01.53.46:885][502]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.11-01.53.46:913][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.12.11-01.53.46:921][502]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.11-01.53.46:921][502]LightingResults: New page: Lighting Build
+[2021.12.11-01.53.46:921][502]LoadErrors: New page: Loading map: CD_Hospital.umap
+[2021.12.11-01.53.46:944][502]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-01.53.46:944][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-01.53.46:944][502]MapCheck: New page: Map Check
+[2021.12.11-01.53.46:944][502]LightingResults: New page: Lighting Build
+[2021.12.11-01.53.46:968][502]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E98829D580), frame # 710502
+[2021.12.11-01.53.46:968][502]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EA0CF89800), frame # 710502
+[2021.12.11-01.53.46:970][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.12.11-01.53.48:120][502]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.11-01.53.48:120][502]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-01.53.48:120][502]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9DCFCD600), frame # 710502
+[2021.12.11-01.53.48:120][502]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9E70C65C0), frame # 710502
+[2021.12.11-01.53.48:172][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.12.11-01.53.48:198][502]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.11-01.53.48:198][502]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.327ms to complete.
+[2021.12.11-01.53.48:198][502]LogFileHelpers: Loading map 'CD_Hospital' took 1.277
+[2021.12.11-01.59.04:343][825]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.12.11-01.59.06:098][825]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.12.11-01.59.16:410][409]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.spawn_zombie
+[2021.12.11-01.59.17:428][425]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-01.59.25:922][787]BlueprintLog: New page: Compile spawn_zombie
+[2021.12.11-01.59.25:956][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.12.11-01.59.26:042][787]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/spawn_zombie6F21C97D45A6A2105E9AB7A299C9ACAE.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.uasset'
+[2021.12.11-01.59.26:074][787]AssetCheck: New page: Asset Save: spawn_zombie
+[2021.12.11-01.59.26:074][787]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.spawn_zombie
+[2021.12.11-02.00.30:416][537]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Character/CD_BP_CrouchTrigger.CD_BP_CrouchTrigger
+[2021.12.11-02.02.17:527][392]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.11-02.02.57:694][148]LogSlate: Took 0.008762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.11-02.03.16:445][943]BlueprintLog: New page: Compile spawn_zombie
+[2021.12.11-02.03.16:446][943]LogBlueprint: Error: [Compiler spawn_zombie] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.12.11-02.03.16:446][943]LogBlueprint: Error: [Compiler spawn_zombie] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.12.11-02.03.16:500][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.12.11-02.03.47:468][366]BlueprintLog: New page: Compile spawn_zombie
+[2021.12.11-02.03.47:470][366]LogBlueprint: Error: [Compiler spawn_zombie] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.12.11-02.03.47:470][366]LogBlueprint: Error: [Compiler spawn_zombie] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.12.11-02.03.47:509][366]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.12.11-02.04.53:214][231]BlueprintLog: New page: Compile spawn_zombie
+[2021.12.11-02.04.53:216][231]LogClass: Warning: Property SpawnLocation of SpawnLocation has a struct type mismatch (tag Vector != prop Transform) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2021.12.11-02.04.53:254][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.12.11-02.04.53:336][231]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/spawn_zombie8FF1EFB648F72412309337AB3B15BC30.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.uasset'
+[2021.12.11-02.04.53:414][231]AssetCheck: New page: Asset Save: spawn_zombie
+[2021.12.11-02.04.53:414][231]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.spawn_zombie
+[2021.12.11-02.05.22:770][532]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.12.11-02.05.23:519][532]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto60A562DAE4FDAA8A9D53E0285924FBCBC.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto6.umap'
+[2021.12.11-02.05.23:521][532]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.775
+[2021.12.11-02.05.23:521][532]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.775
+[2021.12.11-02.07.53:288][598]BlueprintLog: New page: Compile spawn_zombie
+[2021.12.11-02.07.53:329][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.12.11-02.07.53:417][598]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/spawn_zombie24BA51ED422ADFC7DDC418B1D45E136C.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.uasset'
+[2021.12.11-02.07.53:445][598]AssetCheck: New page: Asset Save: spawn_zombie
+[2021.12.11-02.07.53:445][598]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.spawn_zombie
+[2021.12.11-02.08.16:611][457]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.11-02.08.26:413][147]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.10.27:811][315]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.10.28:160][330]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.10.28:640][351]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.10.36:771][740]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_Timer_C (CD_DoorActor_ButtonPress)
+[2021.12.11-02.10.54:758][532]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/CD_DoorActor_ButtonPress_Timer.CD_DoorActor_ButtonPress_Timer
+[2021.12.11-02.11.19:484][583]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-02.11.19:484][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-02.12.03:874][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.12.11-02.12.06:449][353]LogEditorViewport: Clicking on Actor (context menu): CD_DoorActor_ButtonPress_OpenClose_Nap_Room_C (CD_DoorActor_ButtonPress_OpenClose_Nap_Room)
+[2021.12.11-02.12.09:957][472]EditorErrors: New page: Actor Reattachment
+[2021.12.11-02.12.11:218][529]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_Timer_C (CD_DoorActor_ButtonPress_NapRoom)
+[2021.12.11-02.12.29:005][279]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/CD_DoorActor_ButtonPress_OpenClose_Nap_Room.CD_DoorActor_ButtonPress_OpenClose_Nap_Room
+[2021.12.11-02.12.30:448][311]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-02.12.30:448][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-02.12.54:234][256]BlueprintLog: New page: Compile CD_DoorActor_ButtonPress_OpenClose_Nap_Room
+[2021.12.11-02.12.54:279][256]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.12.11-02.12.54:387][256]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_DoorActor_ButtonPress_OpenCloCD919C2048731011709E8CB4FC0079F7.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/CD_DoorActor_ButtonPress_OpenClose_Nap_Room.uasset'
+[2021.12.11-02.12.54:662][256]AssetCheck: New page: Asset Save: CD_DoorActor_ButtonPress_OpenClose_Nap_Room
+[2021.12.11-02.12.54:662][256]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/CD_DoorActor_ButtonPress_OpenClose_Nap_Room.CD_DoorActor_ButtonPress_OpenClose_Nap_Room
+[2021.12.11-02.12.58:652][434]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_Timer_C (CD_DoorActor_ButtonPress_NapRoom)
+[2021.12.11-02.13.09:755][852]LogEditorViewport: Clicking on Actor (LMB): CD_DoorActor_ButtonPress_Timer_C (CD_DoorActor_ButtonPress_NapRoom)
+[2021.12.11-02.13.12:223][943]LogEditorViewport: Clicking on Actor (context menu): CD_DoorActor_ButtonPress_Timer_C (CD_DoorActor_ButtonPress_NapRoom)
+[2021.12.11-02.13.14:593][999]EditorErrors: New page: Actor Reattachment
+[2021.12.11-02.13.17:595][120]LogEditorViewport: Clicking on Actor (LMB): spawn_zombie_C (spawn_zombie)
+[2021.12.11-02.13.40:075][131]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-02.13.40:094][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-02.13.40:094][131]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 10:13:40 AM)
+[2021.12.11-02.13.40:095][131]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-02.13.40:273][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178047s)
+[2021.12.11-02.13.40:273][131]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-02.13.40:273][131]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E989523A00), frame # 747131
+[2021.12.11-02.13.40:273][131]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA1BECC900), frame # 747131
+[2021.12.11-02.13.40:274][131]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2021.12.11-02.13.40:274][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.179540s)
+[2021.12.11-02.13.40:298][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.12.11-02.13.40:301][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-02.13.40:301][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-02.13.40:301][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-02.13.40:301][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-02.13.40:301][131]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-02.13.40:301][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-02.13.40:301][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-02.13.40:301][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-02.13.40:301][131]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-02.13.40:301][131]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-02.13.40:311][131]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-02.13.40:311][131]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-02.13.40:347][131]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-02.13.40:347][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-02.13.40:347][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-02.13.40:347][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-02.13.40:348][131]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-02.13.40:360][131]LogInit: FAudioDevice initialized.
+[2021.12.11-02.13.40:369][131]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-02.13.40:423][131]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-18.13.40
+[2021.12.11-02.13.40:425][131]LogWorld: Bringing up level for play took: 0.054731
+[2021.12.11-02.13.40:425][131]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.12.11-02.13.40:430][131]PIE: Server logged in
+[2021.12.11-02.13.40:431][131]PIE: Play in editor total start time 0.339 seconds.
+[2021.12.11-02.13.41:403][163]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.13.41:739][177]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.13.42:058][190]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.13.52:211][748]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.13.52:226][749]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.14.06:679][818]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.14.09:544][969]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.14.09:571][970]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.14.10:078][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-02.14.10:078][998]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-02.14.10:079][998]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-02.14.10:088][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-02.14.10:101][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-02.14.10:107][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-02.14.10:150][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-02.14.10:154][998]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA1BECC900), frame # 748998
+[2021.12.11-02.14.10:154][998]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E989523A00), frame # 748998
+[2021.12.11-02.14.10:161][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.12.11-02.14.10:211][999]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.12.11-02.14.12:375][134]LogEditorViewport: Clicking on Actor (LMB): Zombie_male__C (Zombie_male_)
+[2021.12.11-02.14.13:332][178]Cmd: DELETE
+[2021.12.11-02.14.13:332][178]Cmd: ACTOR DELETE
+[2021.12.11-02.14.13:384][178]LogEditorActor: Deleted Actor: Zombie_male__C
+[2021.12.11-02.14.13:406][178]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.12.11-02.14.13:409][178]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.12.11-02.14.20:463][497]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-02.14.20:480][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-02.14.20:481][497]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 10:14:20 AM)
+[2021.12.11-02.14.20:481][497]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-02.14.20:657][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176517s)
+[2021.12.11-02.14.20:658][497]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-02.14.20:658][497]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9E6AA5E00), frame # 749497
+[2021.12.11-02.14.20:658][497]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA5600D6C0), frame # 749497
+[2021.12.11-02.14.20:659][497]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2021.12.11-02.14.20:659][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.178123s)
+[2021.12.11-02.14.20:682][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.12.11-02.14.20:683][497]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-02.14.20:683][497]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-02.14.20:683][497]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-02.14.20:683][497]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-02.14.20:683][497]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-02.14.20:683][497]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-02.14.20:683][497]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-02.14.20:683][497]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-02.14.20:684][497]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-02.14.20:684][497]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-02.14.20:692][497]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-02.14.20:692][497]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-02.14.20:725][497]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-02.14.20:725][497]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-02.14.20:725][497]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-02.14.20:725][497]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-02.14.20:726][497]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-02.14.20:737][497]LogInit: FAudioDevice initialized.
+[2021.12.11-02.14.20:746][497]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-02.14.20:800][497]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-18.14.20
+[2021.12.11-02.14.20:801][497]LogWorld: Bringing up level for play took: 0.054170
+[2021.12.11-02.14.20:801][497]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.12.11-02.14.20:806][497]PIE: Server logged in
+[2021.12.11-02.14.20:807][497]PIE: Play in editor total start time 0.327 seconds.
+[2021.12.11-02.14.21:251][508]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.14.21:743][529]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.14.54:611][854]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.14.54:951][866]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.14.54:980][867]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.14.55:929][909]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.15.10:557][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-02.15.10:557][121]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-02.15.10:558][121]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-02.15.10:566][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-02.15.10:575][121]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-02.15.10:581][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-02.15.10:620][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-02.15.10:628][121]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA5600D6C0), frame # 753121
+[2021.12.11-02.15.10:628][121]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E9E6AA5E00), frame # 753121
+[2021.12.11-02.15.10:635][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.12.11-02.15.10:676][122]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.12.11-02.16.25:586][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedSleep_MilitaryBed2)
+[2021.12.11-02.16.58:657][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Medical_Screen_22)
+[2021.12.11-02.17.06:999][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedSleep_MilitaryBed2)
+[2021.12.11-02.17.44:410][871]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.12.11-02.17.45:165][871]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/CD_Hospital_Auto7EA031B37484851C9566372B4C7041DED.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/CD_Hospital_Auto7.umap'
+[2021.12.11-02.17.45:167][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/CD_Hospital' took 0.783
+[2021.12.11-02.17.45:167][871]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.783
+[2021.12.11-02.18.39:870][189]BlueprintLog: New page: Compile spawn_zombie
+[2021.12.11-02.18.39:911][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.12.11-02.18.40:002][189]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/spawn_zombieE59C068D48DBBD3BDC4F0C8F4EAA57A9.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.uasset'
+[2021.12.11-02.18.40:085][189]AssetCheck: New page: Asset Save: spawn_zombie
+[2021.12.11-02.18.40:085][189]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Blueprints/LevelBlueprints/spawn_zombie.spawn_zombie
+[2021.12.11-02.18.42:782][336]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.11-02.18.42:798][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.11-02.18.42:799][336]PIE: New page: PIE session: CD_Hospital (Dec 10, 2021, 10:18:42 AM)
+[2021.12.11-02.18.42:799][336]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-02.18.42:983][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.184767s)
+[2021.12.11-02.18.42:984][336]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.11-02.18.42:984][336]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E913C68200), frame # 765336
+[2021.12.11-02.18.42:984][336]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA273C9580), frame # 765336
+[2021.12.11-02.18.42:985][336]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2021.12.11-02.18.42:985][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.186349s)
+[2021.12.11-02.18.43:010][336]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.12.11-02.18.43:011][336]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.11-02.18.43:011][336]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.11-02.18.43:011][336]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.11-02.18.43:011][336]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.11-02.18.43:011][336]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.11-02.18.43:011][336]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.11-02.18.43:011][336]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.11-02.18.43:011][336]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.11-02.18.43:012][336]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.11-02.18.43:012][336]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.11-02.18.43:022][336]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.11-02.18.43:022][336]LogAudioMixer: Display: 1: FrontRight
+[2021.12.11-02.18.43:053][336]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.11-02.18.43:053][336]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.11-02.18.43:053][336]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.11-02.18.43:053][336]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.11-02.18.43:054][336]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.11-02.18.43:066][336]LogInit: FAudioDevice initialized.
+[2021.12.11-02.18.43:076][336]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.11-02.18.43:128][336]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.10-18.18.43
+[2021.12.11-02.18.43:129][336]LogWorld: Bringing up level for play took: 0.051844
+[2021.12.11-02.18.43:129][336]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.12.11-02.18.43:134][336]PIE: Server logged in
+[2021.12.11-02.18.43:135][336]PIE: Play in editor total start time 0.337 seconds.
+[2021.12.11-02.18.43:639][349]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.18.44:292][377]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.11-02.18.51:853][819]LogBlueprintUserMessages: [spawn_zombie_2] Hello
+[2021.12.11-02.19.11:464][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-02.19.11:464][274]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.11-02.19.11:466][274]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.11-02.19.11:474][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-02.19.11:486][274]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.11-02.19.11:492][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.11-02.19.11:536][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.11-02.19.11:540][274]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA273C9580), frame # 767274
+[2021.12.11-02.19.11:540][274]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E913C68200), frame # 767274
+[2021.12.11-02.19.11:548][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.12.11-02.19.11:601][275]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.12.11-02.19.34:027][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedSleep_MilitaryBed2)
+[2021.12.11-02.20.31:199][127]Cmd: TRANSACTION UNDO
+[2021.12.11-02.20.31:199][127]LogEditorTransaction: Undo Select Brush Surface
