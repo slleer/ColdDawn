@@ -1047,3 +1047,279 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.12-05.45.22:722][145]LogFileHelpers: Saving map 'Town' took 0.070
 [2021.12.12-05.45.22:745][145]AssetCheck: New page: Asset Save: Town
 [2021.12.12-05.45.22:745][145]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/Town.Town
+[2021.12.12-05.46.16:200][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_6_4m)
+[2021.12.12-05.46.35:299][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door_3_4m2)
+[2021.12.12-05.46.39:294][563]Cmd: TRANSACTION UNDO
+[2021.12.12-05.46.39:294][563]LogEditorTransaction: Undo Move Actors
+[2021.12.12-05.46.46:445][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door2)
+[2021.12.12-05.46.48:375][583]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lock)
+[2021.12.12-05.46.49:551][715]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wire_Fence_Door_3_4m2)
+[2021.12.12-05.46.50:623][839]Cmd: DELETE
+[2021.12.12-05.46.50:623][839]Cmd: ACTOR DELETE
+[2021.12.12-05.46.50:629][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.12-05.46.50:629][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.12-05.46.50:629][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.12-05.46.50:642][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.12.12-05.46.50:647][839]LogEditorActor: Deleted 3 Actors (0.024 secs)
+[2021.12.12-05.46.52:453][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door3)
+[2021.12.12-05.46.54:088][242]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.46.57:570][648]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wire_Fence_Door_3_4m3)
+[2021.12.12-05.46.58:454][746]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lock2)
+[2021.12.12-05.47.24:057][466]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lock2)
+[2021.12.12-05.47.37:681][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lock2)
+[2021.12.12-05.47.40:494][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door3)
+[2021.12.12-05.47.42:478][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door_3_4m3)
+[2021.12.12-05.47.52:645][371]EditorErrors: New page: Actor attachment
+[2021.12.12-05.47.59:417][108]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.48.05:954][800]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.48.13:777][536]EditorErrors: New page: Actor attachment
+[2021.12.12-05.48.22:565][394]EditorErrors: New page: Actor attachment
+[2021.12.12-05.48.27:104][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lock2)
+[2021.12.12-05.48.30:471][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door_3_4m3)
+[2021.12.12-05.48.33:813][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lock2)
+[2021.12.12-05.48.44:850][662]EditorErrors: New page: Actor attachment
+[2021.12.12-05.48.49:363][ 53]Cmd: EDIT COPY
+[2021.12.12-05.48.52:169][346]Cmd: EDIT PASTE
+[2021.12.12-05.49.03:815][696]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.49.09:599][360]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.49.20:736][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_6_4m)
+[2021.12.12-05.49.33:381][958]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.49.36:224][173]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.50.01:237][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_6_4m)
+[2021.12.12-05.50.19:307][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_Concrete_Pillar14)
+[2021.12.12-05.50.28:741][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door_3_4m4)
+[2021.12.12-05.51.04:490][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_6_4m)
+[2021.12.12-05.51.27:412][745]Cmd: MODE ROTGRID=0
+[2021.12.12-05.51.38:678][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_Concrete_Pillar14)
+[2021.12.12-05.51.40:759][243]Cmd: MODE ROTGRID=1
+[2021.12.12-05.51.44:652][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_6_4m)
+[2021.12.12-05.51.55:910][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_Concrete_Pillar14)
+[2021.12.12-05.52.10:804][594]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.52.13:217][773]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.52.14:513][918]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.53.06:165][822]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.53.09:444][ 23]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.53.17:885][992]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.53.36:610][188]Cmd: EDIT COPY
+[2021.12.12-05.53.36:924][225]Cmd: EDIT PASTE
+[2021.12.12-05.53.57:583][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_Concrete_Pillar7)
+[2021.12.12-05.54.39:194][818]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.54.42:207][ 94]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.54.43:201][143]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.54.45:020][270]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.54.46:160][324]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.54.55:695][296]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.54.59:248][630]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.01:209][763]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.14:591][155]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.18:553][533]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.21:436][775]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.23:998][992]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.25:296][ 42]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.27:310][228]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.28:155][262]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.29:979][396]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-05.55.36:320][985]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.38:282][147]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.39:315][210]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.41:347][393]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.42:260][431]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.44:294][562]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.45:241][595]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.47:870][826]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.50:433][ 40]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.53:265][293]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.54:222][338]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.56:405][528]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.55.58:810][740]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.56.00:630][894]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.56.01:806][980]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.56.04:290][131]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.56.05:466][171]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.56.07:654][359]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.56.09:595][534]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.56.12:167][703]LogActorFactory: Actor Factory created SM_Barrel_03_Closed
+[2021.12.12-05.56.21:338][519]LogActorFactory: Actor Factory created SM_Barrel_04_Closed
+[2021.12.12-05.56.24:204][806]LogActorFactory: Actor Factory created SM_Barrel_04_Closed
+[2021.12.12-05.56.25:084][870]LogActorFactory: Actor Factory created SM_Barrel_04_Closed
+[2021.12.12-05.56.26:605][973]LogActorFactory: Actor Factory created SM_Barrel_04_Closed
+[2021.12.12-05.56.27:686][ 24]LogActorFactory: Actor Factory created SM_Barrel_04_Closed
+[2021.12.12-05.56.28:842][ 93]LogActorFactory: Actor Factory created SM_Barrel_04_Closed
+[2021.12.12-05.56.31:538][203]LogActorFactory: Actor Factory created SM_Barrel_05_Closed
+[2021.12.12-05.56.33:096][309]LogActorFactory: Actor Factory created SM_Barrel_05_Closed
+[2021.12.12-05.56.36:896][603]LogActorFactory: Actor Factory created SM_Barrel_02_Closed
+[2021.12.12-05.56.39:657][859]LogActorFactory: Actor Factory created SM_Barrel_02_Closed
+[2021.12.12-05.57.01:859][659]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.57.18:905][506]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.57.20:455][633]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.57.52:663][275]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.57.54:545][378]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.58.13:057][325]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.58.13:871][376]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.58.26:931][409]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-05.58.41:858][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_Concrete_Pillar20)
+[2021.12.12-05.59.16:482][980]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-05.59.30:576][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel_01_Closed12)
+[2021.12.12-05.59.38:995][172]Cmd: EDIT COPY
+[2021.12.12-05.59.39:437][225]Cmd: EDIT PASTE
+[2021.12.12-05.59.43:586][711]Cmd: EDIT COPY
+[2021.12.12-05.59.44:025][763]Cmd: EDIT PASTE
+[2021.12.12-05.59.48:234][259]Cmd: EDIT COPY
+[2021.12.12-05.59.48:626][305]Cmd: EDIT PASTE
+[2021.12.12-05.59.51:817][679]Cmd: EDIT PASTE
+[2021.12.12-05.59.55:590][118]Cmd: EDIT PASTE
+[2021.12.12-06.00.06:952][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel_01_Closed19)
+[2021.12.12-06.00.09:193][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel_01_Closed21)
+[2021.12.12-06.00.09:999][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel_01_Closed21)
+[2021.12.12-06.00.21:307][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_Concrete_Pillar7)
+[2021.12.12-06.00.46:339][ 18]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-06.00.47:504][104]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-06.00.49:457][328]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-06.01.22:546][181]LogEditorViewport: Clicking on Actor (LMB): BP_CratesPile_02_C (BP_CratesPile_5)
+[2021.12.12-06.01.28:394][784]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-06.01.29:315][852]LogActorFactory: Actor Factory created SM_Fence_Concrete_Pillar
+[2021.12.12-06.02.02:686][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel_01_Closed17)
+[2021.12.12-06.02.04:252][806]Cmd: EDIT COPY
+[2021.12.12-06.02.04:660][854]Cmd: EDIT PASTE
+[2021.12.12-06.02.33:846][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door)
+[2021.12.12-06.02.34:462][325]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.12-06.02.43:540][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door)
+[2021.12.12-06.02.45:914][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door_3_4m)
+[2021.12.12-06.03.02:512][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door)
+[2021.12.12-06.03.34:997][234]LogActorFactory: Actor Factory created SM_Lock
+[2021.12.12-06.03.35:893][286]LogActorFactory: Actor Factory created SM_Lock
+[2021.12.12-06.04.16:880][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wire_Fence_Door_3_4m)
+[2021.12.12-06.04.17:628][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lock)
+[2021.12.12-06.05.00:329][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.12.12-06.05.00:375][907]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Town_Auto262016D4D4546A9FE0C56B4A2D7007030.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/Town_Auto2.umap'
+[2021.12.12-06.05.00:376][907]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/Town' took 0.069
+[2021.12.12-06.05.00:376][907]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.069
+[2021.12.12-06.05.36:123][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel_01_Closed)
+[2021.12.12-06.05.38:678][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel_03_Closed)
+[2021.12.12-06.05.45:100][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel)
+[2021.12.12-06.05.48:854][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Barrel_03_Closed)
+[2021.12.12-06.08.54:812][885]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-06.08.56:417][  3]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-06.08.57:568][ 74]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-06.09.00:455][338]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-06.09.01:640][397]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-06.09.04:487][656]LogActorFactory: Actor Factory created SM_Barrel_01_Closed
+[2021.12.12-06.09.07:932][955]LogActorFactory: Actor Factory created SM_Barrel_05_Closed
+[2021.12.12-06.09.11:359][261]LogActorFactory: Actor Factory created SM_Barrel_05_Closed
+[2021.12.12-06.11.27:590][527]LogActorFactory: Actor Factory created SM_Barrel_05_Closed
+[2021.12.12-06.11.29:593][708]LogActorFactory: Actor Factory created SM_Barrel_05_Closed
+[2021.12.12-06.11.30:992][795]LogActorFactory: Actor Factory created SM_Barrel_05_Closed
+[2021.12.12-06.11.35:946][323]LogActorFactory: Actor Factory created SM_Barrel_05_Closed
+[2021.12.12-06.12.03:593][910]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.12-06.12.03:856][910]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 125 classes and 0 folders.
+[2021.12.12-06.12.04:685][910]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.12-06.12.04:864][911]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.12-06.12.09:184][127]LogSlate: Window 'CD_FirstPersonCharacter' being destroyed
+[2021.12.12-06.13.01:796][480]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.12.12-06.13.02:946][480]LogSlate: Window 'Save Content' being destroyed
+[2021.12.12-06.13.03:057][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/Town" FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.12-06.13.03:077][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.12.12-06.13.03:114][480]LogSavePackage: Moving 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Town1A66024248AF6F167CF1CCA13B7E650A.tmp' to 'D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/Town.umap'
+[2021.12.12-06.13.03:143][480]LogFileHelpers: Saving map 'Town' took 0.087
+[2021.12.12-06.13.03:169][480]AssetCheck: New page: Asset Save: Town
+[2021.12.12-06.13.03:169][480]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/Town.Town
+[2021.12.12-06.13.17:126][700]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital
+[2021.12.12-06.13.17:166][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.12.12-06.13.17:168][700]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/CD_Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.12-06.13.17:168][700]LightingResults: New page: Lighting Build
+[2021.12.12-06.13.17:168][700]LoadErrors: New page: Loading map: CD_Hospital.umap
+[2021.12.12-06.13.17:209][700]LogWorld: UWorld::CleanupWorld for Town, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.13.17:209][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.13.17:209][700]MapCheck: New page: Map Check
+[2021.12.12-06.13.17:209][700]LightingResults: New page: Lighting Build
+[2021.12.12-06.13.17:232][700]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E43352B9C0), frame # 361700
+[2021.12.12-06.13.17:233][700]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E4086E7400), frame # 361700
+[2021.12.12-06.13.17:235][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.12.12-06.13.18:142][700]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.12-06.13.18:142][700]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.12-06.13.18:142][700]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E5119F2000), frame # 361700
+[2021.12.12-06.13.18:142][700]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E4B89879C0), frame # 361700
+[2021.12.12-06.13.18:220][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.12.12-06.13.18:246][700]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.12-06.13.18:247][700]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.569ms to complete.
+[2021.12.12-06.13.18:247][700]LogFileHelpers: Loading map 'CD_Hospital' took 1.079
+[2021.12.12-06.14.33:674][955]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_medicine_quest.Item_medicine_quest
+[2021.12.12-06.14.36:047][168]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.14.36:047][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.14.36:156][168]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_medicine_quest.Item_medicine_quest
+[2021.12.12-06.14.37:760][258]LogRenderer: Reallocating scene render targets to support 1148x668 Format 10 NumSamples 1 (Frame:1).
+[2021.12.12-06.14.40:049][513]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.12-06.14.48:668][380]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.12-06.14.58:993][546]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-06.14.59:009][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-06.14.59:009][546]PIE: New page: PIE session: CD_Hospital (Dec 11, 2021, 2:14:59 PM)
+[2021.12.12-06.14.59:010][546]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.12-06.14.59:011][546]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.12-06.14.59:011][546]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.12-06.14.59:315][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.304537s)
+[2021.12.12-06.14.59:316][546]LogAIModule: Creating AISystem for world CD_Hospital
+[2021.12.12-06.14.59:316][546]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E47A5EA600), frame # 370546
+[2021.12.12-06.14.59:316][546]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E4E8B26200), frame # 370546
+[2021.12.12-06.14.59:317][546]LogPlayLevel: PIE: World Init took: (0.001574s)
+[2021.12.12-06.14.59:317][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/CD_Hospital.CD_Hospital to /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital (0.306615s)
+[2021.12.12-06.14.59:343][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.12.12-06.14.59:349][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-06.14.59:349][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-06.14.59:349][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-06.14.59:349][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-06.14.59:349][546]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-06.14.59:349][546]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-06.14.59:349][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-06.14.59:349][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-06.14.59:349][546]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-06.14.59:349][546]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-06.14.59:360][546]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-06.14.59:360][546]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-06.14.59:396][546]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.12-06.14.59:396][546]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-06.14.59:396][546]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-06.14.59:396][546]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-06.14.59:396][546]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-06.14.59:408][546]LogInit: FAudioDevice initialized.
+[2021.12.12-06.14.59:417][546]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-06.14.59:509][546]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital.CD_Hospital up for play (max tick rate 0) at 2021.12.11-22.14.59
+[2021.12.12-06.14.59:515][546]LogWorld: Bringing up level for play took: 0.096575
+[2021.12.12-06.14.59:515][546]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.12.12-06.14.59:519][546]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2021.12.12-06.14.59:527][546]PIE: Server logged in
+[2021.12.12-06.14.59:528][546]PIE: Play in editor total start time 0.52 seconds.
+[2021.12.12-06.15.16:937][454]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.12-06.16.09:399][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.16.09:399][603]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_CD_Hospital
+[2021.12.12-06.16.09:401][603]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.16.09:414][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.16.09:423][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-06.16.09:431][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.16.09:480][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.16.09:495][603]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E47A5EA600), frame # 378603
+[2021.12.12-06.16.09:495][603]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E4E8B26200), frame # 378603
+[2021.12.12-06.16.09:500][603]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2021.12.12-06.16.09:540][604]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.12.12-06.20.29:416][102]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.12-06.20.29:670][129]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.12-06.20.29:920][157]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.12-06.20.32:949][350]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/Town.Town
+[2021.12.12-06.20.32:979][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.12.12-06.20.32:988][350]Cmd: MAP LOAD FILE="D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Content/ColdDawn/Levels/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.12-06.20.32:988][350]LightingResults: New page: Lighting Build
+[2021.12.12-06.20.32:988][350]LoadErrors: New page: Loading map: Town.umap
+[2021.12.12-06.20.33:046][350]LogWorld: UWorld::CleanupWorld for CD_Hospital, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.20.33:047][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.20.33:048][350]MapCheck: New page: Map Check
+[2021.12.12-06.20.33:049][350]LightingResults: New page: Lighting Build
+[2021.12.12-06.20.33:096][350]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E4B89879C0), frame # 382350
+[2021.12.12-06.20.33:096][350]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E5119F2000), frame # 382350
+[2021.12.12-06.20.33:099][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.12.12-06.20.33:292][350]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.12-06.20.33:292][350]LogAIModule: Creating AISystem for world Town
+[2021.12.12-06.20.33:292][350]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E47A5E9A00), frame # 382350
+[2021.12.12-06.20.33:292][350]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E4B8C26200), frame # 382350
+[2021.12.12-06.20.33:323][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.12.12-06.20.33:354][350]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.12-06.20.33:354][350]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.088ms to complete.
+[2021.12.12-06.20.33:354][350]LogFileHelpers: Loading map 'Town' took 0.367
