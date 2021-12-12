@@ -1,8 +1,16 @@
+<<<<<<< Updated upstream
 ﻿Log file open, 12/11/21 21:08:35
 LogInit: Display: Running engine for game: ColdDawn
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.165387
+=======
+﻿Log file open, 12/11/21 21:17:09
+LogInit: Display: Running engine for game: ColdDawn
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.599621
+>>>>>>> Stashed changes
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -196,6 +204,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< Updated upstream
 [2021.12.12-05.08.36:184][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.12.12-05.08.36:184][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.12.12-05.08.36:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/unreal_workspace/OldDawn/ColdDawn/ColdDawn/Saved/Config/Windows/Engine.ini]
@@ -1874,3 +1883,1612 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.12-06.32.46:676][305]LogD3D11RHI: CleanupD3DDevice
 [2021.12.12-06.32.47:074][305]LogExit: Exiting.
 [2021.12.12-06.32.47:102][305]Log file closed, 12/11/21 22:32:47
+=======
+[2021.12.12-05.17.09:907][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.12-05.17.09:907][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.12-05.17.09:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.12-05.17.09:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.12-05.17.09:908][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.12-05.17.09:911][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.12-05.17.09:911][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.12-05.17.09:912][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.12-05.17.09:913][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.12-05.17.09:913][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.12-05.17.09:913][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.12-05.17.09:915][  0]LogHAL: Display: Platform has ~ 4 GB [4185088000 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.12-05.17.09:915][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.12-05.17.09:915][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.12-05.17.09:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.12-05.17.09:916][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.12-05.17.09:918][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.12-05.17.09:918][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.12-05.17.09:918][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.12-05.17.09:918][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.12.12-05.17.09:920][  0]LogInit: Computer: DML-GE0OEAKTBKD
+[2021.12.12-05.17.09:920][  0]LogInit: User: Administrator
+[2021.12.12-05.17.09:921][  0]LogInit: CPU Page size=4096, Cores=2
+[2021.12.12-05.17.09:921][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.12-05.17.09:921][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2021.12.12-05.17.09:921][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.12-05.17.09:921][  0]LogMemory: Process Physical Memory: 115.26 MB used, 115.26 MB peak
+[2021.12.12-05.17.09:921][  0]LogMemory: Process Virtual Memory: 117.17 MB used, 117.17 MB peak
+[2021.12.12-05.17.09:921][  0]LogMemory: Physical Memory: 2322.78 MB used,  1668.43 MB free, 3991.21 MB total
+[2021.12.12-05.17.09:921][  0]LogMemory: Virtual Memory: 5146.74 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.12.12-05.17.09:928][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.12-05.17.10:069][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.12-05.17.10:073][  0]LogInit: Using OS detected language (en-US).
+[2021.12.12-05.17.10:073][  0]LogInit: Using OS detected locale (en-US).
+[2021.12.12-05.17.10:089][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.12.12-05.17.10:472][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.12-05.17.10:531][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.12-05.17.10:531][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.12-05.17.10:968][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.12-05.17.10:968][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.12-05.17.10:968][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.12-05.17.10:968][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.12-05.17.11:257][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 930MX' (Feature Level 11_0)
+[2021.12.12-05.17.11:257][  0]LogD3D11RHI:       2010/0/1995 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.12.12-05.17.11:288][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2021.12.12-05.17.11:288][  0]LogD3D11RHI:       128/0/1995 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.12.12-05.17.11:305][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.12-05.17.11:305][  0]LogD3D11RHI:       0/0/1995 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.12-05.17.11:305][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.12-05.17.11:310][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.12-05.17.11:310][  0]LogD3D11RHI:     GPU DeviceId: 0x134e (for the marketing name, search the web for "GPU Device Id")
+[2021.12.12-05.17.11:311][  0]LogWindows: EnumDisplayDevices:
+[2021.12.12-05.17.11:311][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2021.12.12-05.17.11:311][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.12.12-05.17.11:311][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.12.12-05.17.11:312][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.12.12-05.17.11:312][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 930MX
+[2021.12.12-05.17.11:312][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.12.12-05.17.11:312][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.12.12-05.17.11:312][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2021.12.12-05.17.11:436][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.12-05.17.11:437][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.12-05.17.11:469][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.12.12-05.17.11:895][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.12-05.17.11:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.12-05.17.11:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.12-05.17.11:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.12-05.17.11:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.12-05.17.11:989][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.12-05.17.12:003][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.12-05.17.12:016][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.12-05.17.12:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.12-05.17.12:042][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.12-05.17.12:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.12-05.17.12:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.12-05.17.12:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.12-05.17.12:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.12-05.17.12:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.12-05.17.12:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.12-05.17.12:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.12-05.17.12:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.12-05.17.12:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.12-05.17.12:173][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.12-05.17.12:186][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.12-05.17.12:332][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Intermediate/Shaders/WorkingDirectory/5508/).
+[2021.12.12-05.17.12:332][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/9B0E743D402156ADECD8B3B58425AA88/'.
+[2021.12.12-05.17.12:334][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.12.12-05.17.12:334][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.12-05.17.12:334][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.12-05.17.13:412][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.12-05.17.13:661][  0]LogDerivedDataCache: Loaded boot cache 0.25s 76MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.12-05.17.13:661][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.12.12-05.17.13:661][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.12-05.17.13:661][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.12-05.17.13:661][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.12-05.17.13:661][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.12-05.17.13:677][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.12-05.17.13:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.12-05.17.13:677][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.12-05.17.13:678][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.12-05.17.13:678][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.12-05.17.13:678][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.12-05.17.13:741][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.12-05.17.13:744][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.12-05.17.13:812][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2021.12.12-05.17.14:181][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.12-05.17.14:358][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.12-05.17.14:358][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.12-05.17.14:358][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.12-05.17.14:358][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.12-05.17.14:358][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.12-05.17.14:380][  0]LogNetVersion: ColdDawn 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3432050753)
+[2021.12.12-05.17.15:253][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000026EA74ADB80), frame # 0
+[2021.12.12-05.17.15:253][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EA740AAC0), frame # 0
+[2021.12.12-05.17.15:254][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026EA744DE00), frame # 0
+[2021.12.12-05.17.15:404][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.141946 seconds
+[2021.12.12-05.17.15:410][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.12.12-05.17.15:410][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.12.12-05.17.15:410][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.12-05.17.16:144][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.12-05.17.16:151][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.12-05.17.16:291][  0]SourceControl: Source control is disabled
+[2021.12.12-05.17.16:291][  0]SourceControl: Source control is disabled
+[2021.12.12-05.17.16:303][  0]SourceControl: Source control is disabled
+[2021.12.12-05.17.16:308][  0]SourceControl: Source control is disabled
+[2021.12.12-05.17.16:319][  0]SourceControl: Source control is disabled
+[2021.12.12-05.17.16:338][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.12-05.17.16:340][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.12-05.17.16:748][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.12-05.17.16:779][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.12-05.17.16:780][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.12-05.17.16:857][  0]LogOcInput: OculusInput pre-init called
+[2021.12.12-05.17.16:874][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.12.12-05.17.16:874][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.12.12-05.17.16:991][  0]LogEngine: Initializing Engine...
+[2021.12.12-05.17.16:994][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.12-05.17.16:994][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.12-05.17.16:995][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.12.12-05.17.17:158][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.12-05.17.17:170][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.12-05.17.17:171][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026EA782FC00), frame # 0
+[2021.12.12-05.17.17:171][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EA78DA0C0), frame # 0
+[2021.12.12-05.17.17:193][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-05.17.17:193][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-05.17.17:193][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-05.17.17:193][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-05.17.17:193][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-05.17.17:193][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-05.17.17:193][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-05.17.17:193][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-05.17.17:194][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-05.17.17:194][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-05.17.17:212][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-05.17.17:212][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-05.17.17:461][  0]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-05.17.17:469][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-05.17.17:476][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-05.17.17:476][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-05.17.17:480][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-05.17.17:482][  0]LogInit: FAudioDevice initialized.
+[2021.12.12-05.17.17:483][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.12-05.17.17:791][  0]LogDerivedDataCache: Saved boot cache 0.31s 76MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.12-05.17.17:793][  0]LogInit: Texture streaming: Enabled
+[2021.12.12-05.17.20:158][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.12-05.17.20:158][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.12-05.17.20:268][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.12-05.17.20:919][  0]LogInit: Transaction tracking system initialized
+[2021.12.12-05.17.21:714][  0]BlueprintLog: New page: Editor Load
+[2021.12.12-05.17.21:899][  0]LocalizationService: Localization service is disabled
+[2021.12.12-05.17.22:264][  0]LogMaterial: Display: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2021.12.12-05.17.22:469][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2021.12.12-05.17.22:469][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2021.12.12-05.17.22:469][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2021.12.12-05.17.22:469][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2021.12.12-05.17.23:270][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2021.12.12-05.17.23:584][  0]LogMaterial: Display: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2021.12.12-05.17.23:681][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2021.12.12-05.17.23:705][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2021.12.12-05.17.23:727][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2021.12.12-05.17.23:748][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2021.12.12-05.17.23:770][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2021.12.12-05.17.23:791][  0]LogMaterial: Display: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2021.12.12-05.17.23:799][  0]LogMaterial: Display: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2021.12.12-05.17.23:823][  0]LogMaterial: Display: Missing cached shader map for material EmissiveMeshMaterial, compiling. 
+[2021.12.12-05.17.23:837][  0]LogMaterial: Display: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2021.12.12-05.17.23:865][  0]LogMaterial: Display: Missing cached shader map for material GizmoMaterial, compiling. 
+[2021.12.12-05.17.23:874][  0]LogMaterial: Display: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2021.12.12-05.17.23:889][  0]LogMaterial: Display: Missing cached shader map for material GeomMaterial, compiling. 
+[2021.12.12-05.17.23:898][  0]LogMaterial: Display: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2021.12.12-05.17.23:911][  0]LogMaterial: Display: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2021.12.12-05.17.23:982][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial, compiling. 
+[2021.12.12-05.17.23:994][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2021.12.12-05.17.24:011][  0]LogMaterial: Display: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2021.12.12-05.17.24:022][  0]LogMaterial: Display: Missing cached shader map for material PhysicalMaterialMaskMaterial, compiling. 
+[2021.12.12-05.17.24:123][  0]LogMaterial: Display: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2021.12.12-05.17.24:149][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2021.12.12-05.17.24:160][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2021.12.12-05.17.24:172][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2021.12.12-05.17.24:179][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2021.12.12-05.17.24:199][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2021.12.12-05.17.24:217][  0]LogMaterial: Display: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2021.12.12-05.17.24:233][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.12-05.17.24:234][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.12-05.17.24:246][  0]LogMaterial: Display: Missing cached shader map for material Cross_Mat, compiling. 
+[2021.12.12-05.17.24:267][  0]LogMaterial: Display: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2021.12.12-05.17.24:281][  0]LogMaterial: Display: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2021.12.12-05.17.24:296][  0]LogMaterial: Display: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2021.12.12-05.17.24:316][  0]LogMaterial: Display: Missing cached shader map for material Tick_Mat, compiling. 
+[2021.12.12-05.17.24:337][  0]LogMaterial: Display: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2021.12.12-05.17.24:351][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial, compiling. 
+[2021.12.12-05.17.24:361][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2021.12.12-05.17.24:373][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2021.12.12-05.17.24:384][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2021.12.12-05.17.24:396][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2021.12.12-05.17.24:408][  0]LogMaterial: Display: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2021.12.12-05.17.24:446][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2179
+[2021.12.12-05.17.24:446][  0]LogMaterial: Display: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2021.12.12-05.17.24:491][  0]LogMaterial: Display: Missing cached shader map for material BlinkingCaret, compiling. 
+[2021.12.12-05.17.24:520][  0]LogMaterial: Display: Missing cached shader map for material M_StreamingPause, compiling. 
+[2021.12.12-05.17.24:553][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.12.12-05.17.24:553][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.12-05.17.24:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Documents/GitHub/ColdDawn/Content/' took 0.08s
+[2021.12.12-05.17.25:380][  0]SourceControl: Source control is disabled
+[2021.12.12-05.17.25:380][  0]LogUnrealEdMisc: Loading editor; pre map load, took 21.626
+[2021.12.12-05.17.25:380][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.12-05.17.25:383][  0]LightingResults: New page: Lighting Build
+[2021.12.12-05.17.25:385][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-05.17.25:385][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.17.25:385][  0]MapCheck: New page: Map Check
+[2021.12.12-05.17.25:386][  0]LightingResults: New page: Lighting Build
+[2021.12.12-05.17.25:395][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026EA782FC00), frame # 0
+[2021.12.12-05.17.25:395][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EA78DA0C0), frame # 0
+[2021.12.12-05.17.25:397][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.12.12-05.17.29:668][  0]LogMaterial: Display: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2021.12.12-05.17.29:691][  0]LogMaterial: Display: Missing cached shader map for material M_Spark, compiling. 
+[2021.12.12-05.17.29:956][  0]LogMaterial: Display: Missing cached shader map for material Ch10_body1, compiling. 
+[2021.12.12-05.17.30:003][  0]LogMaterial: Display: Missing cached shader map for material M_Master, compiling. 
+[2021.12.12-05.17.30:031][  0]LogMaterial: Display: Missing cached shader map for material M_Master, compiling. 
+[2021.12.12-05.17.30:078][  0]LogMaterial: Display: Missing cached shader map for material Datasmith_Material, compiling. 
+[2021.12.12-05.17.30:127][  0]LogMaterial: Display: Missing cached shader map for material M_Bush, compiling. 
+[2021.12.12-05.17.30:175][  0]LogMaterial: Display: Missing cached shader map for material M_Weapon_Master_USE, compiling. 
+[2021.12.12-05.17.30:307][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2021.12.12-05.17.30:486][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2021.12.12-05.17.30:572][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2021.12.12-05.17.30:657][  0]LogMaterial: Display: Missing cached shader map for material Ch10_body, compiling. 
+[2021.12.12-05.17.30:803][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2843
+[2021.12.12-05.17.30:803][  0]LogMaterial: Display: Missing cached shader map for material M_C_Master_Material, compiling. 
+[2021.12.12-05.17.30:861][  0]LogMaterial: Display: Missing cached shader map for material M_Frame, compiling. 
+[2021.12.12-05.17.30:887][  0]LogMaterial: Display: Missing cached shader map for material M_Door, compiling. 
+[2021.12.12-05.17.30:923][  0]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2021.12.12-05.17.31:071][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2021.12.12-05.17.31:098][  0]LogMaterial: Display: Missing cached shader map for material M_Military_Bed, compiling. 
+[2021.12.12-05.17.31:129][  0]LogMaterial: Display: Missing cached shader map for material M_Military_Bed_Matress_with_Blanket, compiling. 
+[2021.12.12-05.17.31:159][  0]LogMaterial: Display: Missing cached shader map for material M_Military_Bed_Grid, compiling. 
+[2021.12.12-05.17.31:267][  0]LogMaterial: Display: Missing cached shader map for material M_Rock, compiling. 
+[2021.12.12-05.17.31:300][  0]LogMaterial: Display: Missing cached shader map for material M_MaterialSphere_Plain, compiling. 
+[2021.12.12-05.17.31:344][  0]LogMaterial: Display: Missing cached shader map for material MA_Imposter, compiling. 
+[2021.12.12-05.17.32:406][  0]LogMaterial: Display: Missing cached shader map for material MA_Imposter, compiling. 
+[2021.12.12-05.17.32:617][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2021.12.12-05.17.32:733][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3322
+[2021.12.12-05.17.32:733][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3312
+[2021.12.12-05.17.32:733][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2021.12.12-05.17.32:842][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2021.12.12-05.17.32:961][  0]LogMaterial: Display: Missing cached shader map for material M_MaterialSphere, compiling. 
+[2021.12.12-05.17.32:980][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2021.12.12-05.17.33:135][  0]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2021.12.12-05.17.33:162][  0]LogMaterial: Display: Missing cached shader map for material M_Rock_Slate, compiling. 
+[2021.12.12-05.17.33:188][  0]LogMaterial: Display: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2021.12.12-05.17.33:214][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2021.12.12-05.17.33:240][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2021.12.12-05.17.33:263][  0]LogMaterial: Display: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2021.12.12-05.17.33:286][  0]LogMaterial: Display: Missing cached shader map for material M_ColorGrid_LowSpec, compiling. 
+[2021.12.12-05.17.33:312][  0]LogMaterial: Display: Missing cached shader map for material M_CobbleStone_Rough, compiling. 
+[2021.12.12-05.17.33:345][  0]LogMaterial: Display: Missing cached shader map for material M_CD_Roof_Rough1, compiling. 
+[2021.12.12-05.17.33:384][  0]LogMaterial: Display: Missing cached shader map for material NearCameraFade, compiling. 
+[2021.12.12-05.17.33:430][  0]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2021.12.12-05.17.33:503][  0]LogMaterial: Display: Missing cached shader map for material M_PropsBase, compiling. 
+[2021.12.12-05.17.33:536][  0]LogMaterial: Display: Missing cached shader map for material M_PropsBase, compiling. 
+[2021.12.12-05.17.33:568][  0]LogMaterial: Display: Missing cached shader map for material M_Door, compiling. 
+[2021.12.12-05.17.33:644][  0]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-05.17.33:644][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026EDDD33E00), frame # 0
+[2021.12.12-05.17.33:644][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EDD265F80), frame # 0
+[2021.12.12-05.17.33:823][  0]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere needed to have new flag set bUsedWithStaticLighting !
+[2021.12.12-05.17.33:827][  0]LogMaterial: Display: Missing cached shader map for material M_MaterialSphere, compiling. 
+[2021.12.12-05.17.33:854][  0]MapCheck: Warning: M_MaterialSphere Material /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2021.12.12-05.17.35:276][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.12-05.17.35:412][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.12.12-05.17.35:414][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.12-05.17.35:418][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.647ms to complete.
+[2021.12.12-05.17.35:517][  0]LogFileHelpers: Loading map 'tutorial_map_v1' took 10.136
+[2021.12.12-05.17.35:701][  0]LogUnrealEdMisc: Total Editor Startup Time, took 31.946
+[2021.12.12-05.17.36:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.17.36:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.17.36:063][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.17.36:079][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.17.36:109][  0]LogCollectionManager: Loaded 0 collections in 0.004229 seconds
+[2021.12.12-05.17.36:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Documents/GitHub/ColdDawn/Saved/Collections/' took 0.00s
+[2021.12.12-05.17.36:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Documents/GitHub/ColdDawn/Content/Developers/Administrator/Collections/' took 0.00s
+[2021.12.12-05.17.36:189][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Documents/GitHub/ColdDawn/Content/Collections/' took 0.00s
+[2021.12.12-05.17.36:189][  0]LogContentBrowser: Native class hierarchy populated in 0.0242 seconds. Added 3427 classes and 821 folders.
+[2021.12.12-05.17.36:217][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0038 seconds. Added 0 classes and 0 folders.
+[2021.12.12-05.17.36:542][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2021.12.12-05.17.36:557][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0033 seconds. Added 2 classes and 0 folders.
+[2021.12.12-05.17.36:716][  0]LogSlate: Took 0.001076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.12-05.17.36:723][  0]LogSlate: Took 0.001397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.12-05.17.36:745][  0]LogSlate: Took 0.002201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.12-05.17.36:840][  0]LogMaterial: Display: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2021.12.12-05.17.36:952][  0]LogRenderer: Reallocating scene render targets to support 1012x432 Format 10 NumSamples 1 (Frame:1).
+[2021.12.12-05.17.37:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0137 seconds. Added 0 classes and 0 folders.
+[2021.12.12-05.17.37:306][  0]LogLoad: (Engine Initialization) Total time: 33.55 seconds
+[2021.12.12-05.17.37:306][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.12-05.17.40:341][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.12-05.17.40:728][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4151
+[2021.12.12-05.17.40:728][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4141
+[2021.12.12-05.17.40:728][  0]LogSlate: Took 0.060275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.12-05.17.41:194][  4]LogAssetRegistry: Asset discovery search completed in 27.3836 seconds
+[2021.12.12-05.17.41:216][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000558 seconds (updated 0 objects)
+[2021.12.12-05.17.43:077][ 36]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4131
+[2021.12.12-05.17.52:292][400]LogMaterial: Display: Missing cached shader map for material M_MaterialSphere, compiling. 
+[2021.12.12-05.18.01:593][833]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4145
+[2021.12.12-05.18.04:195][964]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4135
+[2021.12.12-05.18.06:657][ 88]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4125
+[2021.12.12-05.18.31:063][296]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4115
+[2021.12.12-05.18.42:357][846]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4105
+[2021.12.12-05.18.45:440][996]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4095
+[2021.12.12-05.19.09:300][185]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4085
+[2021.12.12-05.19.14:145][422]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4075
+[2021.12.12-05.19.14:418][435]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4065
+[2021.12.12-05.19.40:873][737]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4055
+[2021.12.12-05.19.42:107][799]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4045
+[2021.12.12-05.19.46:879][ 37]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4035
+[2021.12.12-05.20.09:795][136]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4025
+[2021.12.12-05.20.09:954][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4015
+[2021.12.12-05.20.21:633][682]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4005
+[2021.12.12-05.20.34:375][310]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3995
+[2021.12.12-05.20.35:887][388]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3985
+[2021.12.12-05.20.49:066][ 40]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3975
+[2021.12.12-05.21.01:381][635]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3965
+[2021.12.12-05.21.07:286][927]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3955
+[2021.12.12-05.21.28:694][955]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3945
+[2021.12.12-05.21.30:699][ 47]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3935
+[2021.12.12-05.21.44:392][679]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3925
+[2021.12.12-05.21.45:049][707]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3915
+[2021.12.12-05.21.49:880][945]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3905
+[2021.12.12-05.22.09:115][886]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3895
+[2021.12.12-05.22.23:574][618]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3885
+[2021.12.12-05.22.23:574][618]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3875
+[2021.12.12-05.22.25:609][722]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3865
+[2021.12.12-05.22.52:108][ 18]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3855
+[2021.12.12-05.22.52:108][ 18]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3845
+[2021.12.12-05.22.53:537][ 90]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3835
+[2021.12.12-05.22.58:803][344]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-05.22.58:882][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-05.22.58:888][344]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 1:22:58 PM)
+[2021.12.12-05.22.58:904][344]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.12-05.22.58:908][344]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.12-05.22.58:913][344]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-05.22.59:134][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.219878s)
+[2021.12.12-05.22.59:140][344]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-05.22.59:141][344]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F24963E00), frame # 15344
+[2021.12.12-05.22.59:141][344]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EC5ACB600), frame # 15344
+[2021.12.12-05.22.59:142][344]LogPlayLevel: PIE: World Init took: (0.007950s)
+[2021.12.12-05.22.59:143][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.229430s)
+[2021.12.12-05.22.59:215][344]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2021.12.12-05.22.59:237][344]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-05.22.59:237][344]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-05.22.59:237][344]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-05.22.59:237][344]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-05.22.59:237][344]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-05.22.59:238][344]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-05.22.59:238][344]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-05.22.59:238][344]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-05.22.59:239][344]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-05.22.59:239][344]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-05.22.59:247][344]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-05.22.59:248][344]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-05.22.59:341][344]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-05.22.59:342][344]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-05.22.59:342][344]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-05.22.59:342][344]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-05.22.59:345][344]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-05.22.59:366][344]LogInit: FAudioDevice initialized.
+[2021.12.12-05.22.59:395][344]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-05.22.59:431][344]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-21.22.59
+[2021.12.12-05.22.59:456][344]LogWorld: Bringing up level for play took: 0.045341
+[2021.12.12-05.22.59:458][344]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.12.12-05.22.59:504][344]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0198 seconds. Added 20 classes and 0 folders.
+[2021.12.12-05.22.59:558][344]PIE: Server logged in
+[2021.12.12-05.22.59:561][344]PIE: Play in editor total start time 0.694 seconds.
+[2021.12.12-05.23.06:797][639]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-05.23.13:006][804]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3825
+[2021.12.12-05.23.14:802][804]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3815
+[2021.12.12-05.23.15:684][804]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3805
+[2021.12.12-05.23.16:212][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.23.16:213][804]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-05.23.16:220][804]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-05.23.16:224][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.23.16:343][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-05.23.16:351][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.23.16:422][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.23.16:431][804]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EC5ACB600), frame # 15804
+[2021.12.12-05.23.16:431][804]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F24963E00), frame # 15804
+[2021.12.12-05.23.16:447][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.12.12-05.23.16:561][805]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.12.12-05.23.19:744][940]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-05.23.19:803][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-05.23.19:803][940]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 1:23:19 PM)
+[2021.12.12-05.23.19:803][940]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-05.23.19:910][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106737s)
+[2021.12.12-05.23.19:912][940]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-05.23.19:913][940]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F010D5E00), frame # 15940
+[2021.12.12-05.23.19:913][940]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EC55C5D00), frame # 15940
+[2021.12.12-05.23.19:914][940]LogPlayLevel: PIE: World Init took: (0.003189s)
+[2021.12.12-05.23.19:914][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.110396s)
+[2021.12.12-05.23.19:931][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.12.12-05.23.19:935][940]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-05.23.19:935][940]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-05.23.19:935][940]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-05.23.19:935][940]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-05.23.19:935][940]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-05.23.19:935][940]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-05.23.19:935][940]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-05.23.19:935][940]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-05.23.19:936][940]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-05.23.19:936][940]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-05.23.19:939][940]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-05.23.19:939][940]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-05.23.19:966][940]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-05.23.19:967][940]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-05.23.19:967][940]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-05.23.19:967][940]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-05.23.19:968][940]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-05.23.19:999][940]LogInit: FAudioDevice initialized.
+[2021.12.12-05.23.20:009][940]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-05.23.20:024][940]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-21.23.20
+[2021.12.12-05.23.20:025][940]LogWorld: Bringing up level for play took: 0.015640
+[2021.12.12-05.23.20:026][940]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.12.12-05.23.20:041][940]PIE: Server logged in
+[2021.12.12-05.23.20:042][940]PIE: Play in editor total start time 0.24 seconds.
+[2021.12.12-05.23.26:576][255]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3795
+[2021.12.12-05.23.35:492][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.23.35:492][718]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-05.23.35:492][718]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-05.23.35:495][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.23.35:510][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-05.23.35:514][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.23.35:531][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.23.35:570][718]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EC55C5D00), frame # 16718
+[2021.12.12-05.23.35:570][718]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F010D5E00), frame # 16718
+[2021.12.12-05.23.35:574][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.12.12-05.23.35:641][719]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.12.12-05.23.38:609][849]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3785
+[2021.12.12-05.23.40:439][936]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3775
+[2021.12.12-05.23.54:511][605]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3765
+[2021.12.12-05.23.56:269][687]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-05.23.56:328][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-05.23.56:328][687]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 1:23:56 PM)
+[2021.12.12-05.23.56:329][687]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-05.23.56:471][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141910s)
+[2021.12.12-05.23.56:473][687]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-05.23.56:473][687]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F010D5400), frame # 17687
+[2021.12.12-05.23.56:474][687]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EC1526AC0), frame # 17687
+[2021.12.12-05.23.56:474][687]LogPlayLevel: PIE: World Init took: (0.003157s)
+[2021.12.12-05.23.56:474][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.145466s)
+[2021.12.12-05.23.56:494][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.12.12-05.23.56:501][687]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-05.23.56:501][687]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-05.23.56:501][687]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-05.23.56:501][687]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-05.23.56:501][687]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-05.23.56:501][687]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-05.23.56:502][687]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-05.23.56:502][687]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-05.23.56:503][687]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-05.23.56:503][687]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-05.23.56:507][687]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-05.23.56:507][687]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-05.23.56:542][687]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-05.23.56:542][687]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-05.23.56:543][687]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-05.23.56:543][687]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-05.23.56:544][687]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-05.23.56:582][687]LogInit: FAudioDevice initialized.
+[2021.12.12-05.23.56:601][687]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-05.23.56:617][687]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-21.23.56
+[2021.12.12-05.23.56:619][687]LogWorld: Bringing up level for play took: 0.017548
+[2021.12.12-05.23.56:620][687]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.12.12-05.23.56:635][687]PIE: Server logged in
+[2021.12.12-05.23.56:637][687]PIE: Play in editor total start time 0.309 seconds.
+[2021.12.12-05.23.58:092][744]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-05.23.59:574][821]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3755
+[2021.12.12-05.24.00:386][860]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-05.24.11:126][397]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-05.24.13:862][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.24.13:862][536]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-05.24.13:863][536]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-05.24.13:866][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.24.13:889][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-05.24.13:894][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.24.13:914][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.24.13:963][536]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EC1526AC0), frame # 18536
+[2021.12.12-05.24.13:964][536]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F010D5400), frame # 18536
+[2021.12.12-05.24.13:967][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.12.12-05.24.14:060][537]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.12.12-05.24.14:490][550]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3745
+[2021.12.12-05.24.25:065][105]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3735
+[2021.12.12-05.24.34:035][573]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3725
+[2021.12.12-05.24.35:393][643]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3715
+[2021.12.12-05.24.55:585][696]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3705
+[2021.12.12-05.24.57:365][787]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3695
+[2021.12.12-05.25.03:468][104]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3685
+[2021.12.12-05.25.19:130][918]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3675
+[2021.12.12-05.25.30:117][493]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3665
+[2021.12.12-05.25.34:341][715]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3655
+[2021.12.12-05.25.45:045][275]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3645
+[2021.12.12-05.25.55:056][798]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3635
+[2021.12.12-05.26.02:153][171]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3625
+[2021.12.12-05.26.25:706][379]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3615
+[2021.12.12-05.26.30:217][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3605
+[2021.12.12-05.26.32:778][697]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3595
+[2021.12.12-05.26.34:444][755]LogSlate: Took 0.001158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.12-05.26.34:476][755]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.26.37:751][755]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3585
+[2021.12.12-05.26.39:400][755]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0097 seconds. Added 125 classes and 0 folders.
+[2021.12.12-05.26.42:190][755]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3575
+[2021.12.12-05.26.42:678][755]LogSlate: Took 0.001520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.12-05.26.42:868][756]LogSlate: Took 0.013880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.12-05.26.43:124][760]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3565
+[2021.12.12-05.26.52:213][  9]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3555
+[2021.12.12-05.26.52:631][ 11]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3545
+[2021.12.12-05.26.56:975][121]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3535
+[2021.12.12-05.27.07:883][427]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3525
+[2021.12.12-05.27.15:927][680]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3515
+[2021.12.12-05.27.15:958][681]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3505
+[2021.12.12-05.27.23:806][925]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.27.24:159][925]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2021.12.12-05.27.24:295][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.27.24:432][925]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest5E0165BE42EA9251A60E8E92FAAE71E3.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.27.24:487][925]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.27.24:487][925]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.27.25:234][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.27.25:289][939]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest4B89C17C449B486A5E44788A4296C857.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.27.25:311][939]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.27.25:312][939]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.27.30:272][101]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3495
+[2021.12.12-05.27.36:911][312]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3485
+[2021.12.12-05.27.38:963][374]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3475
+[2021.12.12-05.27.40:919][425]LogSlate: Took 0.016742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.12-05.27.45:388][542]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3465
+[2021.12.12-05.27.51:744][710]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3455
+[2021.12.12-05.27.53:803][764]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3445
+[2021.12.12-05.27.55:895][813]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3435
+[2021.12.12-05.28.03:760][ 76]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.28.03:912][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2021.12.12-05.28.03:990][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.28.04:072][ 76]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest00A519F84FFB280BAD6A509132AB366A.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.28.04:096][ 76]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.28.04:096][ 76]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.28.04:546][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.28.04:603][ 89]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestE96B58EC45100E16486A56B5CE114CD8.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.28.04:625][ 89]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.28.04:625][ 89]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.28.11:271][322]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3425
+[2021.12.12-05.28.13:896][415]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3415
+[2021.12.12-05.28.28:043][918]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3405
+[2021.12.12-05.28.35:577][186]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3395
+[2021.12.12-05.28.42:079][419]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3385
+[2021.12.12-05.28.47:878][624]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3375
+[2021.12.12-05.29.00:279][ 15]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3365
+[2021.12.12-05.29.03:279][102]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3355
+[2021.12.12-05.29.05:720][173]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3345
+[2021.12.12-05.29.16:440][463]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3335
+[2021.12.12-05.29.20:807][588]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3325
+[2021.12.12-05.29.20:807][588]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3315
+[2021.12.12-05.29.27:233][748]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3305
+[2021.12.12-05.29.32:808][938]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3295
+[2021.12.12-05.29.38:157][ 93]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3285
+[2021.12.12-05.29.42:470][215]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.29.42:633][215]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2021.12.12-05.29.42:767][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.29.42:848][215]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3275
+[2021.12.12-05.29.42:848][215]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestC3309C0A4AF383A2008DA1825D8F9AA3.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.29.42:874][215]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.29.42:874][215]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.29.43:352][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.29.43:420][227]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestBC8C13C74200D3295AF3EC9D5974D95E.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.29.43:445][227]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.29.43:445][227]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.29.48:486][452]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3265
+[2021.12.12-05.29.53:594][629]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3255
+[2021.12.12-05.29.54:368][629]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3245
+[2021.12.12-05.29.58:564][681]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3235
+[2021.12.12-05.30.01:207][813]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3225
+[2021.12.12-05.30.09:601][236]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3215
+[2021.12.12-05.30.15:509][530]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3205
+[2021.12.12-05.30.23:263][914]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3195
+[2021.12.12-05.30.30:380][267]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3185
+[2021.12.12-05.30.35:065][499]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3175
+[2021.12.12-05.30.41:863][823]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/InventoryComponent.InventoryComponent
+[2021.12.12-05.30.42:785][823]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3165
+[2021.12.12-05.30.48:435][969]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3155
+[2021.12.12-05.30.50:214][ 17]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3145
+[2021.12.12-05.30.54:487][137]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3135
+[2021.12.12-05.31.01:233][340]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3125
+[2021.12.12-05.31.02:157][365]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3115
+[2021.12.12-05.31.07:827][501]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3105
+[2021.12.12-05.31.08:822][527]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3095
+[2021.12.12-05.31.15:376][696]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3085
+[2021.12.12-05.31.18:068][773]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3075
+[2021.12.12-05.31.24:799][966]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3065
+[2021.12.12-05.31.25:246][976]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3055
+[2021.12.12-05.31.29:732][ 91]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3045
+[2021.12.12-05.31.36:540][284]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3035
+[2021.12.12-05.31.41:092][436]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3025
+[2021.12.12-05.31.41:092][436]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3015
+[2021.12.12-05.31.46:726][598]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.31.46:906][598]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2021.12.12-05.31.46:997][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.31.47:072][598]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestB10DCDBA4B9E857C415912B25D34269A.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.31.47:852][598]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3005
+[2021.12.12-05.31.47:852][598]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.31.47:852][598]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.31.48:020][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.31.48:079][599]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestDFDD7E1A48ED7B2FECE7468D27EA0B42.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.31.48:103][599]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.31.48:103][599]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.31.48:169][601]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2995
+[2021.12.12-05.31.50:105][656]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2985
+[2021.12.12-05.32.02:272][ 62]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2975
+[2021.12.12-05.32.07:736][243]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2965
+[2021.12.12-05.32.11:320][357]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2955
+[2021.12.12-05.32.15:827][489]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2945
+[2021.12.12-05.32.20:109][625]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2935
+[2021.12.12-05.32.26:247][797]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2925
+[2021.12.12-05.32.27:455][831]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2915
+[2021.12.12-05.32.36:131][ 66]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2905
+[2021.12.12-05.32.37:612][113]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2895
+[2021.12.12-05.32.38:441][138]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.32.38:610][138]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2021.12.12-05.32.38:682][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.32.38:747][138]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest040CF3344D892A890D38328A5D7D4FB2.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.32.38:769][138]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.32.38:770][138]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.32.39:463][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.32.39:522][150]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest096D3D7945D4B9254BF487B6BDA480C2.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.32.39:545][150]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.32.39:545][150]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.32.45:528][339]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2885
+[2021.12.12-05.32.46:756][377]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2875
+[2021.12.12-05.32.49:776][467]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2865
+[2021.12.12-05.32.54:610][608]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2855
+[2021.12.12-05.32.57:646][688]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2845
+[2021.12.12-05.33.03:265][868]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2835
+[2021.12.12-05.33.07:217][985]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2825
+[2021.12.12-05.33.13:419][152]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2815
+[2021.12.12-05.33.17:853][274]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2805
+[2021.12.12-05.33.19:454][319]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2795
+[2021.12.12-05.33.30:347][632]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2785
+[2021.12.12-05.33.37:124][812]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2775
+[2021.12.12-05.33.38:545][851]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2765
+[2021.12.12-05.33.47:293][ 98]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2755
+[2021.12.12-05.33.56:450][366]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2745
+[2021.12.12-05.33.58:672][440]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2735
+[2021.12.12-05.34.07:922][688]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2725
+[2021.12.12-05.34.20:852][ 65]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2715
+[2021.12.12-05.34.21:456][ 85]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2705
+[2021.12.12-05.34.30:369][345]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2695
+[2021.12.12-05.34.37:053][537]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2685
+[2021.12.12-05.34.38:155][564]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2675
+[2021.12.12-05.34.39:185][590]LogEditorTransaction: Undo Add Node
+[2021.12.12-05.34.44:910][716]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2665
+[2021.12.12-05.34.49:313][822]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2655
+[2021.12.12-05.34.51:801][889]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2645
+[2021.12.12-05.34.53:810][946]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.34.53:994][946]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2021.12.12-05.34.54:085][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.34.54:151][946]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestE7E8312948E369FE66919C8C7260D259.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.34.54:177][946]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.34.54:177][946]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.34.54:770][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.34.54:837][957]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest91729F724744977A27907194212C0457.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.34.54:863][957]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.34.54:863][957]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.35.00:287][128]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2635
+[2021.12.12-05.35.07:057][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2625
+[2021.12.12-05.35.07:155][329]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.35.07:330][329]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2021.12.12-05.35.07:409][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.35.07:472][329]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest7EB1EF0148657145F8EBEF83D6CFEE9E.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.35.07:496][329]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.35.07:496][329]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.35.07:682][334]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2615
+[2021.12.12-05.35.07:931][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.35.07:996][338]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest1147198A4CDF1B23CA4FA08A01263F9A.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.35.08:022][338]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.35.08:022][338]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.35.19:613][716]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2605
+[2021.12.12-05.35.23:927][858]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2595
+[2021.12.12-05.35.25:516][911]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2585
+[2021.12.12-05.35.44:194][450]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2575
+[2021.12.12-05.35.46:304][518]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2565
+[2021.12.12-05.35.57:123][838]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2555
+[2021.12.12-05.36.17:709][436]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2545
+[2021.12.12-05.36.18:411][458]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2535
+[2021.12.12-05.36.20:736][526]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2525
+[2021.12.12-05.36.38:129][ 51]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2515
+[2021.12.12-05.36.40:286][103]LogEditorTransaction: Undo Create Pin Link
+[2021.12.12-05.36.43:983][194]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2505
+[2021.12.12-05.36.43:983][194]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2495
+[2021.12.12-05.36.53:943][461]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.36.54:007][461]LogBlueprint: Warning: [Compiler Quest] Could not find a variable named "ObjectiveNumber" in 'Quest_C'.
+Make sure 'Quest_C' has been compiled for  Get ObjectiveNumber
+[2021.12.12-05.36.54:007][461]LogBlueprint: Warning: [Compiler Quest] Could not find a variable named "ObjectiveNumber" in 'Quest_C'.
+Make sure 'Quest_C' has been compiled for  Get ObjectiveNumber
+[2021.12.12-05.36.54:007][461]LogBlueprint: Warning: [Compiler Quest] Could not find a variable named "UpdateUI" in 'Quest_C'.
+Make sure 'Quest_C' has been compiled for  Set UpdateUI
+[2021.12.12-05.36.54:013][461]LogBlueprint: Error: [Compiler Quest] The property associated with  Update UI  could not be found in '/Game/ColdDawn/QuestSystem/Quests/Quest.Quest_C'
+[2021.12.12-05.36.54:014][461]LogBlueprint: Error: [Compiler Quest] The property associated with  Objective Number  could not be found in '/Game/ColdDawn/QuestSystem/Quests/Quest.Quest_C'
+[2021.12.12-05.36.54:014][461]LogBlueprint: Error: [Compiler Quest] The property associated with  Objective Number  could not be found in '/Game/ColdDawn/QuestSystem/Quests/Quest.Quest_C'
+[2021.12.12-05.36.54:228][461]LogUObjectHash: Compacting FUObjectHashTables data took   8.23ms
+[2021.12.12-05.36.54:445][461]LogSlate: Took 0.031877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.12-05.36.56:829][520]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2485
+[2021.12.12-05.37.06:660][802]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.37.06:716][802]LogBlueprint: Warning: [Compiler Quest] Could not find a variable named "ObjectiveNumber" in 'Quest_C'.
+Make sure 'Quest_C' has been compiled for  Get ObjectiveNumber
+[2021.12.12-05.37.06:717][802]LogBlueprint: Warning: [Compiler Quest] Could not find a variable named "UpdateUI" in 'Quest_C'.
+Make sure 'Quest_C' has been compiled for  Set UpdateUI
+[2021.12.12-05.37.06:722][802]LogBlueprint: Error: [Compiler Quest] The property associated with  Update UI  could not be found in '/Game/ColdDawn/QuestSystem/Quests/Quest.Quest_C'
+[2021.12.12-05.37.06:722][802]LogBlueprint: Error: [Compiler Quest] The property associated with  Objective Number  could not be found in '/Game/ColdDawn/QuestSystem/Quests/Quest.Quest_C'
+[2021.12.12-05.37.06:847][802]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2021.12.12-05.37.06:986][803]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2475
+[2021.12.12-05.37.09:243][866]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2465
+[2021.12.12-05.37.20:484][170]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2455
+[2021.12.12-05.37.33:205][511]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2445
+[2021.12.12-05.37.43:713][783]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2435
+[2021.12.12-05.37.44:095][792]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2425
+[2021.12.12-05.37.55:929][125]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2415
+[2021.12.12-05.37.59:446][207]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2405
+[2021.12.12-05.38.00:759][243]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2395
+[2021.12.12-05.38.11:304][512]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.38.11:358][512]LogBlueprint: Warning: [Compiler Quest] Could not find a variable named "UpdateUI" in 'Quest_C'.
+Make sure 'Quest_C' has been compiled for  Set UpdateUI
+[2021.12.12-05.38.11:361][512]LogBlueprint: Error: [Compiler Quest] The property associated with  Update UI  could not be found in '/Game/ColdDawn/QuestSystem/Quests/Quest.Quest_C'
+[2021.12.12-05.38.11:461][512]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2021.12.12-05.38.13:319][559]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2385
+[2021.12.12-05.38.13:909][574]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2375
+[2021.12.12-05.38.14:432][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.38.14:558][586]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest1F4AAEB7488B825E184BC78ED6F29675.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.38.14:586][586]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.38.14:586][586]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.38.18:800][715]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2365
+[2021.12.12-05.38.28:728][ 15]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.38.28:903][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2021.12.12-05.38.28:990][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.38.29:059][ 15]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/QuestE0A648E048D4068DA738F3A664A1383F.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.38.29:084][ 15]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.38.29:084][ 15]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.38.29:726][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.38.29:799][ 30]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest445AD45E4A33210107FC08BCA5B5D835.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.38.29:820][ 30]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.38.29:820][ 30]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.38.32:683][104]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2355
+[2021.12.12-05.38.34:592][158]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2345
+[2021.12.12-05.38.43:011][396]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2335
+[2021.12.12-05.38.57:004][810]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2325
+[2021.12.12-05.38.57:852][834]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2315
+[2021.12.12-05.39.05:184][ 35]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2305
+[2021.12.12-05.39.11:561][202]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.39.11:754][202]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2021.12.12-05.39.11:840][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.39.11:912][202]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest9A5EC78B4359090350D4ADA508583ABE.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.39.11:936][202]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.39.11:936][202]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.39.21:335][462]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2295
+[2021.12.12-05.39.23:023][503]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2285
+[2021.12.12-05.39.23:023][503]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2275
+[2021.12.12-05.39.38:667][975]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2265
+[2021.12.12-05.39.39:006][985]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2255
+[2021.12.12-05.39.41:309][ 52]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2245
+[2021.12.12-05.39.56:236][464]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2235
+[2021.12.12-05.39.57:676][502]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2225
+[2021.12.12-05.40.01:073][597]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2215
+[2021.12.12-05.40.11:074][894]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2205
+[2021.12.12-05.40.13:160][954]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2195
+[2021.12.12-05.40.19:315][121]BlueprintLog: New page: Compile Quest
+[2021.12.12-05.40.19:507][121]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2021.12.12-05.40.19:616][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.40.19:701][121]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2185
+[2021.12.12-05.40.19:701][121]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest826F8FF6467781EBE988CE89E8402CBF.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.40.19:728][121]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.40.19:728][121]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.40.21:006][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/QuestSystem/Quests/Quest" FILE="../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset" SILENT=true
+[2021.12.12-05.40.21:088][153]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest482104C84CFA55444E646896CA2DB003.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest.uasset'
+[2021.12.12-05.40.21:113][153]AssetCheck: New page: Asset Save: Quest
+[2021.12.12-05.40.21:113][153]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest.Quest
+[2021.12.12-05.40.30:095][411]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2175
+[2021.12.12-05.40.32:389][473]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2165
+[2021.12.12-05.40.38:532][653]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2155
+[2021.12.12-05.40.42:153][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2145
+[2021.12.12-05.41.03:389][363]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2135
+[2021.12.12-05.41.04:194][386]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2125
+[2021.12.12-05.41.07:681][488]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2115
+[2021.12.12-05.41.17:880][790]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2105
+[2021.12.12-05.41.22:485][927]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2095
+[2021.12.12-05.41.28:475][103]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2085
+[2021.12.12-05.41.38:432][398]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2075
+[2021.12.12-05.41.41:302][482]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2065
+[2021.12.12-05.41.49:454][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2055
+[2021.12.12-05.41.57:538][960]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2045
+[2021.12.12-05.42.00:262][ 25]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2035
+[2021.12.12-05.42.05:858][156]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2025
+[2021.12.12-05.42.16:018][468]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2015
+[2021.12.12-05.42.17:502][516]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2005
+[2021.12.12-05.42.24:799][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1995
+[2021.12.12-05.42.42:177][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1985
+[2021.12.12-05.42.42:806][334]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1975
+[2021.12.12-05.42.55:455][780]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1965
+[2021.12.12-05.43.12:235][375]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1955
+[2021.12.12-05.43.16:886][539]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1945
+[2021.12.12-05.43.32:915][103]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1935
+[2021.12.12-05.43.40:249][383]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Interact_interface.Interact_interface
+[2021.12.12-05.43.41:959][386]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1925
+[2021.12.12-05.43.47:839][698]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-05.43.47:839][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.43.51:256][842]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1915
+[2021.12.12-05.44.01:397][155]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1905
+[2021.12.12-05.44.05:355][271]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1895
+[2021.12.12-05.44.14:090][516]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1885
+[2021.12.12-05.44.16:871][579]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1875
+[2021.12.12-05.44.27:603][914]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1865
+[2021.12.12-05.44.32:849][ 79]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1855
+[2021.12.12-05.44.33:777][108]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1845
+[2021.12.12-05.44.47:723][550]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1835
+[2021.12.12-05.44.49:531][607]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1825
+[2021.12.12-05.44.58:029][875]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1815
+[2021.12.12-05.45.05:665][116]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1805
+[2021.12.12-05.45.07:252][166]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1795
+[2021.12.12-05.45.15:405][424]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1785
+[2021.12.12-05.45.22:537][650]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1775
+[2021.12.12-05.45.23:318][675]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1765
+[2021.12.12-05.45.31:283][897]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1755
+[2021.12.12-05.45.35:172][ 16]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1745
+[2021.12.12-05.45.37:318][ 83]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1735
+[2021.12.12-05.45.47:984][420]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1725
+[2021.12.12-05.45.49:396][465]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1715
+[2021.12.12-05.45.52:123][551]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1705
+[2021.12.12-05.46.09:668][107]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1695
+[2021.12.12-05.46.10:796][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1685
+[2021.12.12-05.46.14:066][246]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1675
+[2021.12.12-05.46.19:840][427]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1665
+[2021.12.12-05.46.24:870][587]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1655
+[2021.12.12-05.46.27:905][684]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1645
+[2021.12.12-05.46.29:595][738]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1635
+[2021.12.12-05.46.37:197][978]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1625
+[2021.12.12-05.46.41:194][105]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1615
+[2021.12.12-05.46.42:927][160]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1605
+[2021.12.12-05.46.52:571][465]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1595
+[2021.12.12-05.46.57:822][632]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1585
+[2021.12.12-05.47.00:986][731]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1575
+[2021.12.12-05.47.03:322][804]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1565
+[2021.12.12-05.47.10:795][ 41]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1555
+[2021.12.12-05.47.11:639][ 68]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1545
+[2021.12.12-05.47.16:994][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1535
+[2021.12.12-05.47.24:068][460]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1525
+[2021.12.12-05.47.24:862][486]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1515
+[2021.12.12-05.47.30:287][657]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1505
+[2021.12.12-05.47.38:922][931]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1495
+[2021.12.12-05.47.39:639][954]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1485
+[2021.12.12-05.47.46:015][154]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1475
+[2021.12.12-05.47.54:294][435]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1465
+[2021.12.12-05.47.58:850][609]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1455
+[2021.12.12-05.48.08:822][986]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1445
+[2021.12.12-05.48.09:717][ 22]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1435
+[2021.12.12-05.48.17:762][314]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1425
+[2021.12.12-05.48.27:344][644]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1415
+[2021.12.12-05.48.30:536][756]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1405
+[2021.12.12-05.48.37:728][981]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest002A0DB7CE241B69DC1C752A8B26409495E.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest002.uasset'
+[2021.12.12-05.48.37:804][981]AssetCheck: New page: Asset Save: Quest002
+[2021.12.12-05.48.37:806][981]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest002.Quest002
+[2021.12.12-05.48.38:827][  9]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest002.Quest002
+[2021.12.12-05.48.41:359][  9]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1395
+[2021.12.12-05.48.41:842][ 10]LogRenderer: Reallocating scene render targets to support 1012x680 Format 10 NumSamples 1 (Frame:1).
+[2021.12.12-05.48.45:579][ 99]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1385
+[2021.12.12-05.48.53:044][364]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1375
+[2021.12.12-05.48.54:642][419]LogEditorViewport: Clicking on Actor (CTRL LMB): Item_medicine_quest_C (Item_medicine_quest)
+[2021.12.12-05.49.04:508][773]EditorErrors: New page: Actor attachment
+[2021.12.12-05.49.06:457][845]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1365
+[2021.12.12-05.49.16:235][200]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1355
+[2021.12.12-05.49.31:542][578]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1345
+[2021.12.12-05.49.31:664][581]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1335
+[2021.12.12-05.49.35:234][650]LogUObjectHash: Compacting FUObjectHashTables data took 102.85ms
+[2021.12.12-05.49.35:887][650]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1E7DD0E90445C994D063CE7A207527755.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.12.12-05.49.37:888][650]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1_BuiltDataD5BD7A7347368F1C25F236B2BDA0318D.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.12-05.49.37:996][650]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.12-05.49.37:996][650]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.12-05.49.37:996][650]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.12-05.49.40:178][726]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1325
+[2021.12.12-05.50.07:952][808]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1315
+[2021.12.12-05.50.28:360][610]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1305
+[2021.12.12-05.50.33:949][831]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1295
+[2021.12.12-05.51.08:196][172]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1285
+[2021.12.12-05.51.23:462][773]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1275
+[2021.12.12-05.51.25:770][864]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1265
+[2021.12.12-05.52.07:102][486]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1255
+[2021.12.12-05.52.27:350][287]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1245
+[2021.12.12-05.53.43:978][317]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1235
+[2021.12.12-05.54.28:433][ 83]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1225
+[2021.12.12-05.54.45:272][743]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1215
+[2021.12.12-05.54.50:952][959]LogEditorViewport: Clicking on Actor (LMB): Item_medicine_quest_C (Item_medicine_quest)
+[2021.12.12-05.54.53:643][ 36]Cmd: DELETE
+[2021.12.12-05.54.53:643][ 36]Cmd: ACTOR DELETE
+[2021.12.12-05.54.53:869][ 36]LogEditorActor: Deleted Actor: Quest002_C
+[2021.12.12-05.54.55:346][ 36]LogUObjectHash: Compacting FUObjectHashTables data took  83.09ms
+[2021.12.12-05.54.55:572][ 36]LogEditorActor: Deleted 1 Actors (1.876 secs)
+[2021.12.12-05.55.10:309][581]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1205
+[2021.12.12-05.55.18:070][839]LogEditorViewport: Clicking on Actor (LMB): Notecard_C (Notecard)
+[2021.12.12-05.55.20:616][947]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/QuestSystem/Notecard.Notecard
+[2021.12.12-05.55.23:116][947]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1195
+[2021.12.12-05.55.26:164][ 12]LogRenderer: Reallocating scene render targets to support 1012x684 Format 10 NumSamples 1 (Frame:1).
+[2021.12.12-05.55.30:279][ 95]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1185
+[2021.12.12-05.55.30:807][104]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-05.55.30:807][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.55.40:596][455]Cmd: EDIT COPY
+[2021.12.12-05.55.41:090][474]Cmd: EDIT PASTE
+[2021.12.12-05.55.58:588][152]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1175
+[2021.12.12-05.56.04:813][356]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1165
+[2021.12.12-05.56.09:691][492]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1155
+[2021.12.12-05.56.11:469][552]EditorErrors: New page: Actor attachment
+[2021.12.12-05.56.29:657][246]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2021.12.12-05.56.30:180][246]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v10F9B0A6942D4B0430D8F24B01B6F31D4.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.12.12-05.56.31:463][246]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1145
+[2021.12.12-05.56.31:682][246]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1_BuiltData6A91FF97489214FD1F8F80929C8B4A55.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.12-05.56.32:714][246]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.12-05.56.32:714][246]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.12-05.56.32:714][246]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.12-05.56.35:620][352]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1135
+[2021.12.12-05.56.48:995][865]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest001.Quest001
+[2021.12.12-05.57.10:487][437]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1125
+[2021.12.12-05.57.31:286][144]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-05.57.31:356][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-05.57.31:361][144]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 1:57:31 PM)
+[2021.12.12-05.57.31:365][144]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-05.57.31:628][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.262349s)
+[2021.12.12-05.57.31:633][144]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-05.57.31:634][144]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F9AA73E00), frame # 85144
+[2021.12.12-05.57.31:635][144]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F9A1D9800), frame # 85144
+[2021.12.12-05.57.31:637][144]LogPlayLevel: PIE: World Init took: (0.008553s)
+[2021.12.12-05.57.31:638][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.272741s)
+[2021.12.12-05.57.31:741][144]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2021.12.12-05.57.31:770][144]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-05.57.31:770][144]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-05.57.31:770][144]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-05.57.31:770][144]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-05.57.31:770][144]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-05.57.31:770][144]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-05.57.31:770][144]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-05.57.31:771][144]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-05.57.31:775][144]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-05.57.31:775][144]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-05.57.31:808][144]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-05.57.31:808][144]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-05.57.31:961][144]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-05.57.31:965][144]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-05.57.31:966][144]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-05.57.31:966][144]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-05.57.31:982][144]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-05.57.32:013][144]LogInit: FAudioDevice initialized.
+[2021.12.12-05.57.32:101][144]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-05.57.32:153][144]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-21.57.32
+[2021.12.12-05.57.32:158][144]LogWorld: Bringing up level for play took: 0.054122
+[2021.12.12-05.57.32:161][144]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.12.12-05.57.32:215][144]PIE: Server logged in
+[2021.12.12-05.57.32:219][144]PIE: Play in editor total start time 0.869 seconds.
+[2021.12.12-05.57.35:463][276]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-05.57.41:199][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.57.41:199][531]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-05.57.41:201][531]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-05.57.41:203][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.57.41:240][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-05.57.41:255][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-05.57.41:380][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-05.57.41:392][531]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F9A1D9800), frame # 85531
+[2021.12.12-05.57.41:392][531]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F9AA73E00), frame # 85531
+[2021.12.12-05.57.41:402][531]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2021.12.12-05.57.41:510][532]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.12.12-05.58.15:422][519]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1115
+[2021.12.12-05.58.28:256][820]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1105
+[2021.12.12-05.58.32:778][915]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1095
+[2021.12.12-05.58.54:057][467]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/QuestSystem/Notecard.Notecard
+[2021.12.12-05.58.57:452][524]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1085
+[2021.12.12-05.58.58:204][542]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1075
+[2021.12.12-05.59.16:668][934]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1065
+[2021.12.12-05.59.19:182][989]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1055
+[2021.12.12-05.59.19:729][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1045
+[2021.12.12-05.59.43:321][711]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1035
+[2021.12.12-05.59.47:962][882]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1025
+[2021.12.12-05.59.48:222][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1015
+[2021.12.12-06.00.15:687][801]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1005
+[2021.12.12-06.00.27:718][ 70]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 995
+[2021.12.12-06.00.30:733][136]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 985
+[2021.12.12-06.00.39:250][352]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.00.39:250][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.00.39:434][352]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest001.Quest001
+[2021.12.12-06.00.58:748][793]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 975
+[2021.12.12-06.01.07:712][  9]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 965
+[2021.12.12-06.01.19:155][395]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 955
+[2021.12.12-06.01.34:730][774]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 945
+[2021.12.12-06.01.40:909][940]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 935
+[2021.12.12-06.01.49:229][178]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 925
+[2021.12.12-06.01.59:330][474]BlueprintLog: New page: Compile Quest002
+[2021.12.12-06.01.59:562][474]LogUObjectHash: Compacting FUObjectHashTables data took   7.73ms
+[2021.12.12-06.01.59:745][474]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest002315CB8214D7F68F4A391F2A38CD62232.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest002.uasset'
+[2021.12.12-06.02.03:268][474]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 915
+[2021.12.12-06.02.03:268][474]AssetCheck: New page: Asset Save: Quest002
+[2021.12.12-06.02.03:268][474]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest002.Quest002
+[2021.12.12-06.02.03:540][475]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest0026603FC9447386B1813564FA04C36CE3F.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest002.uasset'
+[2021.12.12-06.02.03:563][475]AssetCheck: New page: Asset Save: Quest002
+[2021.12.12-06.02.03:563][475]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest002.Quest002
+[2021.12.12-06.02.04:399][492]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/Quest0027877319542BC2FD3D08EDCA0EEF34A08.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/QuestSystem/Quests/Quest002.uasset'
+[2021.12.12-06.02.04:426][492]AssetCheck: New page: Asset Save: Quest002
+[2021.12.12-06.02.04:426][492]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/QuestSystem/Quests/Quest002.Quest002
+[2021.12.12-06.02.06:880][572]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-06.02.06:941][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-06.02.06:942][572]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 2:02:06 PM)
+[2021.12.12-06.02.06:942][572]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.02.07:092][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149857s)
+[2021.12.12-06.02.07:095][572]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-06.02.07:095][572]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026FB85AD400), frame # 92572
+[2021.12.12-06.02.07:095][572]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026ECD51BEC0), frame # 92572
+[2021.12.12-06.02.07:095][572]LogPlayLevel: PIE: World Init took: (0.003105s)
+[2021.12.12-06.02.07:096][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.154730s)
+[2021.12.12-06.02.07:175][572]LogUObjectHash: Compacting FUObjectHashTables data took   7.23ms
+[2021.12.12-06.02.07:181][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-06.02.07:181][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-06.02.07:181][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-06.02.07:181][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-06.02.07:181][572]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-06.02.07:181][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-06.02.07:181][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-06.02.07:181][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-06.02.07:182][572]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-06.02.07:182][572]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-06.02.07:190][572]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-06.02.07:190][572]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-06.02.07:252][572]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-06.02.07:253][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-06.02.07:253][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-06.02.07:253][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-06.02.07:258][572]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-06.02.07:291][572]LogInit: FAudioDevice initialized.
+[2021.12.12-06.02.07:310][572]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-06.02.07:327][572]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-22.02.07
+[2021.12.12-06.02.07:328][572]LogWorld: Bringing up level for play took: 0.018690
+[2021.12.12-06.02.07:329][572]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.12.12-06.02.07:342][572]PIE: Server logged in
+[2021.12.12-06.02.07:343][572]PIE: Play in editor total start time 0.404 seconds.
+[2021.12.12-06.02.09:965][672]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 905
+[2021.12.12-06.02.13:008][801]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-06.02.15:495][909]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-06.02.30:341][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.02.30:342][558]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.02.30:343][558]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.02.30:346][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.02.30:388][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-06.02.30:401][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.02.30:559][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.02.30:568][558]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026ECD51BEC0), frame # 93558
+[2021.12.12-06.02.30:568][558]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026FB85AD400), frame # 93558
+[2021.12.12-06.02.30:576][558]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2021.12.12-06.02.30:678][559]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.12.12-06.02.37:481][853]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-06.02.37:541][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-06.02.37:541][853]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 2:02:37 PM)
+[2021.12.12-06.02.37:541][853]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.02.37:651][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109589s)
+[2021.12.12-06.02.37:653][853]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-06.02.37:653][853]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026FB85AC600), frame # 93853
+[2021.12.12-06.02.37:653][853]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026ECFC8D6C0), frame # 93853
+[2021.12.12-06.02.37:654][853]LogPlayLevel: PIE: World Init took: (0.002162s)
+[2021.12.12-06.02.37:654][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.112036s)
+[2021.12.12-06.02.37:744][853]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.12.12-06.02.37:752][853]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-06.02.37:752][853]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-06.02.37:752][853]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-06.02.37:752][853]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-06.02.37:752][853]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-06.02.37:752][853]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-06.02.37:752][853]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-06.02.37:752][853]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-06.02.37:753][853]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-06.02.37:753][853]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-06.02.37:756][853]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-06.02.37:756][853]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-06.02.37:792][853]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-06.02.37:793][853]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-06.02.37:793][853]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-06.02.37:793][853]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-06.02.37:802][853]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-06.02.37:825][853]LogInit: FAudioDevice initialized.
+[2021.12.12-06.02.37:843][853]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-06.02.37:861][853]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-22.02.37
+[2021.12.12-06.02.37:863][853]LogWorld: Bringing up level for play took: 0.019257
+[2021.12.12-06.02.37:864][853]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.12.12-06.02.37:876][853]PIE: Server logged in
+[2021.12.12-06.02.37:877][853]PIE: Play in editor total start time 0.338 seconds.
+[2021.12.12-06.02.38:063][856]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 895
+[2021.12.12-06.02.54:558][631]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-06.03.01:529][966]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 885
+[2021.12.12-06.03.09:724][288]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 875
+[2021.12.12-06.03.20:153][651]Cmd: ToggleDebugCamera
+[2021.12.12-06.03.20:390][659]Cmd: EnableGDT
+[2021.12.12-06.03.21:576][701]Cmd: ToggleDebugCamera
+[2021.12.12-06.03.27:169][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.03.27:177][916]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.03.27:179][916]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.03.27:182][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.03.27:216][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-06.03.27:228][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.03.27:298][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.03.27:339][916]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026ECFC8D6C0), frame # 95916
+[2021.12.12-06.03.27:339][916]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026FB85AC600), frame # 95916
+[2021.12.12-06.03.27:349][916]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2021.12.12-06.03.27:426][917]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.12.12-06.03.40:542][368]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 865
+[2021.12.12-06.03.52:393][784]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 855
+[2021.12.12-06.04.11:058][441]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 845
+[2021.12.12-06.04.20:083][751]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 835
+[2021.12.12-06.04.23:571][872]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 825
+[2021.12.12-06.04.41:050][508]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-06.04.41:113][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-06.04.41:113][508]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 2:04:41 PM)
+[2021.12.12-06.04.41:113][508]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.04.41:272][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158267s)
+[2021.12.12-06.04.41:274][508]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-06.04.41:274][508]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026FB85AFC00), frame # 98508
+[2021.12.12-06.04.41:274][508]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F753D56C0), frame # 98508
+[2021.12.12-06.04.41:275][508]LogPlayLevel: PIE: World Init took: (0.002741s)
+[2021.12.12-06.04.41:275][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.161325s)
+[2021.12.12-06.04.41:360][508]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2021.12.12-06.04.41:367][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-06.04.41:367][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-06.04.41:367][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-06.04.41:367][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-06.04.41:367][508]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-06.04.41:367][508]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-06.04.41:367][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-06.04.41:367][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-06.04.41:368][508]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-06.04.41:368][508]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-06.04.41:371][508]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-06.04.41:372][508]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-06.04.41:409][508]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-06.04.41:409][508]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-06.04.41:410][508]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-06.04.41:410][508]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-06.04.41:413][508]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-06.04.41:435][508]LogInit: FAudioDevice initialized.
+[2021.12.12-06.04.41:447][508]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-06.04.41:464][508]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-22.04.41
+[2021.12.12-06.04.41:466][508]LogWorld: Bringing up level for play took: 0.018468
+[2021.12.12-06.04.41:467][508]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.12.12-06.04.41:482][508]PIE: Server logged in
+[2021.12.12-06.04.41:483][508]PIE: Play in editor total start time 0.371 seconds.
+[2021.12.12-06.05.03:893][494]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 815
+[2021.12.12-06.05.26:347][605]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.12-06.05.37:371][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.05.37:371][ 71]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.05.37:372][ 71]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.05.37:375][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.05.37:454][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-06.05.37:464][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.05.37:536][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.05.37:597][ 71]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F753D56C0), frame # 101071
+[2021.12.12-06.05.37:597][ 71]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026FB85AFC00), frame # 101071
+[2021.12.12-06.05.37:604][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2021.12.12-06.05.37:713][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.12.12-06.05.38:576][101]LogEditorViewport: Clicking on Actor (LMB): Item_medicine_quest_C (Item_medicine_quest)
+[2021.12.12-06.05.40:585][170]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 805
+[2021.12.12-06.05.43:424][253]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_medicine_quest.Item_medicine_quest
+[2021.12.12-06.05.50:949][411]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 795
+[2021.12.12-06.06.03:573][829]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-06.06.03:637][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-06.06.03:637][829]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 2:06:03 PM)
+[2021.12.12-06.06.03:637][829]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.06.03:855][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.217461s)
+[2021.12.12-06.06.03:857][829]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-06.06.03:858][829]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026FB8BEA000), frame # 101829
+[2021.12.12-06.06.03:858][829]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026FB8BF6840), frame # 101829
+[2021.12.12-06.06.03:858][829]LogPlayLevel: PIE: World Init took: (0.002912s)
+[2021.12.12-06.06.03:858][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.220679s)
+[2021.12.12-06.06.03:958][829]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.12.12-06.06.03:964][829]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-06.06.03:965][829]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-06.06.03:965][829]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-06.06.03:965][829]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-06.06.03:965][829]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-06.06.03:965][829]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-06.06.03:965][829]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-06.06.03:965][829]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-06.06.03:966][829]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-06.06.03:966][829]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-06.06.03:974][829]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-06.06.03:974][829]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-06.06.04:022][829]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-06.06.04:022][829]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-06.06.04:022][829]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-06.06.04:022][829]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-06.06.04:039][829]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-06.06.04:057][829]LogInit: FAudioDevice initialized.
+[2021.12.12-06.06.04:075][829]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-06.06.04:092][829]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-22.06.04
+[2021.12.12-06.06.04:094][829]LogWorld: Bringing up level for play took: 0.018117
+[2021.12.12-06.06.04:095][829]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.12.12-06.06.04:109][829]PIE: Server logged in
+[2021.12.12-06.06.04:111][829]PIE: Play in editor total start time 0.475 seconds.
+[2021.12.12-06.06.05:966][901]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 785
+[2021.12.12-06.06.39:122][377]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 775
+[2021.12.12-06.06.40:713][437]LogBlueprintUserMessages: [Zombie_male__2] zombie hit
+[2021.12.12-06.06.55:501][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.06.55:501][ 54]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.06.55:501][ 54]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.06.55:510][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.06.55:547][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-06.06.55:559][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.06.55:676][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.06.55:696][ 54]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026FB8BF6840), frame # 104054
+[2021.12.12-06.06.55:696][ 54]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026FB8BEA000), frame # 104054
+[2021.12.12-06.06.55:701][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2021.12.12-06.06.55:788][ 55]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.12.12-06.07.18:262][944]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 765
+[2021.12.12-06.07.32:708][514]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.12-06.07.39:727][644]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 755
+[2021.12.12-06.07.50:374][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 745
+[2021.12.12-06.07.57:260][ 40]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 735
+[2021.12.12-06.08.31:842][813]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 725
+[2021.12.12-06.08.52:305][274]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 715
+[2021.12.12-06.09.34:802][299]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 705
+[2021.12.12-06.09.45:901][510]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 695
+[2021.12.12-06.09.59:802][793]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 685
+[2021.12.12-06.10.00:708][809]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.12-06.10.01:739][809]LogUObjectHash: Compacting FUObjectHashTables data took  11.55ms
+[2021.12.12-06.10.03:487][809]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/CD_FirstPersonCharacterC1ACCEFB451DEDF6540ED9B7699D5244.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.12-06.10.12:033][809]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 675
+[2021.12.12-06.10.12:033][809]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.12-06.10.12:034][809]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.12-06.10.13:778][827]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/CD_FirstPersonCharacterB3DA031642592979D2AB369C7B6AFC4E.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.12-06.10.13:861][827]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.12-06.10.13:861][827]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.12-06.10.15:540][874]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-06.10.15:629][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-06.10.15:631][874]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 2:10:15 PM)
+[2021.12.12-06.10.15:633][874]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.10.15:903][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.268909s)
+[2021.12.12-06.10.15:909][874]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-06.10.15:911][874]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026FCEC93E00), frame # 108874
+[2021.12.12-06.10.15:911][874]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F4C3B7600), frame # 108874
+[2021.12.12-06.10.15:913][874]LogPlayLevel: PIE: World Init took: (0.009787s)
+[2021.12.12-06.10.15:913][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.279993s)
+[2021.12.12-06.10.16:064][874]LogUObjectHash: Compacting FUObjectHashTables data took   9.01ms
+[2021.12.12-06.10.16:087][874]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-06.10.16:087][874]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-06.10.16:087][874]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-06.10.16:088][874]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-06.10.16:088][874]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-06.10.16:088][874]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-06.10.16:088][874]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-06.10.16:088][874]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-06.10.16:092][874]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-06.10.16:093][874]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-06.10.16:125][874]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-06.10.16:125][874]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-06.10.16:275][874]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-06.10.16:280][874]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-06.10.16:280][874]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-06.10.16:280][874]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-06.10.16:283][874]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-06.10.16:310][874]LogInit: FAudioDevice initialized.
+[2021.12.12-06.10.16:410][874]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-06.10.16:440][874]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-22.10.16
+[2021.12.12-06.10.16:443][874]LogWorld: Bringing up level for play took: 0.032192
+[2021.12.12-06.10.16:446][874]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.12.12-06.10.16:486][874]PIE: Server logged in
+[2021.12.12-06.10.16:489][874]PIE: Play in editor total start time 0.861 seconds.
+[2021.12.12-06.10.30:317][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.10.30:317][467]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.10.30:318][467]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.10.30:321][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.10.30:396][467]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-06.10.30:405][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.10.30:543][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.10.30:563][467]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F4C3B7600), frame # 109467
+[2021.12.12-06.10.30:563][467]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026FCEC93E00), frame # 109467
+[2021.12.12-06.10.30:568][467]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2021.12.12-06.10.30:684][468]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.12.12-06.10.32:633][506]LogEditorTransaction: Undo Create Pin Link
+[2021.12.12-06.10.33:635][515]LogEditorTransaction: Undo Delete current selection
+[2021.12.12-06.10.34:716][529]LogEditorTransaction: Undo Create Pin Link
+[2021.12.12-06.10.38:528][594]LogEditorTransaction: Undo Create Pin Link
+[2021.12.12-06.10.39:951][614]LogEditorTransaction: Undo Add Node
+[2021.12.12-06.10.43:032][667]BlueprintLog: New page: Compile CD_FirstPersonCharacter
+[2021.12.12-06.10.43:407][667]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2021.12.12-06.10.43:980][667]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/CD_FirstPersonCharacterA8A46CF24786BAC517A2DF80C6347990.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Character/CD_FirstPersonCharacter.uasset'
+[2021.12.12-06.10.44:024][667]AssetCheck: New page: Asset Save: CD_FirstPersonCharacter
+[2021.12.12-06.10.44:025][667]LogContentValidation: Display: Validating Blueprint /Game/ColdDawn/Character/CD_FirstPersonCharacter.CD_FirstPersonCharacter
+[2021.12.12-06.10.56:069][916]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 665
+[2021.12.12-06.11.01:293][ 94]LogEditorViewport: Clicking on Actor (LMB): Item_Herb_C (Item_Herb31)
+[2021.12.12-06.11.01:421][ 94]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 655
+[2021.12.12-06.11.03:644][119]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ColdDawn/InventorySystem/Items/Item_Herb.Item_Herb
+[2021.12.12-06.11.05:035][119]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 645
+[2021.12.12-06.11.49:106][ 56]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 635
+[2021.12.12-06.11.55:882][393]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 625
+[2021.12.12-06.12.18:497][ 53]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 615
+[2021.12.12-06.13.03:048][230]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.12-06.13.03:118][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.12-06.13.03:121][230]PIE: New page: PIE session: tutorial_map_v1 (Dec 11, 2021, 2:13:03 PM)
+[2021.12.12-06.13.03:122][230]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.13.03:355][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.232756s)
+[2021.12.12-06.13.03:360][230]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.12.12-06.13.03:360][230]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026EBF090600), frame # 114230
+[2021.12.12-06.13.03:361][230]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026FCD781BC0), frame # 114230
+[2021.12.12-06.13.03:362][230]LogPlayLevel: PIE: World Init took: (0.006845s)
+[2021.12.12-06.13.03:363][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.240704s)
+[2021.12.12-06.13.03:996][230]LogUObjectHash: Compacting FUObjectHashTables data took  18.96ms
+[2021.12.12-06.13.04:051][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.12-06.13.04:051][230]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.12-06.13.04:051][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.12-06.13.04:051][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.12-06.13.04:051][230]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.12-06.13.04:051][230]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.12-06.13.04:051][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.12-06.13.04:051][230]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.12-06.13.04:053][230]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.12-06.13.04:053][230]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.12-06.13.04:076][230]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.12-06.13.04:076][230]LogAudioMixer: Display: 1: FrontRight
+[2021.12.12-06.13.04:171][230]LogAudioMixer: Display: Using Audio Device Speakers (Conexant ISST Audio)
+[2021.12.12-06.13.04:172][230]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.12-06.13.04:172][230]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.12-06.13.04:172][230]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.12-06.13.04:176][230]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.12-06.13.04:212][230]LogInit: FAudioDevice initialized.
+[2021.12.12-06.13.04:282][230]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.12-06.13.04:310][230]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 60) at 2021.12.11-22.13.04
+[2021.12.12-06.13.04:312][230]LogWorld: Bringing up level for play took: 0.028774
+[2021.12.12-06.13.04:316][230]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.12.12-06.13.04:341][230]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 605
+[2021.12.12-06.13.04:342][230]PIE: Server logged in
+[2021.12.12-06.13.04:343][230]PIE: Play in editor total start time 1.228 seconds.
+[2021.12.12-06.13.06:753][311]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 595
+[2021.12.12-06.13.13:543][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.13.13:544][596]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.12.12-06.13.13:546][596]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.12.12-06.13.13:550][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.13.13:730][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.12-06.13.13:743][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.12-06.13.13:890][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.12-06.13.13:913][596]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026FCD781BC0), frame # 114596
+[2021.12.12-06.13.13:914][596]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026EBF090600), frame # 114596
+[2021.12.12-06.13.13:920][596]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2021.12.12-06.13.14:029][597]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.12.12-06.13.15:002][618]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.12.12-06.13.15:515][618]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1AA2532FB4239A7163D0806BF91BA94AB.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.12.12-06.13.17:228][618]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Saved/tutorial_map_v1_BuiltData13E6D5E04CF4FCC58772629655BC5EB1.tmp' to '../../../../../../Users/Administrator/Documents/GitHub/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.12.12-06.13.17:360][618]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.12-06.13.17:361][618]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.12.12-06.13.17:361][618]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.12.12-06.13.20:355][715]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 585
+>>>>>>> Stashed changes
